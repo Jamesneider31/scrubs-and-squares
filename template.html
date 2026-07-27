@@ -1,111 +1,174 @@
+<meta charset="utf-8">
 <style>
   :root {
-    --paper: #eff1ea;
-    --paper-2: #e4e7dd;
-    --ink: #202821;
-    --ink-soft: #55605a;
-    --accent: #3e6753;
-    --accent-soft: #dce6dd;
-    --gold: #b8842a;
-    --brick: #a8402f;
-    --line: #c9cfc2;
+    --paper: #f6e5ba;
+    --paper-2: #e8cf96;
+    --ink: #241b13;
+    --ink-soft: #5e4931;
+    --accent: #7eaa72;
+    --accent-soft: #324b37;
+    --gold: #e9bd66;
+    --brick: #d76d59;
+    --line: #9c713b;
+    --panel: rgba(22, 24, 21, 0.95);
+    --panel-2: rgba(39, 31, 23, 0.96);
+    --frame: #7c4c22;
+    --frame-light: #ce9250;
+    --cell-size: 34px;
     --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
     --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     --sans: -apple-system, BlinkMacSystemFont, "Avenir Next", "Segoe UI", sans-serif;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --paper: #171b17;
-      --paper-2: #1f251f;
-      --ink: #edefe7;
-      --ink-soft: #a7afa2;
-      --accent: #7fb89a;
-      --accent-soft: #253429;
-      --gold: #e0ac52;
-      --brick: #e08677;
-      --line: #33392f;
+      --paper: #f6e5ba;
+      --paper-2: #e8cf96;
+      --ink: #241b13;
+      --ink-soft: #5e4931;
+      --accent: #9bc68b;
+      --accent-soft: #314a36;
+      --gold: #f0c873;
+      --brick: #ee8b76;
+      --line: #a67b45;
+      --panel: rgba(17, 20, 18, 0.96);
+      --panel-2: rgba(44, 31, 20, 0.97);
+      --frame: #7c4c22;
+      --frame-light: #d69a53;
     }
   }
   :root[data-theme="dark"] {
-    --paper: #171b17;
-    --paper-2: #1f251f;
-    --ink: #edefe7;
-    --ink-soft: #a7afa2;
-    --accent: #7fb89a;
-    --accent-soft: #253429;
-    --gold: #e0ac52;
-    --brick: #e08677;
-    --line: #33392f;
+    --paper: #f6e5ba;
+    --paper-2: #e8cf96;
+    --ink: #241b13;
+    --ink-soft: #5e4931;
+    --accent: #9bc68b;
+    --accent-soft: #314a36;
+    --gold: #f0c873;
+    --brick: #ee8b76;
+    --line: #a67b45;
+    --panel: rgba(17, 20, 18, 0.96);
+    --panel-2: rgba(44, 31, 20, 0.97);
+    --frame: #7c4c22;
+    --frame-light: #d69a53;
   }
   :root[data-theme="light"] {
-    --paper: #eff1ea;
-    --paper-2: #e4e7dd;
-    --ink: #202821;
-    --ink-soft: #55605a;
-    --accent: #3e6753;
-    --accent-soft: #dce6dd;
-    --gold: #b8842a;
-    --brick: #a8402f;
-    --line: #c9cfc2;
+    --paper: #f6e5ba;
+    --paper-2: #e8cf96;
+    --ink: #241b13;
+    --ink-soft: #5e4931;
+    --accent: #6d9b63;
+    --accent-soft: #dce7d6;
+    --gold: #bd8533;
+    --brick: #b94f3c;
+    --line: #9c713b;
+    --panel: rgba(24, 27, 23, 0.95);
+    --panel-2: rgba(52, 38, 24, 0.96);
+    --frame: #75471f;
+    --frame-light: #c88c48;
   }
   * { box-sizing: border-box; }
-  body { background: var(--paper); }
+  body { margin: 0; background: #101719; }
   .page {
-    max-width: 640px;
+    min-height: 100vh;
     margin: 0 auto;
-    padding: 28px 18px 60px;
+    padding: 42px max(18px, calc((100vw - 780px) / 2)) 70px;
     color: var(--ink);
     font-family: var(--sans);
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 16px;
+    background-color: #11191a;
+    background-image: linear-gradient(rgba(8, 13, 13, 0.10), rgba(8, 13, 13, 0.18)), url("__BACKGROUND_IMAGE__");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
   }
-  .masthead { display: flex; flex-direction: column; gap: 6px; }
+  .pet {
+    position: absolute;
+    top: -72px;
+    width: 175px;
+    height: 160px;
+    z-index: 2;
+    pointer-events: none;
+    background-image: url("__PET_SPRITES__");
+    background-repeat: no-repeat;
+    background-size: 450px 300px;
+    filter: drop-shadow(0 7px 7px rgba(0, 0, 0, .42));
+  }
+  .pet-dog { right: -38px; background-position: -35px -70px; }
+  .pet-cat { left: -38px; background-position: -248px -95px; }
+  .masthead { display: flex; flex-direction: column; gap: 8px; align-items: center; }
   .eyebrow {
     font-family: var(--mono);
-    font-size: 12px;
-    letter-spacing: 0.14em;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--accent);
+    color: var(--gold);
+    background: var(--panel-2);
+    border: 3px solid var(--frame);
+    box-shadow: 0 0 0 2px #25170d, 0 5px 0 #140d09, inset 0 0 0 2px var(--frame-light);
+    padding: 8px 15px 7px;
   }
   .date {
     font-family: var(--serif);
-    font-size: clamp(24px, 6vw, 32px);
+    font-size: clamp(27px, 5vw, 38px);
     font-weight: 700;
     text-wrap: balance;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--paper);
+    text-shadow: 2px 2px 0 #24170e;
+    background: var(--panel-2);
+    border: 4px solid var(--frame);
+    box-shadow: 0 0 0 2px #1e140d, 0 6px 0 #100b08, inset 0 0 0 2px var(--frame-light);
+    padding: 10px 27px 12px;
+    width: min(100%, 580px);
   }
   .greeting {
-    font-size: 15px;
-    line-height: 1.5;
-    color: var(--ink-soft);
-    max-width: 60ch;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--ink);
+    max-width: 580px;
+    margin: 0;
+    padding: 16px 20px;
+    background: var(--paper);
+    border: 3px solid #b68548;
+    box-shadow: 0 0 0 3px #5f3e1f, 0 5px 0 #26170d;
   }
   .greeting b { color: var(--ink); font-weight: 600; }
   .puzzle-card {
-    background: var(--paper-2);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 16px;
+    background: linear-gradient(135deg, rgba(35, 34, 28, 0.98), var(--panel));
+    border: 4px solid var(--frame);
+    box-shadow: 0 0 0 2px #1f160f, 0 0 0 5px var(--frame-light), 0 8px 0 #160e09, 0 16px 30px rgba(0,0,0,0.48), inset 0 0 40px rgba(0,0,0,0.42);
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 14px;
+    width: min(100%, 760px);
+    margin: 58px auto 0;
+    position: relative;
+    overflow: visible;
   }
   .grid-scroll { overflow-x: auto; padding-bottom: 4px; }
   .grid {
     display: grid;
-    gap: 2px;
-    background: var(--line);
-    border: 2px solid var(--line);
+    gap: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,.5);
     width: max-content;
     margin: 0 auto;
   }
   .cell {
     position: relative;
-    width: 34px;
-    height: 34px;
-    background: var(--paper);
+    width: var(--cell-size);
+    height: var(--cell-size);
+    background: #262822;
+    border: 1px solid #695f50;
   }
-  .cell.block { background: var(--line); }
+  .cell.block { background: transparent; border: 0; }
   .cell input {
     width: 100%;
     height: 100%;
@@ -116,15 +179,15 @@
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--ink);
+    color: #f6e5ba;
     padding: 0;
   }
   .cell input:focus { outline: none; }
-  .cell.active-cell { background: var(--accent); }
-  .cell.active-cell input { color: var(--paper); }
-  .cell.active-word:not(.active-cell) { background: var(--accent-soft); }
-  .cell input.correct { color: var(--accent); }
-  .cell.active-cell input.correct { color: var(--paper); }
+  .cell.active-cell { background: #658759; }
+  .cell.active-cell input { color: #fff0c9; }
+  .cell.active-word:not(.active-cell) { background: #3d553e; }
+  .cell input.correct { color: #9bce8d; }
+  .cell.active-cell input.correct { color: #fff0c9; }
   .cell input.incorrect { color: var(--brick); }
   .cell input.revealed { color: var(--gold); }
   .cell .num {
@@ -133,7 +196,7 @@
     left: 2px;
     font-family: var(--mono);
     font-size: 8px;
-    color: var(--ink-soft);
+    color: #ecd69e;
     pointer-events: none;
   }
   .cell.active-cell .num { color: var(--paper); opacity: 0.85; }
@@ -144,59 +207,75 @@
     flex-wrap: wrap;
   }
   button.action {
-    font-family: var(--sans);
+    font-family: var(--mono);
     font-size: 13px;
-    font-weight: 600;
-    padding: 9px 16px;
-    border-radius: 7px;
-    border: 1px solid var(--accent);
-    background: var(--accent);
-    color: var(--paper);
+    font-weight: 800;
+    letter-spacing: .04em;
+    padding: 10px 15px;
+    border-radius: 0;
+    border: 2px solid #92bd80;
+    box-shadow: 0 3px 0 #213823, inset 0 0 0 2px #4c7544;
+    background: #365a37;
+    color: #fff0c9;
     cursor: pointer;
   }
   button.action.secondary {
-    background: transparent;
-    color: var(--accent);
+    background: #2c312c;
+    color: #f0cf89;
+    border-color: #c69a55;
+    box-shadow: 0 3px 0 #1a1b18, inset 0 0 0 2px #725a36;
   }
   button.action:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .feedback {
     font-family: var(--mono);
     font-size: 12px;
-    color: var(--ink-soft);
+    color: #ecd69e;
   }
   .clues {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 16px;
+    width: min(100%, 760px);
+    margin: 8px auto 0;
   }
   @media (max-width: 480px) {
     .clues { grid-template-columns: 1fr; }
-    .cell { width: 28px; height: 28px; }
+    :root { --cell-size: 28px; }
     .cell input { font-size: 14px; }
+    .puzzle-card { margin-top: 46px; }
+    .pet { top: -48px; width: 105px; height: 96px; background-size: 270px 180px; opacity: .96; }
+    .pet-dog { right: -18px; background-position: -21px -42px; }
+    .pet-cat { left: -18px; background-position: -149px -57px; }
   }
   .clue-col h2 {
-    font-family: var(--serif);
-    font-size: 16px;
+    font-family: var(--mono);
+    font-size: 15px;
+    color: var(--gold);
     margin: 0 0 8px;
-    border-bottom: 1px solid var(--line);
-    padding-bottom: 6px;
+    border-bottom: 2px solid #8e693c;
+    padding-bottom: 7px;
   }
   .clue-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
   .clue-item {
     font-size: 13.5px;
     line-height: 1.4;
-    color: var(--ink-soft);
+    color: #f4dfaf;
     cursor: pointer;
     display: flex;
     gap: 6px;
   }
-  .clue-item .n { font-family: var(--mono); color: var(--accent); flex-shrink: 0; }
-  .clue-item.active { color: var(--ink); font-weight: 600; }
+  .clue-item .n { font-family: var(--mono); color: var(--gold); flex-shrink: 0; }
+  .clue-item.active { color: #fff4d7; font-weight: 700; }
+  .clue-col { background: rgba(18, 22, 19, .92); border: 3px solid var(--frame); box-shadow: 0 0 0 2px #1e140d, inset 0 0 0 2px #b88346, 0 5px 0 #140d09; padding: 15px; }
   .signoff {
     font-family: var(--serif);
     font-style: italic;
     font-size: 14px;
-    color: var(--ink-soft);
+    color: #f0d9a2;
+    background: rgba(18, 22, 19, .9);
+    border: 2px solid var(--frame);
+    box-shadow: 0 0 0 2px #1e140d, inset 0 0 0 1px var(--frame-light);
+    padding: 9px 16px;
     text-align: center;
   }
   @media (prefers-reduced-motion: no-preference) {
@@ -214,9 +293,10 @@
   }
   .celebrate-backdrop[hidden] { display: none; }
   .celebrate-card {
-    background: var(--paper-2);
-    border: 1px solid var(--line);
-    border-radius: 14px;
+    background: var(--panel-2);
+    border: 4px solid var(--frame);
+    box-shadow: 0 0 0 2px #1e140d, inset 0 0 0 2px var(--frame-light), 0 12px 35px rgba(0,0,0,.55);
+    border-radius: 0;
     padding: 30px 26px;
     max-width: 340px;
     max-height: 86vh;
@@ -274,18 +354,21 @@
 
 <div class="page">
   <div class="masthead">
-    <div class="eyebrow">Daily Nursing Crossword</div>
+    <div class="eyebrow">Scrubs &amp; Squares</div>
     <div class="date">__DATE_STR__</div>
     <p class="greeting">__GREETING_HTML__</p>
   </div>
 
   <div class="puzzle-card">
+    <div class="pet pet-cat" aria-hidden="true"></div>
+    <div class="pet pet-dog" aria-hidden="true"></div>
     <div class="grid-scroll">
       <div class="grid" id="grid"></div>
     </div>
     <div class="actions">
       <button class="action" id="checkBtn">Check answers</button>
       <button class="action secondary" id="revealBtn">Reveal answers</button>
+      <button class="action secondary" id="musicBtn" type="button" aria-pressed="false">Music: Off</button>
       <span class="feedback" id="feedback">Fill in the grid, then press Enter (or hit Check).</span>
     </div>
   </div>
@@ -316,6 +399,8 @@
 
 <script>
   const PUZZLE = __PUZZLE_JSON__;
+  const MUSIC = __MUSIC_JSON__;
+  const SFX = __SFX_JSON__;
 
   const { width, height, cells, entries } = PUZZLE;
 
@@ -337,9 +422,76 @@
   const entrySolved = entries.map(() => false);
   let hasCelebrated = false;
 
+  const musicPlayer = new Audio();
+  musicPlayer.preload = "auto";
+  musicPlayer.volume = 0.24;
+  let musicEnabled = false;
+  let lastTrackIndex = -1;
+
+  const effects = Object.fromEntries(Object.entries(SFX).map(([name, src]) => {
+    const effect = new Audio(src);
+    effect.preload = "auto";
+    effect.volume = 0.55;
+    return [name, effect];
+  }));
+
+  function playEffect(name) {
+    const effect = effects[name];
+    if (!effect) return;
+    effect.pause();
+    effect.currentTime = 0;
+    effect.play().catch(() => {});
+  }
+
+  function playCompletionSounds() {
+    const levelUp = effects.levelUp;
+    const imReady = effects.imReady;
+    if (!levelUp || !imReady) return;
+    imReady.pause();
+    imReady.currentTime = 0;
+    levelUp.onended = () => playEffect("imReady");
+    playEffect("levelUp");
+  }
+
+  function updateMusicButton() {
+    const button = document.getElementById("musicBtn");
+    button.textContent = musicEnabled ? "Music: On" : "Music: Off";
+    button.setAttribute("aria-pressed", String(musicEnabled));
+  }
+
+  function chooseNextTrack() {
+    if (!MUSIC.length) return;
+    let nextIndex = 0;
+    if (MUSIC.length > 1) {
+      do { nextIndex = Math.floor(Math.random() * MUSIC.length); }
+      while (nextIndex === lastTrackIndex);
+    }
+    lastTrackIndex = nextIndex;
+    musicPlayer.src = MUSIC[nextIndex].src;
+    musicPlayer.play().catch(() => {
+      musicEnabled = false;
+      updateMusicButton();
+    });
+  }
+
+  musicPlayer.addEventListener("ended", () => {
+    if (musicEnabled) chooseNextTrack();
+  });
+
+  document.getElementById("musicBtn").addEventListener("click", () => {
+    musicEnabled = !musicEnabled;
+    if (musicEnabled) {
+      if (musicPlayer.paused) chooseNextTrack();
+      else musicPlayer.play();
+    } else {
+      musicPlayer.pause();
+    }
+    updateMusicButton();
+  });
+
   const gridEl = document.getElementById("grid");
-  gridEl.style.gridTemplateColumns = "repeat(" + width + ", 34px)";
-  gridEl.style.gridTemplateRows = "repeat(" + height + ", 34px)";
+  gridEl.style.gridTemplateColumns = "repeat(" + width + ", var(--cell-size))";
+  gridEl.style.gridTemplateRows = "repeat(" + height + ", var(--cell-size))";
 
   const inputs = {}; // "r,c" -> input element
 
@@ -561,6 +713,7 @@
     if (entries.every((_, idx) => entrySolved[idx])) {
       hasCelebrated = true;
       buildAttemptsSummary();
+      playCompletionSounds();
       showCelebration();
     }
   }
@@ -595,7 +748,10 @@
         inp.readOnly = true;
         inp.classList.remove("incorrect");
       });
+      playEffect("correct");
       maybeCelebrate();
+    } else {
+      playEffect("incorrect");
     }
   }
 
