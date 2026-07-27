@@ -45,12 +45,13 @@ def render(template_path, puzzle_path, date_str, greeting_html, signoff_html, ou
 
 
 if __name__ == "__main__":
-    render(
+    render_args = (
         "template.html",
         "puzzle.json",
         "Sunday, July 26",
         'Good morning! Here\'s today\'s puzzle to get the brain warmed up before clinicals. <b>14 terms</b> today.',
         "&mdash; James &quot;Poopy Bear&quot;",
-        "demo.html",
     )
-    print("Wrote demo.html")
+    render(*render_args, "demo.html")
+    render(*render_args, "index.html")
+    print("Wrote demo.html and index.html")
