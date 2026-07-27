@@ -1,0 +1,16 @@
+[
+  {"word": "TRIAGE", "clue": "Sorting patients by urgency of need for care"},
+  {"word": "EDEMA", "clue": "Swelling caused by fluid trapped in body tissues"},
+  {"word": "ANEMIA", "clue": "Deficiency of red blood cells or hemoglobin"},
+  {"word": "SEPSIS", "clue": "Life-threatening body response to infection"},
+  {"word": "EMESIS", "clue": "Medical term for vomiting"},
+  {"word": "EMPATHY", "clue": "Understanding a patient's feelings, not just their chart"},
+  {"word": "SYNCOPE", "clue": "Temporary loss of consciousness from reduced blood flow to the brain"},
+  {"word": "PALLOR", "clue": "Unusual paleness of the skin"},
+  {"word": "AFEBRILE", "clue": "Without a fever"},
+  {"word": "DYSPNEA", "clue": "Medical term for difficulty breathing"},
+  {"word": "ASEPSIS", "clue": "Absence of harmful microorganisms in care technique"},
+  {"word": "STAT", "clue": "Medical shorthand for \"immediately\""},
+  {"word": "VITALS", "clue": "Temp, pulse, respiration, and blood pressure, collectively"},
+  {"word": "NPO", "clue": "Chart abbreviation meaning \"nothing by mouth\""}
+]

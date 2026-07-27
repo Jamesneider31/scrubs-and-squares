@@ -1,0 +1,634 @@
+<style>
+  :root {
+    --paper: #eff1ea;
+    --paper-2: #e4e7dd;
+    --ink: #202821;
+    --ink-soft: #55605a;
+    --accent: #3e6753;
+    --accent-soft: #dce6dd;
+    --gold: #b8842a;
+    --brick: #a8402f;
+    --line: #c9cfc2;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Avenir Next", "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #171b17;
+      --paper-2: #1f251f;
+      --ink: #edefe7;
+      --ink-soft: #a7afa2;
+      --accent: #7fb89a;
+      --accent-soft: #253429;
+      --gold: #e0ac52;
+      --brick: #e08677;
+      --line: #33392f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #171b17;
+    --paper-2: #1f251f;
+    --ink: #edefe7;
+    --ink-soft: #a7afa2;
+    --accent: #7fb89a;
+    --accent-soft: #253429;
+    --gold: #e0ac52;
+    --brick: #e08677;
+    --line: #33392f;
+  }
+  :root[data-theme="light"] {
+    --paper: #eff1ea;
+    --paper-2: #e4e7dd;
+    --ink: #202821;
+    --ink-soft: #55605a;
+    --accent: #3e6753;
+    --accent-soft: #dce6dd;
+    --gold: #b8842a;
+    --brick: #a8402f;
+    --line: #c9cfc2;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); }
+  .page {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 28px 18px 60px;
+    color: var(--ink);
+    font-family: var(--sans);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .masthead { display: flex; flex-direction: column; gap: 6px; }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .date {
+    font-family: var(--serif);
+    font-size: clamp(24px, 6vw, 32px);
+    font-weight: 700;
+    text-wrap: balance;
+  }
+  .greeting {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    max-width: 60ch;
+  }
+  .greeting b { color: var(--ink); font-weight: 600; }
+  .puzzle-card {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .grid-scroll { overflow-x: auto; padding-bottom: 4px; }
+  .grid {
+    display: grid;
+    gap: 2px;
+    background: var(--line);
+    border: 2px solid var(--line);
+    width: max-content;
+    margin: 0 auto;
+  }
+  .cell {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    background: var(--paper);
+  }
+  .cell.block { background: var(--line); }
+  .cell input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--ink);
+    padding: 0;
+  }
+  .cell input:focus { outline: none; }
+  .cell.active-cell { background: var(--accent); }
+  .cell.active-cell input { color: var(--paper); }
+  .cell.active-word:not(.active-cell) { background: var(--accent-soft); }
+  .cell input.correct { color: var(--accent); }
+  .cell.active-cell input.correct { color: var(--paper); }
+  .cell input.incorrect { color: var(--brick); }
+  .cell input.revealed { color: var(--gold); }
+  .cell .num {
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    font-family: var(--mono);
+    font-size: 8px;
+    color: var(--ink-soft);
+    pointer-events: none;
+  }
+  .cell.active-cell .num { color: var(--paper); opacity: 0.85; }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  button.action {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 7px;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: var(--paper);
+    cursor: pointer;
+  }
+  button.action.secondary {
+    background: transparent;
+    color: var(--accent);
+  }
+  button.action:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .feedback {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-soft);
+  }
+  .clues {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 480px) {
+    .clues { grid-template-columns: 1fr; }
+    .cell { width: 28px; height: 28px; }
+    .cell input { font-size: 14px; }
+  }
+  .clue-col h2 {
+    font-family: var(--serif);
+    font-size: 16px;
+    margin: 0 0 8px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 6px;
+  }
+  .clue-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
+  .clue-item {
+    font-size: 13.5px;
+    line-height: 1.4;
+    color: var(--ink-soft);
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+  }
+  .clue-item .n { font-family: var(--mono); color: var(--accent); flex-shrink: 0; }
+  .clue-item.active { color: var(--ink); font-weight: 600; }
+  .signoff {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .cell.active-cell { transition: background 0.1s ease; }
+  }
+  .celebrate-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 14, 10, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 50;
+  }
+  .celebrate-backdrop[hidden] { display: none; }
+  .celebrate-card {
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 30px 26px;
+    max-width: 340px;
+    max-height: 86vh;
+    overflow-y: auto;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 16px 44px rgba(0, 0, 0, 0.3);
+  }
+  .celebrate-attempts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-height: 220px;
+    overflow-y: auto;
+    margin: 4px 0 20px;
+    padding: 10px 2px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .attempt-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 12px;
+    text-align: left;
+  }
+  .attempt-label { color: var(--accent); flex-shrink: 0; width: 22px; }
+  .attempt-word { flex: 1; color: var(--ink); letter-spacing: 0.03em; }
+  .attempt-count { color: var(--ink-soft); flex-shrink: 0; }
+  .attempt-count.first-try { color: var(--gold); font-weight: 700; }
+  @media (prefers-reduced-motion: no-preference) {
+    .celebrate-card { animation: celebrate-pop 0.22s cubic-bezier(0.2, 0.9, 0.3, 1.2); }
+  }
+  @keyframes celebrate-pop {
+    from { transform: scale(0.88); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  .celebrate-emoji { font-size: 38px; margin-bottom: 6px; }
+  .celebrate-title {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 6px;
+    text-wrap: balance;
+  }
+  .celebrate-sub {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+</style>
+
+<div class="page">
+  <div class="masthead">
+    <div class="eyebrow">Daily Nursing Crossword</div>
+    <div class="date">__DATE_STR__</div>
+    <p class="greeting">__GREETING_HTML__</p>
+  </div>
+
+  <div class="puzzle-card">
+    <div class="grid-scroll">
+      <div class="grid" id="grid"></div>
+    </div>
+    <div class="actions">
+      <button class="action" id="checkBtn">Check answers</button>
+      <button class="action secondary" id="revealBtn">Reveal answers</button>
+      <span class="feedback" id="feedback">Fill in the grid, then press Enter (or hit Check).</span>
+    </div>
+  </div>
+
+  <div class="clues">
+    <div class="clue-col">
+      <h2>Across</h2>
+      <ul class="clue-list" id="acrossList"></ul>
+    </div>
+    <div class="clue-col">
+      <h2>Down</h2>
+      <ul class="clue-list" id="downList"></ul>
+    </div>
+  </div>
+
+  <p class="signoff">__SIGNOFF_HTML__</p>
+</div>
+
+<div class="celebrate-backdrop" id="celebrate" hidden>
+  <div class="celebrate-card">
+    <div class="celebrate-emoji">🎉</div>
+    <div class="celebrate-title">Nice job, bae!</div>
+    <div class="celebrate-sub" id="celebrateSub">You solved today's puzzle. Go get 'em at clinicals.</div>
+    <div class="celebrate-attempts" id="celebrateAttempts"></div>
+    <button class="action" id="celebrateClose">Close</button>
+  </div>
+</div>
+
+<script>
+  const PUZZLE = __PUZZLE_JSON__;
+
+  const { width, height, cells, entries } = PUZZLE;
+
+  // Map each letter cell to the across/down entries that pass through it.
+  const cellEntries = {}; // "r,c" -> { across: entryIdx|null, down: entryIdx|null }
+  function key(r, c) { return r + "," + c; }
+  entries.forEach((e, idx) => {
+    const dr = e.direction === "down" ? 1 : 0;
+    const dc = e.direction === "across" ? 1 : 0;
+    for (let i = 0; i < e.length; i++) {
+      const r = e.row + dr * i, c = e.col + dc * i;
+      const k = key(r, c);
+      if (!cellEntries[k]) cellEntries[k] = { across: null, down: null };
+      cellEntries[k][e.direction] = idx;
+    }
+  });
+
+  const entryAttempts = entries.map(() => 0);
+  const entrySolved = entries.map(() => false);
+  let hasCelebrated = false;
+
+  const gridEl = document.getElementById("grid");
+  gridEl.style.gridTemplateColumns = "repeat(" + width + ", 34px)";
+  gridEl.style.gridTemplateRows = "repeat(" + height + ", 34px)";
+
+  const inputs = {}; // "r,c" -> input element
+
+  for (let r = 0; r < height; r++) {
+    for (let c = 0; c < width; c++) {
+      const letter = cells[r][c];
+      const cellDiv = document.createElement("div");
+      if (!letter) {
+        cellDiv.className = "cell block";
+        gridEl.appendChild(cellDiv);
+        continue;
+      }
+      cellDiv.className = "cell";
+      const num = PUZZLE.numbers[key(r, c)];
+      if (num) {
+        const numSpan = document.createElement("span");
+        numSpan.className = "num";
+        numSpan.textContent = num;
+        cellDiv.appendChild(numSpan);
+      }
+      const input = document.createElement("input");
+      input.maxLength = 1;
+      input.autocomplete = "off";
+      input.spellcheck = false;
+      input.inputMode = "text";
+      input.dataset.r = r;
+      input.dataset.c = c;
+      cellDiv.appendChild(input);
+      gridEl.appendChild(cellDiv);
+      inputs[key(r, c)] = input;
+    }
+  }
+
+  let selected = null; // {r, c}
+  let direction = "across";
+
+  function entryFor(r, c, dir) {
+    const ce = cellEntries[key(r, c)];
+    if (!ce) return null;
+    const idx = ce[dir];
+    return idx === null || idx === undefined ? null : entries[idx];
+  }
+
+  function clearHighlights() {
+    document.querySelectorAll(".cell.active-cell").forEach(el => el.classList.remove("active-cell"));
+    document.querySelectorAll(".cell.active-word").forEach(el => el.classList.remove("active-word"));
+    document.querySelectorAll(".clue-item.active").forEach(el => el.classList.remove("active"));
+  }
+
+  function highlight() {
+    clearHighlights();
+    if (!selected) return;
+    const entry = entryFor(selected.r, selected.c, direction);
+    if (entry) {
+      const dr = entry.direction === "down" ? 1 : 0;
+      const dc = entry.direction === "across" ? 1 : 0;
+      for (let i = 0; i < entry.length; i++) {
+        const r = entry.row + dr * i, c = entry.col + dc * i;
+        const inp = inputs[key(r, c)];
+        if (inp) inp.parentElement.classList.add("active-word");
+      }
+      const clueEl = document.querySelector(
+        '.clue-item[data-dir="' + entry.direction + '"][data-num="' + entry.number + '"]'
+      );
+      if (clueEl) clueEl.classList.add("active");
+    }
+    const selInput = inputs[key(selected.r, selected.c)];
+    if (selInput) selInput.parentElement.classList.add("active-cell");
+  }
+
+  function selectCell(r, c, preferDir) {
+    const k = key(r, c);
+    if (!inputs[k]) return;
+    selected = { r, c };
+    const ce = cellEntries[k];
+    if (preferDir && ce[preferDir] !== null && ce[preferDir] !== undefined) {
+      direction = preferDir;
+    } else if (ce[direction] === null || ce[direction] === undefined) {
+      direction = ce.across !== null && ce.across !== undefined ? "across" : "down";
+    }
+    highlight();
+    inputs[k].focus();
+  }
+
+  function moveInWord(delta) {
+    if (!selected) return;
+    const entry = entryFor(selected.r, selected.c, direction);
+    if (!entry) return;
+    const dr = entry.direction === "down" ? 1 : 0;
+    const dc = entry.direction === "across" ? 1 : 0;
+    const offset = (selected.r - entry.row) * (dr || 0) + (selected.c - entry.col) * (dc || 0);
+    const nextOffset = offset + delta;
+    if (nextOffset < 0 || nextOffset >= entry.length) return;
+    selectCell(entry.row + dr * nextOffset, entry.col + dc * nextOffset, direction);
+  }
+
+  function moveSpatial(dr, dc) {
+    let r = selected.r + dr, c = selected.c + dc;
+    while (r >= 0 && r < height && c >= 0 && c < width) {
+      if (inputs[key(r, c)]) {
+        const newDir = dc !== 0 ? "across" : "down";
+        selectCell(r, c, newDir);
+        return;
+      }
+      r += dr; c += dc;
+    }
+  }
+
+  Object.keys(inputs).forEach(k => {
+    const input = inputs[k];
+    const [r, c] = k.split(",").map(Number);
+
+    input.addEventListener("focus", () => {
+      selected = { r, c };
+      highlight();
+    });
+
+    input.addEventListener("click", () => {
+      if (selected && selected.r === r && selected.c === c) {
+        const ce = cellEntries[k];
+        if (ce.across !== null && ce.across !== undefined && ce.down !== null && ce.down !== undefined) {
+          direction = direction === "across" ? "down" : "across";
+        }
+      }
+      selectCell(r, c);
+    });
+
+    input.addEventListener("input", () => {
+      selected = { r, c };
+      let v = input.value.toUpperCase().replace(/[^A-Z]/g, "");
+      input.value = v.slice(-1);
+      input.classList.remove("correct", "incorrect", "revealed");
+      if (input.value) moveInWord(1);
+      const ce = cellEntries[k];
+      if (ce.across !== null && ce.across !== undefined) checkEntryByIndex(ce.across);
+      if (ce.down !== null && ce.down !== undefined) checkEntryByIndex(ce.down);
+    });
+
+    input.addEventListener("keydown", (ev) => {
+      if (ev.key === "Backspace" && !input.value) {
+        moveInWord(-1);
+        if (selected) {
+          const prevInput = inputs[key(selected.r, selected.c)];
+          if (!prevInput.readOnly) prevInput.value = "";
+        }
+        ev.preventDefault();
+      } else if (ev.key === "ArrowRight") { moveSpatial(0, 1); ev.preventDefault(); }
+      else if (ev.key === "ArrowLeft") { moveSpatial(0, -1); ev.preventDefault(); }
+      else if (ev.key === "ArrowDown") { moveSpatial(1, 0); ev.preventDefault(); }
+      else if (ev.key === "ArrowUp") { moveSpatial(-1, 0); ev.preventDefault(); }
+      else if (ev.key === "Enter") { runCheck(); ev.preventDefault(); }
+    });
+  });
+
+  function buildClueList(dir, containerId) {
+    const container = document.getElementById(containerId);
+    entries.filter(e => e.direction === dir).forEach(e => {
+      const li = document.createElement("li");
+      li.className = "clue-item";
+      li.dataset.dir = dir;
+      li.dataset.num = e.number;
+      const n = document.createElement("span");
+      n.className = "n";
+      n.textContent = e.number + ".";
+      li.appendChild(n);
+      const t = document.createElement("span");
+      t.textContent = e.clue;
+      li.appendChild(t);
+      li.addEventListener("click", () => selectCell(e.row, e.col, e.direction));
+      container.appendChild(li);
+    });
+  }
+  buildClueList("across", "acrossList");
+  buildClueList("down", "downList");
+
+  const totalCells = Object.keys(inputs).length;
+
+  function showCelebration() {
+    document.getElementById("celebrate").hidden = false;
+  }
+  document.getElementById("celebrateClose").addEventListener("click", () => {
+    document.getElementById("celebrate").hidden = true;
+  });
+  document.getElementById("celebrate").addEventListener("click", (ev) => {
+    if (ev.target.id === "celebrate") document.getElementById("celebrate").hidden = true;
+  });
+
+  function buildAttemptsSummary() {
+    const totalAttempts = entryAttempts.reduce((a, b) => a + b, 0);
+    const firstTry = entryAttempts.filter(a => a === 1).length;
+    document.getElementById("celebrateSub").textContent =
+      "Solved in " + totalAttempts + (totalAttempts === 1 ? " try" : " tries") +
+      " across " + entries.length + " words — " + firstTry + " nailed on the first try.";
+
+    const list = document.getElementById("celebrateAttempts");
+    list.innerHTML = "";
+    entries
+      .map((e, idx) => ({ e, attempts: entryAttempts[idx] }))
+      .sort((a, b) => a.e.number - b.e.number || a.e.direction.localeCompare(b.e.direction))
+      .forEach(({ e, attempts }) => {
+        const row = document.createElement("div");
+        row.className = "attempt-row";
+        const label = document.createElement("span");
+        label.className = "attempt-label";
+        label.textContent = e.number + (e.direction === "across" ? "A" : "D");
+        const word = document.createElement("span");
+        word.className = "attempt-word";
+        word.textContent = e.answer;
+        const count = document.createElement("span");
+        count.className = "attempt-count" + (attempts === 1 ? " first-try" : "");
+        count.textContent = attempts + (attempts === 1 ? " try" : " tries");
+        row.append(label, word, count);
+        list.appendChild(row);
+      });
+  }
+
+  function maybeCelebrate() {
+    if (hasCelebrated) return;
+    if (entries.every((_, idx) => entrySolved[idx])) {
+      hasCelebrated = true;
+      buildAttemptsSummary();
+      showCelebration();
+    }
+  }
+
+  function checkEntryByIndex(idx) {
+    if (entrySolved[idx]) return;
+    const entry = entries[idx];
+    const dr = entry.direction === "down" ? 1 : 0;
+    const dc = entry.direction === "across" ? 1 : 0;
+    const entryCells = [];
+    for (let i = 0; i < entry.length; i++) {
+      const r = entry.row + dr * i, c = entry.col + dc * i;
+      const inp = inputs[key(r, c)];
+      if (!inp.value) return; // not fully filled yet
+      entryCells.push({ inp, r, c });
+    }
+    entryAttempts[idx]++;
+    let allCorrect = true;
+    entryCells.forEach(({ inp, r, c }) => {
+      if (inp.value === cells[r][c]) {
+        inp.classList.add("correct");
+        inp.classList.remove("incorrect");
+      } else {
+        inp.classList.add("incorrect");
+        inp.classList.remove("correct");
+        allCorrect = false;
+      }
+    });
+    if (allCorrect) {
+      entrySolved[idx] = true;
+      entryCells.forEach(({ inp }) => {
+        inp.readOnly = true;
+        inp.classList.remove("incorrect");
+      });
+      maybeCelebrate();
+    }
+  }
+
+  function runCheck() {
+    entries.forEach((_, idx) => checkEntryByIndex(idx));
+    let filled = 0, correct = 0;
+    Object.keys(inputs).forEach(k => {
+      const input = inputs[k];
+      const [r, c] = k.split(",").map(Number);
+      if (!input.value) return;
+      filled++;
+      if (input.value === cells[r][c]) correct++;
+    });
+    const feedback = document.getElementById("feedback");
+    feedback.textContent = filled === 0
+      ? "Fill in a few letters, then press Enter."
+      : correct + " / " + filled + " filled cells correct.";
+    maybeCelebrate();
+  }
+
+  document.getElementById("checkBtn").addEventListener("click", runCheck);
+
+  document.getElementById("revealBtn").addEventListener("click", () => {
+    entries.forEach((e, idx) => { entrySolved[idx] = true; });
+    Object.keys(inputs).forEach(k => {
+      const input = inputs[k];
+      const [r, c] = k.split(",").map(Number);
+      input.value = cells[r][c];
+      input.classList.remove("correct", "incorrect");
+      input.classList.add("revealed");
+      input.readOnly = true;
+    });
+    hasCelebrated = true; // revealing isn't solving it — don't pop the celebration
+    document.getElementById("feedback").textContent = "Answers revealed.";
+  });
+</script>
