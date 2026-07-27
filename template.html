@@ -84,20 +84,26 @@
     background-attachment: fixed;
   }
   .pet {
-    position: absolute;
-    top: -72px;
+    flex-shrink: 0;
     width: 175px;
     height: 160px;
-    z-index: 2;
     pointer-events: none;
     background-image: url("__PET_SPRITES__");
     background-repeat: no-repeat;
     background-size: 450px 300px;
     filter: drop-shadow(0 7px 7px rgba(0, 0, 0, .42));
   }
-  .pet-dog { right: -38px; background-position: -35px -70px; }
-  .pet-cat { left: -38px; background-position: -248px -95px; }
+  .pet-dog { background-position: -35px -70px; }
+  .pet-cat { background-position: -248px -95px; }
   .masthead { display: flex; flex-direction: column; gap: 8px; align-items: center; }
+  .date-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
   .eyebrow {
     font-family: var(--mono);
     font-size: 13px;
@@ -123,7 +129,9 @@
     border: 4px solid var(--frame);
     box-shadow: 0 0 0 2px #1e140d, 0 6px 0 #100b08, inset 0 0 0 2px var(--frame-light);
     padding: 10px 27px 12px;
-    width: min(100%, 580px);
+    flex: 1 1 280px;
+    min-width: 0;
+    max-width: 580px;
   }
   .greeting {
     font-size: 16px;
@@ -147,7 +155,7 @@
     flex-direction: column;
     gap: 14px;
     width: min(100%, 760px);
-    margin: 58px auto 0;
+    margin: 0 auto;
     position: relative;
     overflow: visible;
   }
@@ -238,14 +246,18 @@
     width: min(100%, 760px);
     margin: 8px auto 0;
   }
+  @media (max-width: 700px) {
+    .date-row { flex-direction: column; gap: 10px; }
+    .date { max-width: 100%; }
+  }
   @media (max-width: 480px) {
     .clues { grid-template-columns: 1fr; }
     :root { --cell-size: 28px; }
     .cell input { font-size: 14px; }
-    .puzzle-card { margin-top: 46px; }
-    .pet { top: -48px; width: 105px; height: 96px; background-size: 270px 180px; opacity: .96; }
-    .pet-dog { right: -18px; background-position: -21px -42px; }
-    .pet-cat { left: -18px; background-position: -149px -57px; }
+    .date-row { gap: 6px; }
+    .pet { width: 90px; height: 82px; background-size: 232px 155px; opacity: .96; }
+    .pet-dog { background-position: -18px -36px; }
+    .pet-cat { background-position: -128px -49px; }
   }
   .clue-col h2 {
     font-family: var(--mono);
@@ -355,13 +367,15 @@
 <div class="page">
   <div class="masthead">
     <div class="eyebrow">Scrubs &amp; Squares</div>
-    <div class="date">__DATE_STR__</div>
+    <div class="date-row">
+      <div class="pet pet-cat" aria-hidden="true"></div>
+      <div class="date">__DATE_STR__</div>
+      <div class="pet pet-dog" aria-hidden="true"></div>
+    </div>
     <p class="greeting">__GREETING_HTML__</p>
   </div>
 
   <div class="puzzle-card">
-    <div class="pet pet-cat" aria-hidden="true"></div>
-    <div class="pet pet-dog" aria-hidden="true"></div>
     <div class="grid-scroll">
       <div class="grid" id="grid"></div>
     </div>
