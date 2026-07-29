@@ -1,24 +1,82 @@
 [
-  {"word": "APGAR", "clue": "Newborn scoring system checking heart rate, breathing, tone, reflex, and color"},
-  {"word": "MANIA", "clue": "Period of abnormally elevated mood, energy, and impulsivity"},
-  {"word": "LOCHIA", "clue": "Vaginal discharge that continues for weeks after childbirth"},
-  {"word": "FOMITE", "clue": "An inanimate object capable of transmitting infectious organisms"},
-  {"word": "ACUITY", "clue": "Level of severity of a patient's condition, used to set care priority"},
-  {"word": "ICTERUS", "clue": "Clinical term for jaundice"},
-  {"word": "HYPOXIA", "clue": "Deficient oxygen reaching body tissues"},
-  {"word": "PRURITUS", "clue": "Clinical term for itching"},
-  {"word": "CYANOSIS", "clue": "Bluish discoloration of skin from low blood oxygen"},
-  {"word": "ERYTHEMA", "clue": "Redness of the skin from capillary dilation"},
-  {"word": "OLIGURIA", "clue": "Abnormally low urine output"},
-  {"word": "ISCHEMIA", "clue": "Restricted blood supply to a tissue or organ"},
-  {"word": "ECLAMPSIA", "clue": "Onset of seizures in a patient with preeclampsia"},
-  {"word": "COLOSTRUM", "clue": "First breast milk after birth, rich in antibodies"},
-  {"word": "CATATONIA", "clue": "State marked by unresponsiveness and abnormal posturing"},
-  {"word": "NOSOCOMIAL", "clue": "Describes an infection acquired in a healthcare setting"},
-  {"word": "TACHYCARDIA", "clue": "Abnormally fast heart rate"},
-  {"word": "BRADYCARDIA", "clue": "Abnormally slow heart rate"},
-  {"word": "ANAPHYLAXIS", "clue": "Severe, rapid-onset allergic reaction that can be life-threatening"},
-  {"word": "DIAPHORESIS", "clue": "Profuse, abnormal sweating"},
-  {"word": "ANTIPYRETIC", "clue": "A drug given to reduce fever"},
-  {"word": "HYPONATREMIA", "clue": "Abnormally low blood sodium level"}
+  {
+    "word": "APNEA",
+    "clue": "Temporary cessation of breathing"
+  },
+  {
+    "word": "ANURIA",
+    "clue": "Absence of urine output, typically under 100 mL in 24 hours"
+  },
+  {
+    "word": "MELENA",
+    "clue": "Black, tarry, foul-smelling stool from digested blood, classically indicating an upper GI bleed"
+  },
+  {
+    "word": "BOLUS",
+    "clue": "A concentrated dose of medication or fluid given rapidly, often IV"
+  },
+  {
+    "word": "DYSURIA",
+    "clue": "Painful or difficult urination"
+  },
+  {
+    "word": "ASCITES",
+    "clue": "Abnormal fluid buildup in the peritoneal cavity"
+  },
+  {
+    "word": "EMBOLUS",
+    "clue": "A clot or other mass that travels through the bloodstream"
+  },
+  {
+    "word": "POLYURIA",
+    "clue": "Excessive urine production"
+  },
+  {
+    "word": "AZOTEMIA",
+    "clue": "Elevated nitrogenous waste products, like BUN, in the blood"
+  },
+  {
+    "word": "THROMBUS",
+    "clue": "A blood clot that forms and stays at its site of origin"
+  },
+  {
+    "word": "WHEEZING",
+    "clue": "High-pitched breath sound caused by narrowed airways"
+  },
+  {
+    "word": "ORTHOPNEA",
+    "clue": "Breathing difficulty when lying flat, relieved by sitting up"
+  },
+  {
+    "word": "HYPOXEMIA",
+    "clue": "Low oxygen level in the arterial blood"
+  },
+  {
+    "word": "URTICARIA",
+    "clue": "Hives; raised, itchy welts from histamine release, allergic or not"
+  },
+  {
+    "word": "PETECHIAE",
+    "clue": "Tiny pinpoint spots from minor hemorrhage under the skin"
+  },
+  {
+    "word": "POLYDIPSIA",
+    "clue": "Excessive thirst"
+  },
+  {
+    "word": "HEMOPTYSIS",
+    "clue": "Coughing up blood from the lungs or airway"
+  },
+  {
+    "word": "ANTIEMETIC",
+    "clue": "A medication given to prevent or treat nausea and vomiting"
+  },
+  {
+    "word": "HYPERKALEMIA",
+    "clue": "Elevated level of potassium in the blood"
+  },
+  {
+    "word": "NEUTROPENIA",
+    "clue": "Abnormally low neutrophil count that raises infection risk"
+  }
 ]
