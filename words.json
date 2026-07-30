@@ -1,82 +1,94 @@
 [
   {
-    "word": "APNEA",
-    "clue": "Temporary cessation of breathing"
+    "word": "TITRATE",
+    "clue": "To gradually adjust a medication dose, like an IV vasopressor, to reach the desired effect"
   },
   {
-    "word": "ANURIA",
-    "clue": "Absence of urine output, typically under 100 mL in 24 hours"
+    "word": "ANTIDOTE",
+    "clue": "A substance that counteracts a drug's toxic effects, such as naloxone for opioids"
   },
   {
-    "word": "MELENA",
-    "clue": "Black, tarry, foul-smelling stool from digested blood, classically indicating an upper GI bleed"
+    "word": "TOXICITY",
+    "clue": "The state of a drug, like lithium or digoxin, reaching harmful levels in the body"
   },
   {
-    "word": "BOLUS",
-    "clue": "A concentrated dose of medication or fluid given rapidly, often IV"
+    "word": "STRIDOR",
+    "clue": "High-pitched crowing breath sound signaling upper airway obstruction"
   },
   {
-    "word": "DYSURIA",
-    "clue": "Painful or difficult urination"
+    "word": "TRIPOD",
+    "clue": "Leaning forward on outstretched arms, a positioning sign of respiratory distress"
   },
   {
-    "word": "ASCITES",
-    "clue": "Abnormal fluid buildup in the peritoneal cavity"
+    "word": "TREMOR",
+    "clue": "Involuntary rhythmic shaking, a classic sign of alcohol withdrawal or Parkinson's disease"
   },
   {
-    "word": "EMBOLUS",
-    "clue": "A clot or other mass that travels through the bloodstream"
+    "word": "VERTIGO",
+    "clue": "The sensation that the room is spinning, often from an inner ear problem"
   },
   {
-    "word": "POLYURIA",
-    "clue": "Excessive urine production"
+    "word": "AGITATION",
+    "clue": "Restless, excessive motor activity often seen in delirium or substance withdrawal"
   },
   {
-    "word": "AZOTEMIA",
-    "clue": "Elevated nitrogenous waste products, like BUN, in the blood"
+    "word": "DELIRIUM",
+    "clue": "Acute, fluctuating confusion with disturbed attention, common in hospitalized older adults"
   },
   {
-    "word": "THROMBUS",
-    "clue": "A blood clot that forms and stays at its site of origin"
+    "word": "PSYCHOSIS",
+    "clue": "Loss of contact with reality, marked by hallucinations or delusions"
   },
   {
-    "word": "WHEEZING",
-    "clue": "High-pitched breath sound caused by narrowed airways"
+    "word": "CONSENT",
+    "clue": "Voluntary agreement to a procedure after being told its risks, benefits, and alternatives"
   },
   {
-    "word": "ORTHOPNEA",
-    "clue": "Breathing difficulty when lying flat, relieved by sitting up"
+    "word": "PATHOGEN",
+    "clue": "A microorganism capable of causing disease"
   },
   {
-    "word": "HYPOXEMIA",
-    "clue": "Low oxygen level in the arterial blood"
+    "word": "DROPLET",
+    "clue": "Type of isolation precaution used for pathogens like influenza or pertussis"
   },
   {
-    "word": "URTICARIA",
-    "clue": "Hives; raised, itchy welts from histamine release, allergic or not"
+    "word": "AIRBORNE",
+    "clue": "Type of isolation precaution required for TB, measles, or varicella"
   },
   {
-    "word": "PETECHIAE",
-    "clue": "Tiny pinpoint spots from minor hemorrhage under the skin"
+    "word": "ISOLATION",
+    "clue": "Precaution category that separates infected patients to prevent pathogen spread"
   },
   {
-    "word": "POLYDIPSIA",
-    "clue": "Excessive thirst"
+    "word": "VIRULENCE",
+    "clue": "A pathogen's relative ability to cause disease"
   },
   {
-    "word": "HEMOPTYSIS",
-    "clue": "Coughing up blood from the lungs or airway"
+    "word": "DECUBITUS",
+    "clue": "Another term for a pressure ulcer that develops from prolonged immobility"
   },
   {
-    "word": "ANTIEMETIC",
-    "clue": "A medication given to prevent or treat nausea and vomiting"
+    "word": "DELEGATION",
+    "clue": "Assigning a nursing task to another team member while retaining accountability"
   },
   {
-    "word": "HYPERKALEMIA",
-    "clue": "Elevated level of potassium in the blood"
+    "word": "NEGLIGENCE",
+    "clue": "Failure to act as a reasonably prudent nurse would, resulting in patient harm"
   },
   {
-    "word": "NEUTROPENIA",
-    "clue": "Abnormally low neutrophil count that raises infection risk"
+    "word": "ASPIRATION",
+    "clue": "Inhalation of food, fluid, or secretions into the airway, a major risk with dysphagia"
+  },
+  {
+    "word": "ATELECTASIS",
+    "clue": "Collapse of alveoli that reduces gas exchange, often seen after surgery"
+  },
+  {
+    "word": "CONTRACTURE",
+    "clue": "Permanent shortening of a muscle or joint from prolonged immobility"
+  },
+  {
+    "word": "DEFIBRILLATION",
+    "clue": "Delivering an unsynchronized shock to correct a lethal, chaotic heart rhythm like V-fib"
   }
 ]
