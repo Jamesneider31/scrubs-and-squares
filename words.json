@@ -1,94 +1,98 @@
 [
   {
-    "word": "TITRATE",
-    "clue": "To gradually adjust a medication dose, like an IV vasopressor, to reach the desired effect"
+    "word": "BRUIT",
+    "clue": "Abnormal blowing or swishing sound heard over an artery, signaling turbulent blood flow"
   },
   {
-    "word": "ANTIDOTE",
-    "clue": "A substance that counteracts a drug's toxic effects, such as naloxone for opioids"
+    "word": "MURMUR",
+    "clue": "Abnormal heart sound caused by turbulent blood flow across a valve"
   },
   {
-    "word": "TOXICITY",
-    "clue": "The state of a drug, like lithium or digoxin, reaching harmful levels in the body"
+    "word": "RALES",
+    "clue": "Crackling lung sounds heard on auscultation, often from fluid in the alveoli"
   },
   {
-    "word": "STRIDOR",
-    "clue": "High-pitched crowing breath sound signaling upper airway obstruction"
+    "word": "ANOXIA",
+    "clue": "Complete absence of oxygen reaching body tissues"
   },
   {
-    "word": "TRIPOD",
-    "clue": "Leaning forward on outstretched arms, a positioning sign of respiratory distress"
+    "word": "STASIS",
+    "clue": "Pooling or stagnation of blood flow, as seen in venous insufficiency"
   },
   {
-    "word": "TREMOR",
-    "clue": "Involuntary rhythmic shaking, a classic sign of alcohol withdrawal or Parkinson's disease"
+    "word": "AGONIST",
+    "clue": "A drug that binds a receptor and triggers a physiologic response"
   },
   {
-    "word": "VERTIGO",
-    "clue": "The sensation that the room is spinning, often from an inner ear problem"
+    "word": "KETOSIS",
+    "clue": "Metabolic state marked by elevated ketone bodies from fat breakdown"
   },
   {
-    "word": "AGITATION",
-    "clue": "Restless, excessive motor activity often seen in delirium or substance withdrawal"
+    "word": "INFARCT",
+    "clue": "Localized area of tissue death caused by an interrupted blood supply"
   },
   {
-    "word": "DELIRIUM",
-    "clue": "Acute, fluctuating confusion with disturbed attention, common in hospitalized older adults"
+    "word": "FISTULA",
+    "clue": "Abnormal connecting passage between two organs or vessels"
   },
   {
-    "word": "PSYCHOSIS",
-    "clue": "Loss of contact with reality, marked by hallucinations or delusions"
+    "word": "TINNITUS",
+    "clue": "Perceived ringing or buzzing in the ears, a classic early sign of salicylate toxicity"
   },
   {
-    "word": "CONSENT",
-    "clue": "Voluntary agreement to a procedure after being told its risks, benefits, and alternatives"
+    "word": "CREPITUS",
+    "clue": "Crackling or grating sensation, as with subcutaneous emphysema or joint friction"
   },
   {
-    "word": "PATHOGEN",
-    "clue": "A microorganism capable of causing disease"
+    "word": "ACIDOSIS",
+    "clue": "Condition of excess acid accumulation that lowers blood pH"
   },
   {
-    "word": "DROPLET",
-    "clue": "Type of isolation precaution used for pathogens like influenza or pertussis"
+    "word": "ANOREXIA",
+    "clue": "Loss of appetite for food"
   },
   {
-    "word": "AIRBORNE",
-    "clue": "Type of isolation precaution required for TB, measles, or varicella"
+    "word": "STENOSIS",
+    "clue": "Abnormal narrowing of a valve, vessel, or passage"
   },
   {
-    "word": "ISOLATION",
-    "clue": "Precaution category that separates infected patients to prevent pathogen spread"
+    "word": "VERACITY",
+    "clue": "Ethical duty to tell patients the truth"
   },
   {
-    "word": "VIRULENCE",
-    "clue": "A pathogen's relative ability to cause disease"
+    "word": "ALKALOSIS",
+    "clue": "Condition of excess base that raises blood pH"
   },
   {
-    "word": "DECUBITUS",
-    "clue": "Another term for a pressure ulcer that develops from prolonged immobility"
+    "word": "TACHYPNEA",
+    "clue": "Abnormally rapid respiratory rate"
   },
   {
-    "word": "DELEGATION",
-    "clue": "Assigning a nursing task to another team member while retaining accountability"
+    "word": "HEMATURIA",
+    "clue": "Presence of blood in the urine"
   },
   {
-    "word": "NEGLIGENCE",
-    "clue": "Failure to act as a reasonably prudent nurse would, resulting in patient harm"
+    "word": "PERFUSION",
+    "clue": "Passage of blood through tissue to deliver oxygen and nutrients"
   },
   {
-    "word": "ASPIRATION",
-    "clue": "Inhalation of food, fluid, or secretions into the airway, a major risk with dysphagia"
+    "word": "TAMPONADE",
+    "clue": "Compression of the heart caused by fluid accumulating in the pericardial sac"
   },
   {
-    "word": "ATELECTASIS",
-    "clue": "Collapse of alveoli that reduces gas exchange, often seen after surgery"
+    "word": "NEUROPATHY",
+    "clue": "Nerve damage causing pain, numbness, or weakness"
   },
   {
-    "word": "CONTRACTURE",
-    "clue": "Permanent shortening of a muscle or joint from prolonged immobility"
+    "word": "ANTAGONIST",
+    "clue": "A drug that blocks a receptor and prevents a response"
   },
   {
-    "word": "DEFIBRILLATION",
-    "clue": "Delivering an unsynchronized shock to correct a lethal, chaotic heart rhythm like V-fib"
+    "word": "PROPHYLAXIS",
+    "clue": "A preventive measure taken to avoid disease"
+  },
+  {
+    "word": "POLYPHARMACY",
+    "clue": "Concurrent use of multiple medications, common in older adults"
   }
 ]
