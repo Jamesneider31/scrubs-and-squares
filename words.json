@@ -1,98 +1,98 @@
 [
   {
-    "word": "BRUIT",
-    "clue": "Abnormal blowing or swishing sound heard over an artery, signaling turbulent blood flow"
+    "word": "GAVAGE",
+    "clue": "Administration of liquid nutrition directly into the stomach through a tube"
   },
   {
-    "word": "MURMUR",
-    "clue": "Abnormal heart sound caused by turbulent blood flow across a valve"
+    "word": "LETHARGY",
+    "clue": "Abnormal drowsiness or a reduced level of alertness"
   },
   {
-    "word": "RALES",
-    "clue": "Crackling lung sounds heard on auscultation, often from fluid in the alveoli"
+    "word": "MOTTLING",
+    "clue": "Patchy, blotchy skin discoloration caused by poor perfusion"
   },
   {
-    "word": "ANOXIA",
-    "clue": "Complete absence of oxygen reaching body tissues"
+    "word": "GUARDING",
+    "clue": "Involuntary abdominal muscle tightening triggered by palpation, suggesting peritoneal irritation"
   },
   {
-    "word": "STASIS",
-    "clue": "Pooling or stagnation of blood flow, as seen in venous insufficiency"
+    "word": "REBOUND",
+    "clue": "Abdominal pain that worsens when pressure is suddenly released, a sign of peritoneal inflammation"
   },
   {
-    "word": "AGONIST",
-    "clue": "A drug that binds a receptor and triggers a physiologic response"
+    "word": "FLACCID",
+    "clue": "Having reduced or absent muscle tone"
   },
   {
-    "word": "KETOSIS",
-    "clue": "Metabolic state marked by elevated ketone bodies from fat breakdown"
+    "word": "STUPOR",
+    "clue": "A state of near-unconsciousness with minimal responsiveness to stimuli"
   },
   {
-    "word": "INFARCT",
-    "clue": "Localized area of tissue death caused by an interrupted blood supply"
+    "word": "APHASIA",
+    "clue": "Impaired ability to understand or produce speech, often from stroke"
   },
   {
-    "word": "FISTULA",
-    "clue": "Abnormal connecting passage between two organs or vessels"
+    "word": "PTOSIS",
+    "clue": "Drooping of the upper eyelid"
   },
   {
-    "word": "TINNITUS",
-    "clue": "Perceived ringing or buzzing in the ears, a classic early sign of salicylate toxicity"
+    "word": "CLONUS",
+    "clue": "Rhythmic, involuntary muscle contractions elicited by sudden stretch, seen in upper motor neuron lesions and severe preeclampsia"
   },
   {
-    "word": "CREPITUS",
-    "clue": "Crackling or grating sensation, as with subcutaneous emphysema or joint friction"
+    "word": "NYSTAGMUS",
+    "clue": "Involuntary, rhythmic oscillation of the eyes"
   },
   {
-    "word": "ACIDOSIS",
-    "clue": "Condition of excess acid accumulation that lowers blood pH"
+    "word": "KUSSMAUL",
+    "clue": "Deep, labored breathing pattern classically seen in diabetic ketoacidosis"
   },
   {
-    "word": "ANOREXIA",
-    "clue": "Loss of appetite for food"
+    "word": "LARYNGOSPASM",
+    "clue": "Sudden, involuntary spasm of the vocal cords that closes off the airway"
   },
   {
-    "word": "STENOSIS",
-    "clue": "Abnormal narrowing of a valve, vessel, or passage"
+    "word": "HYPOGLYCEMIA",
+    "clue": "Abnormally low blood glucose level"
   },
   {
-    "word": "VERACITY",
-    "clue": "Ethical duty to tell patients the truth"
+    "word": "THROMBOCYTOPENIA",
+    "clue": "Abnormally low platelet count"
   },
   {
-    "word": "ALKALOSIS",
-    "clue": "Condition of excess base that raises blood pH"
+    "word": "RHABDOMYOLYSIS",
+    "clue": "Breakdown of muscle tissue that releases myoglobin into the bloodstream, risking kidney injury"
   },
   {
-    "word": "TACHYPNEA",
-    "clue": "Abnormally rapid respiratory rate"
+    "word": "PREECLAMPSIA",
+    "clue": "Pregnancy complication marked by new-onset hypertension and proteinuria after 20 weeks gestation"
   },
   {
-    "word": "HEMATURIA",
-    "clue": "Presence of blood in the urine"
+    "word": "SUNDOWNING",
+    "clue": "Increased confusion and agitation in dementia patients occurring in the late afternoon or evening"
   },
   {
-    "word": "PERFUSION",
-    "clue": "Passage of blood through tissue to deliver oxygen and nutrients"
+    "word": "POLYCYTHEMIA",
+    "clue": "Abnormal increase in red blood cell mass"
   },
   {
-    "word": "TAMPONADE",
-    "clue": "Compression of the heart caused by fluid accumulating in the pericardial sac"
+    "word": "ANASARCA",
+    "clue": "Severe, generalized body edema"
   },
   {
-    "word": "NEUROPATHY",
-    "clue": "Nerve damage causing pain, numbness, or weakness"
+    "word": "EXSANGUINATION",
+    "clue": "Severe blood loss to the point of being life-threatening"
   },
   {
-    "word": "ANTAGONIST",
-    "clue": "A drug that blocks a receptor and prevents a response"
+    "word": "HEMOSTASIS",
+    "clue": "Process that stops bleeding through clot formation"
   },
   {
-    "word": "PROPHYLAXIS",
-    "clue": "A preventive measure taken to avoid disease"
+    "word": "VASODILATION",
+    "clue": "Widening of blood vessels that increases blood flow"
   },
   {
-    "word": "POLYPHARMACY",
-    "clue": "Concurrent use of multiple medications, common in older adults"
+    "word": "OTOTOXIC",
+    "clue": "Damaging to hearing or balance structures, a known risk of drugs like aminoglycosides and loop diuretics"
   }
 ]
