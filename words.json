@@ -1,98 +1,78 @@
 [
   {
-    "word": "GAVAGE",
-    "clue": "Administration of liquid nutrition directly into the stomach through a tube"
+    "word": "STAT",
+    "clue": "Order indicating a task must be carried out immediately, without delay"
   },
   {
-    "word": "LETHARGY",
-    "clue": "Abnormal drowsiness or a reduced level of alertness"
+    "word": "EDEMA",
+    "clue": "Swelling caused by excess fluid trapped in body tissues"
   },
   {
-    "word": "MOTTLING",
-    "clue": "Patchy, blotchy skin discoloration caused by poor perfusion"
+    "word": "APGAR",
+    "clue": "Scoring system used to assess a newborn's condition at one and five minutes after birth"
   },
   {
-    "word": "GUARDING",
-    "clue": "Involuntary abdominal muscle tightening triggered by palpation, suggesting peritoneal irritation"
+    "word": "SEPSIS",
+    "clue": "Life-threatening organ dysfunction caused by a dysregulated host response to infection"
   },
   {
-    "word": "REBOUND",
-    "clue": "Abdominal pain that worsens when pressure is suddenly released, a sign of peritoneal inflammation"
+    "word": "ANEMIA",
+    "clue": "Condition marked by a deficiency of red blood cells or hemoglobin"
   },
   {
-    "word": "FLACCID",
-    "clue": "Having reduced or absent muscle tone"
+    "word": "TRIAGE",
+    "clue": "Process of sorting patients by severity of condition to determine priority of treatment"
   },
   {
-    "word": "STUPOR",
-    "clue": "A state of near-unconsciousness with minimal responsiveness to stimuli"
+    "word": "PALLOR",
+    "clue": "Abnormal paleness of the skin or mucous membranes, often a sign of poor perfusion or anemia"
   },
   {
-    "word": "APHASIA",
-    "clue": "Impaired ability to understand or produce speech, often from stroke"
+    "word": "LOCHIA",
+    "clue": "Vaginal discharge that occurs after childbirth as the uterus sheds its lining"
   },
   {
-    "word": "PTOSIS",
-    "clue": "Drooping of the upper eyelid"
+    "word": "OPIOID",
+    "clue": "Class of analgesic drug that carries a risk of dangerous respiratory depression at high doses"
   },
   {
-    "word": "CLONUS",
-    "clue": "Rhythmic, involuntary muscle contractions elicited by sudden stretch, seen in upper motor neuron lesions and severe preeclampsia"
+    "word": "INSULIN",
+    "clue": "Hormone medication administered to lower blood glucose in diabetes management"
   },
   {
-    "word": "NYSTAGMUS",
-    "clue": "Involuntary, rhythmic oscillation of the eyes"
+    "word": "HEPARIN",
+    "clue": "Injectable anticoagulant that requires monitoring of aPTT during therapy"
   },
   {
-    "word": "KUSSMAUL",
-    "clue": "Deep, labored breathing pattern classically seen in diabetic ketoacidosis"
+    "word": "DIURETIC",
+    "clue": "Medication class that increases urine output to reduce fluid volume, often used in heart failure"
   },
   {
-    "word": "LARYNGOSPASM",
-    "clue": "Sudden, involuntary spasm of the vocal cords that closes off the airway"
+    "word": "NALOXONE",
+    "clue": "Opioid antagonist administered to rapidly reverse an overdose"
   },
   {
-    "word": "HYPOGLYCEMIA",
-    "clue": "Abnormally low blood glucose level"
+    "word": "AUTONOMY",
+    "clue": "Ethical principle protecting a patient's right to make informed decisions about their own care"
   },
   {
-    "word": "THROMBOCYTOPENIA",
-    "clue": "Abnormally low platelet count"
+    "word": "JAUNDICE",
+    "clue": "Yellowing of the skin and sclera caused by elevated bilirubin levels"
   },
   {
-    "word": "RHABDOMYOLYSIS",
-    "clue": "Breakdown of muscle tissue that releases myoglobin into the bloodstream, risking kidney injury"
+    "word": "ANALGESIC",
+    "clue": "Medication used to relieve pain"
   },
   {
-    "word": "PREECLAMPSIA",
-    "clue": "Pregnancy complication marked by new-onset hypertension and proteinuria after 20 weeks gestation"
+    "word": "TERATOGEN",
+    "clue": "Substance or agent capable of causing malformations in a developing fetus"
   },
   {
-    "word": "SUNDOWNING",
-    "clue": "Increased confusion and agitation in dementia patients occurring in the late afternoon or evening"
+    "word": "SURFACTANT",
+    "clue": "Substance that reduces alveolar surface tension, often deficient in premature infants"
   },
   {
-    "word": "POLYCYTHEMIA",
-    "clue": "Abnormal increase in red blood cell mass"
-  },
-  {
-    "word": "ANASARCA",
-    "clue": "Severe, generalized body edema"
-  },
-  {
-    "word": "EXSANGUINATION",
-    "clue": "Severe blood loss to the point of being life-threatening"
-  },
-  {
-    "word": "HEMOSTASIS",
-    "clue": "Process that stops bleeding through clot formation"
-  },
-  {
-    "word": "VASODILATION",
-    "clue": "Widening of blood vessels that increases blood flow"
-  },
-  {
-    "word": "OTOTOXIC",
-    "clue": "Damaging to hearing or balance structures, a known risk of drugs like aminoglycosides and loop diuretics"
+    "word": "HEMODIALYSIS",
+    "clue": "Treatment that filters a patient's blood through a machine to remove waste when the kidneys fail"
   }
 ]
