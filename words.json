@@ -1,78 +1,98 @@
 [
   {
-    "word": "STAT",
-    "clue": "Order indicating a task must be carried out immediately, without delay"
+    "word": "EMESIS",
+    "clue": "Clinical term for vomiting"
   },
   {
-    "word": "EDEMA",
-    "clue": "Swelling caused by excess fluid trapped in body tissues"
+    "word": "ANGINA",
+    "clue": "Chest pain caused by reduced blood flow to the heart muscle"
   },
   {
-    "word": "APGAR",
-    "clue": "Scoring system used to assess a newborn's condition at one and five minutes after birth"
+    "word": "VECTOR",
+    "clue": "Living organism, such as a mosquito, that transmits a pathogen"
   },
   {
-    "word": "SEPSIS",
-    "clue": "Life-threatening organ dysfunction caused by a dysregulated host response to infection"
+    "word": "LABILE",
+    "clue": "Rapidly and unpredictably shifting, as in an unstable mood"
   },
   {
-    "word": "ANEMIA",
-    "clue": "Condition marked by a deficiency of red blood cells or hemoglobin"
+    "word": "BULIMIA",
+    "clue": "Eating disorder marked by binge eating followed by purging"
   },
   {
-    "word": "TRIAGE",
-    "clue": "Process of sorting patients by severity of condition to determine priority of treatment"
+    "word": "MYALGIA",
+    "clue": "Muscle pain"
   },
   {
-    "word": "PALLOR",
-    "clue": "Abnormal paleness of the skin or mucous membranes, often a sign of poor perfusion or anemia"
+    "word": "ASEPSIS",
+    "clue": "Absence of pathogenic microorganisms; the basis of sterile technique"
   },
   {
-    "word": "LOCHIA",
-    "clue": "Vaginal discharge that occurs after childbirth as the uterus sheds its lining"
+    "word": "DYSPNEA",
+    "clue": "Subjective sensation of difficulty breathing"
   },
   {
-    "word": "OPIOID",
-    "clue": "Class of analgesic drug that carries a risk of dangerous respiratory depression at high doses"
+    "word": "SYNCOPE",
+    "clue": "Sudden transient loss of consciousness from reduced cerebral blood flow"
   },
   {
-    "word": "INSULIN",
-    "clue": "Hormone medication administered to lower blood glucose in diabetes management"
+    "word": "CACHEXIA",
+    "clue": "Severe body wasting seen in chronic illness such as cancer"
   },
   {
-    "word": "HEPARIN",
-    "clue": "Injectable anticoagulant that requires monitoring of aPTT during therapy"
+    "word": "HEMATOMA",
+    "clue": "Localized collection of clotted blood outside a blood vessel"
   },
   {
-    "word": "DIURETIC",
-    "clue": "Medication class that increases urine output to reduce fluid volume, often used in heart failure"
+    "word": "SEDATION",
+    "clue": "Medication-induced depression of consciousness"
   },
   {
-    "word": "NALOXONE",
-    "clue": "Opioid antagonist administered to rapidly reverse an overdose"
+    "word": "CONTUSION",
+    "clue": "Bruise caused by blunt trauma without a break in the skin"
   },
   {
-    "word": "AUTONOMY",
-    "clue": "Ethical principle protecting a patient's right to make informed decisions about their own care"
+    "word": "EPISTAXIS",
+    "clue": "Clinical term for a nosebleed"
   },
   {
-    "word": "JAUNDICE",
-    "clue": "Yellowing of the skin and sclera caused by elevated bilirubin levels"
+    "word": "ANHEDONIA",
+    "clue": "Inability to feel pleasure, a core symptom of major depression"
   },
   {
-    "word": "ANALGESIC",
-    "clue": "Medication used to relieve pain"
+    "word": "RESTRAINT",
+    "clue": "Device or method limiting a patient's movement, used only as a last resort"
   },
   {
-    "word": "TERATOGEN",
-    "clue": "Substance or agent capable of causing malformations in a developing fetus"
+    "word": "ELOPEMENT",
+    "clue": "Unauthorized departure of a patient from a care setting"
   },
   {
-    "word": "SURFACTANT",
-    "clue": "Substance that reduces alveolar surface tension, often deficient in premature infants"
+    "word": "AKATHISIA",
+    "clue": "Subjective inner restlessness that can occur as an antipsychotic side effect"
   },
   {
-    "word": "HEMODIALYSIS",
-    "clue": "Treatment that filters a patient's blood through a machine to remove waste when the kidneys fail"
+    "word": "GLYCOSURIA",
+    "clue": "Presence of glucose in the urine"
+  },
+  {
+    "word": "QUARANTINE",
+    "clue": "Restricting movement of exposed but asymptomatic individuals to prevent disease spread"
+  },
+  {
+    "word": "DYSKINESIA",
+    "clue": "Involuntary, abnormal movement that can develop with long-term antipsychotic use"
+  },
+  {
+    "word": "HYPOKALEMIA",
+    "clue": "Abnormally low blood potassium level"
+  },
+  {
+    "word": "KETOACIDOSIS",
+    "clue": "Life-threatening diabetic complication marked by ketone buildup and metabolic acidosis"
+  },
+  {
+    "word": "HYPERCALCEMIA",
+    "clue": "Abnormally elevated blood calcium level"
   }
 ]
