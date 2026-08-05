@@ -1,98 +1,26 @@
 [
-  {
-    "word": "ATAXIA",
-    "clue": "Impaired muscle coordination and balance, often from cerebellar dysfunction"
-  },
-  {
-    "word": "HERNIA",
-    "clue": "Protrusion of an organ through a weakness in the surrounding muscle wall"
-  },
-  {
-    "word": "STOMA",
-    "clue": "A surgically created opening on the abdomen for waste elimination"
-  },
-  {
-    "word": "GALLOP",
-    "clue": "Abnormal extra heart sound (S3 or S4) often signaling heart failure"
-  },
-  {
-    "word": "THRILL",
-    "clue": "A palpable vibration felt over the heart or a blood vessel"
-  },
-  {
-    "word": "OSTOMY",
-    "clue": "General term for a surgically created body opening"
-  },
-  {
-    "word": "ANOSMIA",
-    "clue": "Loss of the sense of smell"
-  },
-  {
-    "word": "DIPLOPIA",
-    "clue": "Double vision"
-  },
-  {
-    "word": "KYPHOSIS",
-    "clue": "Excessive outward curvature of the thoracic spine"
-  },
-  {
-    "word": "LORDOSIS",
-    "clue": "Excessive inward curvature of the lumbar spine"
-  },
-  {
-    "word": "ATROPHY",
-    "clue": "Wasting away or decrease in size of tissue or muscle"
-  },
-  {
-    "word": "NECROSIS",
-    "clue": "Death of body tissue"
-  },
-  {
-    "word": "GANGRENE",
-    "clue": "Tissue death from lost blood supply, often complicated by infection"
-  },
-  {
-    "word": "FLARING",
-    "clue": "Nasal ___: widening of the nostrils, a sign of respiratory distress"
-  },
-  {
-    "word": "RHONCHI",
-    "clue": "Low-pitched, snoring-like lung sounds from secretions in the large airways"
-  },
-  {
-    "word": "ANISOCORIA",
-    "clue": "Unequal pupil size between the two eyes"
-  },
-  {
-    "word": "HEMIPLEGIA",
-    "clue": "Paralysis of one side of the body"
-  },
-  {
-    "word": "PARAPLEGIA",
-    "clue": "Paralysis affecting the lower half of the body"
-  },
-  {
-    "word": "SCOLIOSIS",
-    "clue": "Abnormal lateral curvature of the spine"
-  },
-  {
-    "word": "HYPERTROPHY",
-    "clue": "Increase in the size of a tissue or organ"
-  },
-  {
-    "word": "SPASTICITY",
-    "clue": "Abnormally increased muscle tone with stiffness"
-  },
-  {
-    "word": "ANKYLOSIS",
-    "clue": "Abnormal stiffening and immobility of a joint"
-  },
-  {
-    "word": "AMENORRHEA",
-    "clue": "Absence of menstruation"
-  },
-  {
-    "word": "COLOSTOMY",
-    "clue": "Surgical opening from the colon to the abdominal wall"
-  }
+  {"word": "STABLE", "clue": "Term for a patient whose condition is not currently declining"},
+  {"word": "ALERT", "clue": "Fully oriented level of consciousness on the AVPU scale"},
+  {"word": "ACUITY", "clue": "Level of severity used to prioritize patient care assignments"},
+  {"word": "VITALS", "clue": "Temperature, pulse, respirations, and blood pressure, collectively"},
+  {"word": "TURGOR", "clue": "Skin ___: pinched and released to assess hydration status"},
+  {"word": "RIGOR", "clue": "Sudden shaking chill that often precedes a spike in fever"},
+  {"word": "ALBUMIN", "clue": "Major plasma protein; low levels let fluid leak into tissues"},
+  {"word": "TROPONIN", "clue": "Cardiac biomarker that rises during myocardial infarction"},
+  {"word": "POTASSIUM", "clue": "Electrolyte requiring cardiac monitoring during IV replacement due to arrhythmia risk"},
+  {"word": "CREATININE", "clue": "Lab value used to assess kidney function and filtration"},
+  {"word": "HEMATOCRIT", "clue": "Percentage of blood volume made up of red blood cells"},
+  {"word": "BACTEREMIA", "clue": "Presence of bacteria in the bloodstream"},
+  {"word": "HYPOCALCEMIA", "clue": "Low blood calcium level associated with tetany and a positive Chvostek's sign"},
+  {"word": "LEUKOPENIA", "clue": "Abnormally low white blood cell count that raises infection risk"},
+  {"word": "LEUKOCYTOSIS", "clue": "Elevated white blood cell count indicating infection or inflammation"},
+  {"word": "NEUTROPHILIA", "clue": "Elevated neutrophil count often signaling a bacterial infection"},
+  {"word": "LYMPHOPENIA", "clue": "Decreased lymphocyte count, seen with immunosuppression"},
+  {"word": "HYPERURICEMIA", "clue": "Elevated uric acid level associated with gout"},
+  {"word": "HYPERNATREMIA", "clue": "Elevated blood sodium level causing thirst and confusion"},
+  {"word": "AMMONIA", "clue": "Blood level monitored in hepatic encephalopathy"},
+  {"word": "GLUCOSE", "clue": "Blood sugar level checked via fingerstick in a diabetic emergency"},
+  {"word": "LACTATE", "clue": "Lab value that rises with tissue hypoperfusion and anaerobic metabolism"},
+  {"word": "CATHETER", "clue": "Indwelling urinary device inserted to monitor output or relieve retention"},
+  {"word": "HEMORRHAGE", "clue": "Severe or uncontrolled bleeding requiring urgent intervention"}
 ]
