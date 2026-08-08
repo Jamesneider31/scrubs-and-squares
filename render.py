@@ -16,18 +16,33 @@ def render(template_path, puzzle_path, date_str, greeting_html, signoff_html, ou
     image_data = base64.b64encode(image_path.read_bytes()).decode("ascii")
     pet_path = Path(template_path).parent / "assets" / "pet-sprites.png"
     pet_data = base64.b64encode(pet_path.read_bytes()).decode("ascii")
-    music_dir = Path(template_path).parent / "assets" / "music"
+    # AAC copies keep the all-in-one daily page far lighter than the original MP3s.
+    music_dir = Path(template_path).parent / "assets" / "music-lite"
     music = [
-        {"title": "Sweden", "src": "data:audio/mpeg;base64," + base64.b64encode((music_dir / "sweden.mp3").read_bytes()).decode("ascii")},
-        {"title": "Subwoofer Lullaby", "src": "data:audio/mpeg;base64," + base64.b64encode((music_dir / "subwoofer-lullaby.mp3").read_bytes()).decode("ascii")},
-        {"title": "Mice on Venus", "src": "data:audio/mpeg;base64," + base64.b64encode((music_dir / "mice-on-venus.mp3").read_bytes()).decode("ascii")},
+        {"title": "Sweden", "src": "data:audio/mp4;base64," + base64.b64encode((music_dir / "sweden.m4a").read_bytes()).decode("ascii")},
+        {"title": "Subwoofer Lullaby", "src": "data:audio/mp4;base64," + base64.b64encode((music_dir / "subwoofer-lullaby.m4a").read_bytes()).decode("ascii")},
+        {"title": "Mice on Venus", "src": "data:audio/mp4;base64," + base64.b64encode((music_dir / "mice-on-venus.m4a").read_bytes()).decode("ascii")},
     ]
     sfx_dir = Path(template_path).parent / "assets" / "sfx"
+
+    def audio_data(path):
+        return "data:audio/mpeg;base64," + base64.b64encode(path.read_bytes()).decode("ascii")
+
+    def folder_sounds(name):
+        return [audio_data(path) for path in sorted((sfx_dir / name).glob("*.mp3"))]
+
     sfx = {
-        "incorrect": "data:audio/mpeg;base64," + base64.b64encode((sfx_dir / "incorrect.mp3").read_bytes()).decode("ascii"),
-        "correct": "data:audio/mpeg;base64," + base64.b64encode((sfx_dir / "correct.mp3").read_bytes()).decode("ascii"),
-        "levelUp": "data:audio/mpeg;base64," + base64.b64encode((sfx_dir / "complete-levelup.mp3").read_bytes()).decode("ascii"),
-        "imReady": "data:audio/mpeg;base64," + base64.b64encode((sfx_dir / "complete-im-ready.mp3").read_bytes()).decode("ascii"),
+        # Add any new .mp3 to either folder; the game randomly selects one.
+        "incorrect": folder_sounds("incorrect"),
+        "correct": folder_sounds("correct"),
+        "levelUp": audio_data(sfx_dir / "complete-levelup.mp3"),
+        "imReady": audio_data(sfx_dir / "complete-im-ready.mp3"),
+        # Optional: keep the finale working even while a new completion clip is being swapped in.
+        "completion": audio_data(sfx_dir / "untitled_60.mp3") if (sfx_dir / "untitled_60.mp3").exists() else None,
+    }
+    intro_music = {
+        "title": "Game of Thrones",
+        "src": audio_data(sfx_dir / "abertura-game-of-thrones.mp3"),
     }
 
     out = template
@@ -39,6 +54,7 @@ def render(template_path, puzzle_path, date_str, greeting_html, signoff_html, ou
     out = out.replace("__PET_SPRITES__", "data:image/png;base64," + pet_data)
     out = out.replace("__MUSIC_JSON__", json.dumps(music, separators=(",", ":")))
     out = out.replace("__SFX_JSON__", json.dumps(sfx, separators=(",", ":")))
+    out = out.replace("__INTRO_MUSIC_JSON__", json.dumps(intro_music, separators=(",", ":")))
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(out)

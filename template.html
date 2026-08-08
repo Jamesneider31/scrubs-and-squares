@@ -116,6 +116,17 @@
     box-shadow: 0 0 0 2px #25170d, 0 5px 0 #140d09, inset 0 0 0 2px var(--frame-light);
     padding: 8px 15px 7px;
   }
+  .study-topic {
+    margin: -1px 0 2px;
+    color: #f5d98f;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #1e140d;
+  }
   .date {
     font-family: var(--serif);
     font-size: clamp(27px, 5vw, 38px);
@@ -239,6 +250,19 @@
     font-size: 12px;
     color: #ecd69e;
   }
+  .audio-controls {
+    width: 100%;
+    border: 2px solid #725a36;
+    background: rgba(14, 19, 16, .74);
+    color: #f4dfaf;
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  .audio-controls summary { cursor: pointer; color: var(--gold); font-weight: 800; }
+  .audio-control-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .audio-control-row label { min-width: 88px; }
+  .audio-control-row input[type="range"] { accent-color: var(--accent); width: min(180px, 100%); }
   .clues {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -278,6 +302,18 @@
   }
   .clue-item .n { font-family: var(--mono); color: var(--gold); flex-shrink: 0; }
   .clue-item.active { color: #fff4d7; font-weight: 700; }
+  .clue-rationale {
+    flex-basis: 100%;
+    margin: 2px 0 2px 22px;
+    padding: 7px 9px;
+    border-left: 2px solid var(--gold);
+    background: rgba(197, 148, 67, 0.12);
+    color: #f8d995;
+    font-size: 12px;
+    line-height: 1.4;
+    cursor: default;
+  }
+  .clue-rationale strong { color: var(--gold); }
   .clue-col { background: rgba(18, 22, 19, .92); border: 3px solid var(--frame); box-shadow: 0 0 0 2px #1e140d, inset 0 0 0 2px #b88346, 0 5px 0 #140d09; padding: 15px; }
   .signoff {
     font-family: var(--serif);
@@ -362,11 +398,23 @@
     color: var(--ink-soft);
     margin-bottom: 20px;
   }
+  .completion-pearl {
+    margin: 0 0 18px;
+    padding: 10px;
+    border-left: 2px solid var(--gold);
+    background: rgba(197, 148, 67, .12);
+    color: #f8d995;
+    font-size: 12px;
+    line-height: 1.45;
+    text-align: left;
+  }
+  .completion-pearl strong { color: var(--gold); }
 </style>
 
 <div class="page">
   <div class="masthead">
     <div class="eyebrow">Scrubs &amp; Squares</div>
+    <p class="study-topic" id="studyTopic"></p>
     <div class="date-row">
       <div class="pet pet-cat" aria-hidden="true"></div>
       <div class="date">__DATE_STR__</div>
@@ -385,6 +433,17 @@
       <button class="action secondary" id="musicBtn" type="button" aria-pressed="false">Music: Off</button>
       <span class="feedback" id="feedback">Fill in the grid, then press Enter (or hit Check).</span>
     </div>
+    <details class="audio-controls">
+      <summary>Audio settings</summary>
+      <div class="audio-control-row">
+        <label><input type="checkbox" id="musicEnabled"> Background music</label>
+        <input type="range" id="musicVolume" min="0" max="100" step="1" aria-label="Background music volume">
+      </div>
+      <div class="audio-control-row">
+        <label><input type="checkbox" id="effectsEnabled"> Answer sounds</label>
+        <input type="range" id="effectsVolume" min="0" max="100" step="1" aria-label="Answer sounds volume">
+      </div>
+    </details>
   </div>
 
   <div class="clues">
@@ -406,6 +465,7 @@
     <div class="celebrate-emoji">🎉</div>
     <div class="celebrate-title">Nice job, bae!</div>
     <div class="celebrate-sub" id="celebrateSub">You solved today's puzzle. Go get 'em at clinicals.</div>
+    <div class="completion-pearl" id="completionPearl" hidden></div>
     <div class="celebrate-attempts" id="celebrateAttempts"></div>
     <button class="action" id="celebrateClose">Close</button>
   </div>
@@ -415,8 +475,23 @@
   const PUZZLE = __PUZZLE_JSON__;
   const MUSIC = __MUSIC_JSON__;
   const SFX = __SFX_JSON__;
+  const INTRO_MUSIC = __INTRO_MUSIC_JSON__;
 
   const { width, height, cells, entries } = PUZZLE;
+  const puzzleId = PUZZLE.id || [document.title, width, height, entries.map(e => e.answer).join("-")].join(":");
+  const progressKey = "scrubs-squares:progress:" + puzzleId;
+  const preferencesKey = "scrubs-squares:audio-preferences";
+  const historyKey = "scrubs-squares:study-history";
+
+  function readStored(key, fallback) {
+    try { return JSON.parse(localStorage.getItem(key)) || fallback; }
+    catch (_) { return fallback; }
+  }
+  function writeStored(key, value) {
+    try { localStorage.setItem(key, JSON.stringify(value)); }
+    catch (_) { /* Private browsing or a full storage quota should not block play. */ }
+  }
+  document.getElementById("studyTopic").textContent = PUZZLE.topic ? "Today's focus: " + PUZZLE.topic : "Today's NCLEX review";
 
   // Map each letter cell to the across/down entries that pass through it.
   const cellEntries = {}; // "r,c" -> { across: entryIdx|null, down: entryIdx|null }
@@ -436,41 +511,80 @@
   const entrySolved = entries.map(() => false);
   let hasCelebrated = false;
 
+  const savedPreferences = readStored(preferencesKey, {});
   const musicPlayer = new Audio();
   musicPlayer.preload = "auto";
-  musicPlayer.volume = 0.24;
-  let musicEnabled = false;
+  let musicVolume = Number.isFinite(savedPreferences.musicVolume) ? savedPreferences.musicVolume : 0.24;
+  let effectsVolume = Number.isFinite(savedPreferences.effectsVolume) ? savedPreferences.effectsVolume : 0.55;
+  let musicEnabled = savedPreferences.musicEnabled !== false;
+  let effectsEnabled = savedPreferences.effectsEnabled !== false;
+  musicPlayer.volume = musicVolume;
   let lastTrackIndex = -1;
+  let introPlayed = false;
 
-  const effects = Object.fromEntries(Object.entries(SFX).map(([name, src]) => {
-    const effect = new Audio(src);
-    effect.preload = "auto";
-    effect.volume = 0.55;
-    return [name, effect];
+  const effects = Object.fromEntries(Object.entries(SFX).map(([name, sources]) => {
+    const sourceList = (Array.isArray(sources) ? sources : [sources]).filter(Boolean);
+    return [name, sourceList.map(src => {
+      const effect = new Audio(src);
+      effect.preload = "auto";
+      effect.volume = effectsVolume;
+      return effect;
+    })];
   }));
 
+  function chooseEffect(name) {
+    const choices = effects[name] || [];
+    return choices.length ? choices[Math.floor(Math.random() * choices.length)] : null;
+  }
+
   function playEffect(name) {
-    const effect = effects[name];
-    if (!effect) return;
+    const effect = chooseEffect(name);
+    if (!effect || !effectsEnabled) return;
     effect.pause();
     effect.currentTime = 0;
     effect.play().catch(() => {});
   }
 
   function playCompletionSounds() {
-    const levelUp = effects.levelUp;
-    const imReady = effects.imReady;
-    if (!levelUp || !imReady) return;
+    const levelUp = chooseEffect("levelUp");
+    const imReady = chooseEffect("imReady");
+    const completion = chooseEffect("completion");
+    if (!levelUp || !imReady || !effectsEnabled) return;
     imReady.pause();
     imReady.currentTime = 0;
-    levelUp.onended = () => playEffect("imReady");
-    playEffect("levelUp");
+    if (completion) {
+      completion.pause();
+      completion.currentTime = 0;
+    }
+    levelUp.onended = () => {
+      imReady.onended = () => {
+        if (completion) completion.play().catch(() => {});
+      };
+      imReady.play().catch(() => {});
+    };
+    levelUp.pause();
+    levelUp.currentTime = 0;
+    levelUp.play().catch(() => {});
   }
 
   function updateMusicButton() {
     const button = document.getElementById("musicBtn");
     button.textContent = musicEnabled ? "Music: On" : "Music: Off";
     button.setAttribute("aria-pressed", String(musicEnabled));
+  }
+
+  function saveAudioPreferences() {
+    writeStored(preferencesKey, { musicEnabled, effectsEnabled, musicVolume, effectsVolume });
+  }
+
+  function updateAudioControls() {
+    document.getElementById("musicEnabled").checked = musicEnabled;
+    document.getElementById("effectsEnabled").checked = effectsEnabled;
+    document.getElementById("musicVolume").value = Math.round(musicVolume * 100);
+    document.getElementById("effectsVolume").value = Math.round(effectsVolume * 100);
+    musicPlayer.volume = musicVolume;
+    Object.values(effects).flat().forEach(effect => { effect.volume = effectsVolume; });
+    updateMusicButton();
   }
 
   function chooseNextTrack() {
@@ -483,8 +597,16 @@
     lastTrackIndex = nextIndex;
     musicPlayer.src = MUSIC[nextIndex].src;
     musicPlayer.play().catch(() => {
-      musicEnabled = false;
-      updateMusicButton();
+      // Autoplay is often blocked. Keep the preference on and retry at first interaction.
+    });
+  }
+
+  function playIntroMusic() {
+    if (!INTRO_MUSIC || introPlayed) return;
+    introPlayed = true;
+    musicPlayer.src = INTRO_MUSIC.src;
+    musicPlayer.play().catch(() => {
+      introPlayed = false;
     });
   }
 
@@ -495,13 +617,49 @@
   document.getElementById("musicBtn").addEventListener("click", () => {
     musicEnabled = !musicEnabled;
     if (musicEnabled) {
-      if (musicPlayer.paused) chooseNextTrack();
+      if (musicPlayer.paused && !introPlayed) playIntroMusic();
+      else if (musicPlayer.paused) chooseNextTrack();
       else musicPlayer.play();
     } else {
       musicPlayer.pause();
     }
-    updateMusicButton();
+    saveAudioPreferences();
+    updateAudioControls();
   });
+  document.getElementById("musicEnabled").addEventListener("change", (ev) => {
+    musicEnabled = ev.target.checked;
+    if (musicEnabled && !introPlayed) playIntroMusic();
+    else if (musicEnabled) chooseNextTrack();
+    else musicPlayer.pause();
+    saveAudioPreferences();
+    updateAudioControls();
+  });
+  document.getElementById("effectsEnabled").addEventListener("change", (ev) => {
+    effectsEnabled = ev.target.checked;
+    saveAudioPreferences();
+    updateAudioControls();
+  });
+  document.getElementById("musicVolume").addEventListener("input", (ev) => {
+    musicVolume = Number(ev.target.value) / 100;
+    saveAudioPreferences();
+    updateAudioControls();
+  });
+  document.getElementById("effectsVolume").addEventListener("input", (ev) => {
+    effectsVolume = Number(ev.target.value) / 100;
+    saveAudioPreferences();
+    updateAudioControls();
+  });
+  updateAudioControls();
+  // Try straight away, then retry on the first user interaction if autoplay is blocked.
+  if (musicEnabled) playIntroMusic();
+  function unlockBackgroundMusic() {
+    if (musicEnabled && musicPlayer.paused) {
+      if (!introPlayed) playIntroMusic();
+      else chooseNextTrack();
+    }
+  }
+  document.addEventListener("pointerdown", unlockBackgroundMusic, { once: true });
+  document.addEventListener("keydown", unlockBackgroundMusic, { once: true });
 
   const gridEl = document.getElementById("grid");
   gridEl.style.gridTemplateColumns = "repeat(" + width + ", var(--cell-size))";
@@ -541,6 +699,66 @@
 
   let selected = null; // {r, c}
   let direction = "across";
+
+  function saveProgress() {
+    const letters = {};
+    Object.entries(inputs).forEach(([cellKey, input]) => { letters[cellKey] = input.value; });
+    writeStored(progressKey, {
+      letters,
+      attempts: entryAttempts,
+      solved: entrySolved,
+      hasCelebrated,
+      savedAt: new Date().toISOString(),
+    });
+  }
+
+  function recordStudyOutcome(entry, attempts) {
+    const history = readStored(historyKey, {});
+    const prior = history[entry.answer] || { seen: 0, tough: 0 };
+    history[entry.answer] = {
+      ...prior,
+      clue: entry.clue,
+      topic: entry.topic || PUZZLE.topic || "NCLEX Review",
+      seen: prior.seen + 1,
+      tough: prior.tough + (attempts > 1 ? 1 : 0),
+      lastAttempts: attempts,
+      lastSeen: new Date().toISOString(),
+    };
+    writeStored(historyKey, history);
+  }
+
+  function lockEntry(idx, shouldRevealPearl = true) {
+    const entry = entries[idx];
+    const dr = entry.direction === "down" ? 1 : 0;
+    const dc = entry.direction === "across" ? 1 : 0;
+    entrySolved[idx] = true;
+    for (let i = 0; i < entry.length; i++) {
+      const input = inputs[key(entry.row + dr * i, entry.col + dc * i)];
+      if (!input) continue;
+      input.readOnly = true;
+      input.classList.add("correct");
+      input.classList.remove("incorrect", "revealed");
+    }
+    if (shouldRevealPearl) revealRationale(entry);
+  }
+
+  function restoreProgress() {
+    const saved = readStored(progressKey, null);
+    if (!saved) return;
+    Object.entries(saved.letters || {}).forEach(([cellKey, value]) => {
+      if (inputs[cellKey]) inputs[cellKey].value = String(value || "").slice(0, 1);
+    });
+    (saved.attempts || []).forEach((attempts, idx) => {
+      if (idx < entryAttempts.length) entryAttempts[idx] = Number(attempts) || 0;
+    });
+    (saved.solved || []).forEach((solved, idx) => {
+      if (solved && idx < entrySolved.length) lockEntry(idx);
+    });
+    hasCelebrated = Boolean(saved.hasCelebrated);
+    if (Object.values(saved.letters || {}).some(Boolean)) {
+      document.getElementById("feedback").textContent = "Your saved progress is back. 💛";
+    }
+  }
 
   function entryFor(r, c, dir) {
     const ce = cellEntries[key(r, c)];
@@ -642,6 +860,7 @@
       const ce = cellEntries[k];
       if (ce.across !== null && ce.across !== undefined) checkEntryByIndex(ce.across);
       if (ce.down !== null && ce.down !== undefined) checkEntryByIndex(ce.down);
+      saveProgress();
     });
 
     input.addEventListener("keydown", (ev) => {
@@ -674,12 +893,22 @@
       const t = document.createElement("span");
       t.textContent = e.clue;
       li.appendChild(t);
+      if (e.rationale) {
+        const rationale = document.createElement("span");
+        rationale.className = "clue-rationale";
+        rationale.hidden = true;
+        const label = document.createElement("strong");
+        label.textContent = "Clinical pearl: ";
+        rationale.append(label, document.createTextNode(e.rationale));
+        li.appendChild(rationale);
+      }
       li.addEventListener("click", () => selectCell(e.row, e.col, e.direction));
       container.appendChild(li);
     });
   }
   buildClueList("across", "acrossList");
   buildClueList("down", "downList");
+  restoreProgress();
 
   const totalCells = Object.keys(inputs).length;
 
@@ -702,6 +931,20 @@
 
     const list = document.getElementById("celebrateAttempts");
     list.innerHTML = "";
+    const pearl = entries
+      .map((entry, idx) => ({ entry, attempts: entryAttempts[idx] }))
+      .filter(({ entry }) => entry.rationale)
+      .sort((a, b) => b.attempts - a.attempts || a.entry.number - b.entry.number)[0];
+    const pearlEl = document.getElementById("completionPearl");
+    if (pearl) {
+      pearlEl.hidden = false;
+      pearlEl.replaceChildren();
+      const label = document.createElement("strong");
+      label.textContent = "Today's clinical pearl — ";
+      pearlEl.append(label, document.createTextNode(pearl.entry.rationale));
+    } else {
+      pearlEl.hidden = true;
+    }
     entries
       .map((e, idx) => ({ e, attempts: entryAttempts[idx] }))
       .sort((a, b) => a.e.number - b.e.number || a.e.direction.localeCompare(b.e.direction))
@@ -729,7 +972,16 @@
       buildAttemptsSummary();
       playCompletionSounds();
       showCelebration();
+      saveProgress();
     }
+  }
+
+  function revealRationale(entry) {
+    const clueEl = document.querySelector(
+      '.clue-item[data-dir="' + entry.direction + '"][data-num="' + entry.number + '"]'
+    );
+    const rationaleEl = clueEl && clueEl.querySelector(".clue-rationale");
+    if (rationaleEl) rationaleEl.hidden = false;
   }
 
   function checkEntryByIndex(idx) {
@@ -757,16 +1009,14 @@
       }
     });
     if (allCorrect) {
-      entrySolved[idx] = true;
-      entryCells.forEach(({ inp }) => {
-        inp.readOnly = true;
-        inp.classList.remove("incorrect");
-      });
+      lockEntry(idx);
+      recordStudyOutcome(entry, entryAttempts[idx]);
       playEffect("correct");
       maybeCelebrate();
     } else {
       playEffect("incorrect");
     }
+    saveProgress();
   }
 
   function runCheck() {
@@ -800,5 +1050,6 @@
     });
     hasCelebrated = true; // revealing isn't solving it — don't pop the celebration
     document.getElementById("feedback").textContent = "Answers revealed.";
+    saveProgress();
   });
 </script>

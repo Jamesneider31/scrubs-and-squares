@@ -15,6 +15,8 @@ import json
 import random
 import re
 import sys
+import hashlib
+from collections import Counter
 
 
 def normalize_word(raw):
@@ -53,7 +55,7 @@ def can_place(grid, word, row, col, direction):
     return crossed
 
 
-def build_puzzle(entries, seed=None, max_words=16):
+def _build_puzzle_once(entries, seed=None, max_words=16):
     """entries: list of {"word": str, "clue": str}. Returns puzzle dict."""
     rng = random.Random(seed)
 
@@ -61,9 +63,14 @@ def build_puzzle(entries, seed=None, max_words=16):
     for e in entries:
         w = normalize_word(e["word"])
         if len(w) >= 3:
-            cleaned.append({"word": w, "clue": e["clue"].strip()})
+            cleaned.append({
+                "word": w,
+                "clue": e["clue"].strip(),
+                "rationale": e.get("rationale", "").strip(),
+                "topic": e.get("topic", "NCLEX Review").strip() or "NCLEX Review",
+            })
     # longest first tends to build a sturdier scaffold
-    cleaned.sort(key=lambda e: len(e["word"]), reverse=True)
+    cleaned.sort(key=lambda e: (-len(e["word"]), rng.random()))
     cleaned = cleaned[:max_words]
 
     grid = {}
@@ -73,7 +80,7 @@ def build_puzzle(entries, seed=None, max_words=16):
 
     for i, ch in enumerate(first["word"]):
         grid[(0, i)] = ch
-    placed.append({"word": first["word"], "clue": first["clue"], "row": 0, "col": 0, "direction": "across"})
+    placed.append({"word": first["word"], "clue": first["clue"], "rationale": first["rationale"], "topic": first["topic"], "row": 0, "col": 0, "direction": "across"})
 
     def bbox():
         rs = [r for r, c in grid]
@@ -114,7 +121,7 @@ def build_puzzle(entries, seed=None, max_words=16):
                 dr, dc = (0, 1) if direction == "across" else (1, 0)
                 for i, ch in enumerate(word):
                     grid[(row + dr * i, col + dc * i)] = ch
-                placed.append({"word": word, "clue": entry["clue"], "row": row, "col": col, "direction": direction})
+                placed.append({"word": word, "clue": entry["clue"], "rationale": entry["rationale"], "topic": entry["topic"], "row": row, "col": col, "direction": direction})
             else:
                 still_left.append(entry)
         return still_left
@@ -163,6 +170,8 @@ def build_puzzle(entries, seed=None, max_words=16):
             "length": len(p["word"]),
             "answer": p["word"],
             "clue": p["clue"],
+            "rationale": p["rationale"],
+            "topic": p["topic"],
         })
     entries_out.sort(key=lambda e: (e["number"], e["direction"]))
 
@@ -170,13 +179,67 @@ def build_puzzle(entries, seed=None, max_words=16):
     for (r, c), ch in norm_grid.items():
         cells[r][c] = ch
 
+    topic = Counter(e["topic"] for e in entries_out).most_common(1)[0][0]
+    puzzle_id_source = "|".join(
+        f"{e['answer']}:{e['clue']}:{e['row']}:{e['col']}:{e['direction']}"
+        for e in entries_out
+    )
     return {
+        "id": hashlib.sha256(puzzle_id_source.encode("utf-8")).hexdigest()[:16],
+        "topic": topic,
         "width": width,
         "height": height,
         "cells": cells,
         "numbers": {f"{r},{c}": n for (r, c), n in numbers.items()},
         "entries": entries_out,
     }
+
+
+def _layout_score(puzzle):
+    """Favor complete, compact grids with plenty of crossings and balanced directions."""
+    entries = puzzle["entries"]
+    filled = sum(cell is not None for row in puzzle["cells"] for cell in row)
+    area = puzzle["width"] * puzzle["height"]
+    across = sum(e["direction"] == "across" for e in entries)
+    down = len(entries) - across
+    crossings = sum(
+        1 for r, row in enumerate(puzzle["cells"])
+        for c, cell in enumerate(row)
+        if cell is not None and sum(
+            e["row"] <= r < e["row"] + (e["length"] if e["direction"] == "down" else 1)
+            and e["col"] <= c < e["col"] + (e["length"] if e["direction"] == "across" else 1)
+            for e in entries
+        ) > 1
+    )
+    compactness = filled / area if area else 0
+    balance = 1 - abs(across - down) / max(1, len(entries))
+    return len(entries) * 10000 + crossings * 180 + compactness * 100 + balance * 30
+
+
+def build_puzzle(entries, seed=None, max_words=16, retries=36):
+    """Generate several valid layouts, then keep the most compact, cross-rich one."""
+    seed_rng = random.Random(seed)
+    best = None
+    best_score = float("-inf")
+    errors = []
+    for _ in range(max(1, retries)):
+        attempt_seed = seed_rng.randrange(2**32)
+        try:
+            candidate = _build_puzzle_once(entries, seed=attempt_seed, max_words=max_words)
+        except ValueError as exc:
+            errors.append(str(exc))
+            continue
+        score = _layout_score(candidate)
+        if score > best_score:
+            best, best_score = candidate, score
+    if best is None:
+        raise ValueError(errors[-1] if errors else "Could not build a valid crossword layout.")
+    best["quality"] = {
+        "layout_attempts": max(1, retries),
+        "score": round(best_score, 1),
+        "placed_entries": len(best["entries"]),
+    }
+    return best
 
 
 if __name__ == "__main__":
