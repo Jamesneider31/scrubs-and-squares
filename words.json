@@ -1,26 +1,134 @@
 [
-  {"word": "STERILE", "clue": "Free of all living microorganisms, the standard required for procedures like urinary catheter insertion", "rationale": "The nurse maintains this technique when inserting a urinary catheter to avoid introducing pathogens into a normally sterile space.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "HYPOXIA", "clue": "Inadequate oxygen supply reaching the body's tissues", "rationale": "A confused or restless patient can still be experiencing this at the tissue level even with a reassuring pulse oximeter reading, so the nurse assesses the whole clinical picture.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "WHEEZING", "clue": "High-pitched, whistling breath sound produced by narrowed airways", "rationale": "The nurse listens for this sound in a patient having an asthma exacerbation and reassesses after bronchodilator treatment.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "MELENA", "clue": "Black, tarry stool caused by digested blood from an upper GI bleed", "rationale": "The nurse recognizes this as a red-flag stool finding that warrants immediate provider notification and a hemoglobin check.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "POLYURIA", "clue": "Abnormally large volume of urine output", "rationale": "This finding paired with polydipsia and unexplained weight loss should raise suspicion for undiagnosed diabetes.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "DYSURIA", "clue": "Painful or difficult urination", "rationale": "The nurse asks about this symptom when screening a patient for a urinary tract infection.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "ARREST", "clue": "Sudden loss of effective heart or lung function", "rationale": "The nurse begins CPR immediately when a patient has no pulse and is not breathing.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "AIRBORNE", "clue": "Type of infection-control precaution required for pathogens like tuberculosis that spread via tiny suspended particles", "rationale": "A patient with suspected tuberculosis is placed in a negative-pressure room under this type of precaution.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "PRODROME", "clue": "Early phase of an illness with vague symptoms before its classic signs appear", "rationale": "The nurse recognizes this early phase can already be contagious, even before a classic rash like varicella's appears.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "PULSE", "clue": "Palpable, rhythmic surge of blood felt over an artery with each heartbeat", "rationale": "The nurse checks this at multiple sites to confirm adequate circulation distal to a new cast or dressing.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "RALES", "clue": "Fine, crackling lung sounds often heard when fluid is present in the alveoli", "rationale": "The nurse suspects fluid overload when hearing this crackling sound at the lung bases.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "ISOLATION", "clue": "Precaution category, such as contact or airborne, used to prevent pathogen transmission", "rationale": "The nurse selects the correct category of this based on how the specific pathogen actually spreads.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "NOSOCOMIAL", "clue": "Describes an infection acquired during a hospital stay", "rationale": "Meticulous hand hygiene is the single best defense against this type of hospital-acquired infection.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "PROPHYLAXIS", "clue": "Preventive treatment given before exposure or onset of disease", "rationale": "The nurse starts this promptly after a needlestick exposure, since timing affects how well it works.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "VIRULENCE", "clue": "A pathogen's relative capacity to cause disease", "rationale": "A highly virulent organism can cause serious illness even from a small infecting dose.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "HYPERCAPNIA", "clue": "Elevated level of carbon dioxide in the blood", "rationale": "The nurse watches for confusion and headache as early signs of this in a patient with worsening COPD.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "BRADYPNEA", "clue": "Abnormally slow respiratory rate", "rationale": "Opioid overdose classically causes this slow breathing pattern, which the nurse treats urgently with naloxone.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "ATELECTASIS", "clue": "Collapse of alveoli that reduces gas exchange in part of the lung", "rationale": "The nurse encourages incentive spirometry after surgery to help prevent this postoperative lung complication.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "PNEUMOTHORAX", "clue": "Presence of air in the pleural space causing partial or full lung collapse", "rationale": "Sudden sharp chest pain with absent breath sounds on one side should make the nurse suspect this emergency.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "HEMOPTYSIS", "clue": "Coughing up blood that originates from the lungs or airway", "rationale": "The nurse distinguishes this from vomited blood by asking whether it was coughed up versus vomited.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "DYSPHAGIA", "clue": "Difficulty swallowing", "rationale": "The nurse keeps a stroke patient NPO until a swallow evaluation rules out this aspiration risk.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "ECCHYMOSIS", "clue": "A bruise; blood pooling under the skin, larger than a petechia", "rationale": "Unexplained, spreading areas of this on a patient taking an anticoagulant warrant closer monitoring.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "TOURNIQUET", "clue": "Tight constricting band applied to control severe extremity hemorrhage", "rationale": "The nurse applies this device high and tight on a limb only when direct pressure fails to control life-threatening bleeding.", "topic": "Respiratory & Emergency Care Wednesday"},
-  {"word": "TACHYPNEA", "clue": "Abnormally rapid respiratory rate", "rationale": "The nurse recognizes this rapid breathing pattern as an early compensatory sign of respiratory distress or acidosis.", "topic": "Respiratory & Emergency Care Wednesday"}
+  {
+    "word": "VOID",
+    "clue": "To empty the bladder; nurses confirm this has happened before discharge after anesthesia",
+    "rationale": "The nurse checks for this before letting a post-op patient go home, since urinary retention after anesthesia can otherwise go unnoticed.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "GOITER",
+    "clue": "Visible enlargement of the thyroid gland",
+    "rationale": "The nurse palpates the neck for this finding when screening for thyroid dysfunction.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "BIOPSY",
+    "clue": "Removal of a tissue sample for pathological diagnosis",
+    "rationale": "The nurse prepares the patient for this procedure and provides site care instructions afterward.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "ASSAULT",
+    "clue": "A threat or attempt to touch a patient without consent that creates fear of harm, even without contact",
+    "rationale": "The nurse understands this tort occurs the moment a patient reasonably fears unwanted contact, distinguishing it from battery.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "BATTERY",
+    "clue": "Intentional, unauthorized physical contact with a patient",
+    "rationale": "The nurse obtains informed consent before any procedure to avoid committing this tort.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "AIRWAY",
+    "clue": "The first priority letter in the ABC framework of patient assessment",
+    "rationale": "The nurse addresses this before circulation whenever prioritizing care for an unstable patient.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "HOSPICE",
+    "clue": "Interdisciplinary care model focused on comfort for patients in the last phase of a terminal illness",
+    "rationale": "The nurse refers a family to this service once curative treatment is no longer the patient's goal.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "FISTULA",
+    "clue": "Abnormal connection between two body structures, such as a surgically created AV access for dialysis",
+    "rationale": "The nurse auscultates this access site for a bruit and palpates for a thrill to confirm patency before each dialysis session.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "LIGATURE",
+    "clue": "Suture or wire tied around a blood vessel to stop bleeding",
+    "rationale": "The surgeon places this during a procedure, and the nurse monitors the site afterward for any sign it has slipped.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "MYXEDEMA",
+    "clue": "Severe, longstanding hypothyroidism causing non-pitting swelling of the face and skin",
+    "rationale": "The nurse recognizes this life-threatening endocrine emergency can progress to coma if the underlying thyroid deficiency isn't treated.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "ANESTHESIA",
+    "clue": "Medically induced loss of sensation before a surgical procedure",
+    "rationale": "The nurse reviews the patient's airway history and allergies before this is administered.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "NEGLIGENCE",
+    "clue": "Failure to act as a reasonably prudent nurse would under similar circumstances, resulting in patient harm",
+    "rationale": "The nurse documents thoroughly to defend against a future claim of this if a patient outcome is questioned.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "MALPRACTICE",
+    "clue": "Professional negligence by a licensed provider that directly causes patient injury",
+    "rationale": "The nurse understands this claim requires proving duty, breach, causation, and actual harm.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "HYPERGLYCEMIA",
+    "clue": "Abnormally high blood glucose level",
+    "rationale": "The nurse checks a fingerstick glucose when a diabetic patient reports blurred vision and excessive thirst, suspecting this.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "POLYDIPSIA",
+    "clue": "Excessive thirst, a classic early sign of uncontrolled diabetes",
+    "rationale": "The nurse asks about this symptom alongside frequent urination and unexplained weight loss when screening for new-onset diabetes.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "POLYPHAGIA",
+    "clue": "Excessive hunger seen with uncontrolled diabetes despite adequate food intake",
+    "rationale": "The nurse recognizes this symptom, together with polyuria and polydipsia, as one of the classic three signs of diabetes.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "KETONURIA",
+    "clue": "Presence of ketone bodies in the urine, seen in diabetic ketoacidosis",
+    "rationale": "The nurse tests for this at the bedside when a type 1 diabetic patient presents with fruity breath and deep, rapid breathing.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "INSUFFLATION",
+    "clue": "Introduction of gas, such as carbon dioxide, into a body cavity during laparoscopic surgery",
+    "rationale": "The nurse anticipates the patient may report referred shoulder pain after this gas is used to expand the abdominal cavity for visibility.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "HEMATEMESIS",
+    "clue": "Vomiting of blood, often indicating an upper gastrointestinal bleed",
+    "rationale": "The nurse notifies the provider immediately when a patient reports this, anticipating a need for urgent endoscopy.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "DELEGATION",
+    "clue": "Assigning a task to another qualified team member while retaining accountability for the outcome",
+    "rationale": "The nurse uses the five rights of this process to decide whether a task can safely go to unlicensed assistive personnel.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "PALLIATIVE",
+    "clue": "Care focused on comfort and symptom relief rather than curing the underlying disease",
+    "rationale": "The nurse coordinates this type of care for a patient with a serious illness, regardless of whether curative treatment continues.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  },
+  {
+    "word": "METASTASIS",
+    "clue": "Spread of cancer cells from the primary tumor site to a distant location in the body",
+    "rationale": "The nurse understands staging depends heavily on whether this has occurred, guiding both prognosis and treatment plan.",
+    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+  }
 ]
