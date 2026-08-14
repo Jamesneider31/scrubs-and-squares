@@ -1,134 +1,128 @@
 [
   {
-    "word": "VOID",
-    "clue": "To empty the bladder; nurses confirm this has happened before discharge after anesthesia",
-    "rationale": "The nurse checks for this before letting a post-op patient go home, since urinary retention after anesthesia can otherwise go unnoticed.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "STAT",
+    "clue": "Immediately — a physician's order priority meaning the task is carried out with no delay",
+    "rationale": "The nurse recognizes this designation on an order means it takes priority over routine care and is carried out right away.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "GOITER",
-    "clue": "Visible enlargement of the thyroid gland",
-    "rationale": "The nurse palpates the neck for this finding when screening for thyroid dysfunction.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "EDEMA",
+    "clue": "Swelling caused by excess fluid trapped in the body's tissues",
+    "rationale": "The nurse grades this finding on a 1+ to 4+ scale when assessing a patient's extremities for fluid overload.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "BIOPSY",
-    "clue": "Removal of a tissue sample for pathological diagnosis",
-    "rationale": "The nurse prepares the patient for this procedure and provides site care instructions afterward.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "PALLOR",
+    "clue": "Abnormal paleness of the skin, often signaling poor perfusion or low hemoglobin",
+    "rationale": "The nurse notes this finding in a patient with a low hemoglobin and anticipates a possible transfusion.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "ASSAULT",
-    "clue": "A threat or attempt to touch a patient without consent that creates fear of harm, even without contact",
-    "rationale": "The nurse understands this tort occurs the moment a patient reasonably fears unwanted contact, distinguishing it from battery.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "ANEMIA",
+    "clue": "Condition marked by a deficiency of red blood cells or hemoglobin, reducing the blood's oxygen-carrying capacity",
+    "rationale": "The nurse expects fatigue and pallor in a patient with this diagnosis and monitors for worsening tachycardia.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "BATTERY",
-    "clue": "Intentional, unauthorized physical contact with a patient",
-    "rationale": "The nurse obtains informed consent before any procedure to avoid committing this tort.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "SEPSIS",
+    "clue": "Life-threatening organ dysfunction caused by a dysregulated body response to infection",
+    "rationale": "The nurse initiates the one-hour bundle, including blood cultures and broad-spectrum antibiotics, the moment this is suspected.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "AIRWAY",
-    "clue": "The first priority letter in the ABC framework of patient assessment",
-    "rationale": "The nurse addresses this before circulation whenever prioritizing care for an unstable patient.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "TRIAGE",
+    "clue": "The process of sorting patients by urgency to prioritize who is treated first",
+    "rationale": "The nurse uses this system at the start of a shift or during a mass casualty event to decide which patient needs attention first.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "HOSPICE",
-    "clue": "Interdisciplinary care model focused on comfort for patients in the last phase of a terminal illness",
-    "rationale": "The nurse refers a family to this service once curative treatment is no longer the patient's goal.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "EMESIS",
+    "clue": "The act of vomiting",
+    "rationale": "The nurse positions a post-op patient on their side and keeps suction available in case this occurs while sedation wears off.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "FISTULA",
-    "clue": "Abnormal connection between two body structures, such as a surgically created AV access for dialysis",
-    "rationale": "The nurse auscultates this access site for a bruit and palpates for a thrill to confirm patency before each dialysis session.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "GAVAGE",
+    "clue": "Feeding delivered directly into the stomach through a tube",
+    "rationale": "The nurse checks tube placement and residual volume before administering this type of feeding to an intubated or dysphagic patient.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "LIGATURE",
-    "clue": "Suture or wire tied around a blood vessel to stop bleeding",
-    "rationale": "The surgeon places this during a procedure, and the nurse monitors the site afterward for any sign it has slipped.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "REFLUX",
+    "clue": "Backward flow of stomach contents into the esophagus",
+    "rationale": "The nurse teaches a patient to avoid lying flat after meals to reduce this and the heartburn it causes.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "MYXEDEMA",
-    "clue": "Severe, longstanding hypothyroidism causing non-pitting swelling of the face and skin",
-    "rationale": "The nurse recognizes this life-threatening endocrine emergency can progress to coma if the underlying thyroid deficiency isn't treated.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "SYNCOPE",
+    "clue": "Brief loss of consciousness caused by a temporary drop in blood flow to the brain",
+    "rationale": "The nurse checks orthostatic vital signs after a patient reports this, suspecting a drop in blood pressure on standing.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "ANESTHESIA",
-    "clue": "Medically induced loss of sensation before a surgical procedure",
-    "rationale": "The nurse reviews the patient's airway history and allergies before this is administered.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "DYSPNEA",
+    "clue": "Subjective sensation of difficult or labored breathing",
+    "rationale": "The nurse elevates the head of the bed and applies supplemental oxygen when a patient reports this symptom.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "NEGLIGENCE",
-    "clue": "Failure to act as a reasonably prudent nurse would under similar circumstances, resulting in patient harm",
-    "rationale": "The nurse documents thoroughly to defend against a future claim of this if a patient outcome is questioned.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "ACIDOSIS",
+    "clue": "A condition of excess acid accumulation that lowers the blood's pH below normal",
+    "rationale": "The nurse interprets an arterial blood gas with a pH under 7.35 as evidence of this.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "MALPRACTICE",
-    "clue": "Professional negligence by a licensed provider that directly causes patient injury",
-    "rationale": "The nurse understands this claim requires proving duty, breach, causation, and actual harm.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "AZOTEMIA",
+    "clue": "Elevated nitrogenous waste products, such as BUN and creatinine, in the blood",
+    "rationale": "The nurse trends the BUN and creatinine and recognizes a rising pattern as evidence of this developing.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "HYPERGLYCEMIA",
-    "clue": "Abnormally high blood glucose level",
-    "rationale": "The nurse checks a fingerstick glucose when a diabetic patient reports blurred vision and excessive thirst, suspecting this.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "DIALYSIS",
+    "clue": "Mechanical filtering of the blood to remove wastes and excess fluid when the kidneys fail",
+    "rationale": "The nurse withholds antihypertensives before a scheduled session of this treatment to prevent intradialytic hypotension.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "POLYDIPSIA",
-    "clue": "Excessive thirst, a classic early sign of uncontrolled diabetes",
-    "rationale": "The nurse asks about this symptom alongside frequent urination and unexplained weight loss when screening for new-onset diabetes.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "CLUBBING",
+    "clue": "Bulbous enlargement of the fingertips and nail beds seen with chronic hypoxia",
+    "rationale": "The nurse inspects the fingertips of a patient with longstanding lung disease for this classic sign of chronic low oxygen.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "POLYPHAGIA",
-    "clue": "Excessive hunger seen with uncontrolled diabetes despite adequate food intake",
-    "rationale": "The nurse recognizes this symptom, together with polyuria and polydipsia, as one of the classic three signs of diabetes.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "ANASARCA",
+    "clue": "Severe, generalized edema affecting the entire body",
+    "rationale": "The nurse recognizes this widespread swelling in a patient with heart failure or severe kidney disease as a sign of significant fluid overload.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "KETONURIA",
-    "clue": "Presence of ketone bodies in the urine, seen in diabetic ketoacidosis",
-    "rationale": "The nurse tests for this at the bedside when a type 1 diabetic patient presents with fruity breath and deep, rapid breathing.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "GLYCOSURIA",
+    "clue": "Presence of glucose in the urine",
+    "rationale": "The nurse expects this finding once a patient's blood glucose exceeds the kidney's ability to reabsorb it.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "INSUFFLATION",
-    "clue": "Introduction of gas, such as carbon dioxide, into a body cavity during laparoscopic surgery",
-    "rationale": "The nurse anticipates the patient may report referred shoulder pain after this gas is used to expand the abdominal cavity for visibility.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "DISTENTION",
+    "clue": "Abdominal swelling caused by trapped gas, fluid, or a bowel obstruction",
+    "rationale": "The nurse measures abdominal girth daily in a patient with this finding to track whether it's worsening.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "HEMATEMESIS",
-    "clue": "Vomiting of blood, often indicating an upper gastrointestinal bleed",
-    "rationale": "The nurse notifies the provider immediately when a patient reports this, anticipating a need for urgent endoscopy.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "HYPERKALEMIA",
+    "clue": "Abnormally elevated potassium level in the blood",
+    "rationale": "The nurse watches for peaked T waves on the cardiac monitor as an early warning sign of this electrolyte imbalance.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "DELEGATION",
-    "clue": "Assigning a task to another qualified team member while retaining accountability for the outcome",
-    "rationale": "The nurse uses the five rights of this process to decide whether a task can safely go to unlicensed assistive personnel.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "PANCREATITIS",
+    "clue": "Inflammation of the pancreas, often caused by gallstones or heavy alcohol use",
+    "rationale": "The nurse keeps a patient with this condition NPO and monitors serum amylase and lipase levels.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   },
   {
-    "word": "PALLIATIVE",
-    "clue": "Care focused on comfort and symptom relief rather than curing the underlying disease",
-    "rationale": "The nurse coordinates this type of care for a patient with a serious illness, regardless of whether curative treatment continues.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
-  },
-  {
-    "word": "METASTASIS",
-    "clue": "Spread of cancer cells from the primary tumor site to a distant location in the body",
-    "rationale": "The nurse understands staging depends heavily on whether this has occurred, guiding both prognosis and treatment plan.",
-    "topic": "Perioperative, Endocrine & Legal-Ethical Thursday"
+    "word": "PERITONITIS",
+    "clue": "Inflammation of the peritoneal lining, a surgical emergency often caused by a ruptured organ",
+    "rationale": "The nurse recognizes rebound tenderness and a rigid, board-like abdomen as classic signs of this life-threatening complication.",
+    "topic": "Renal, Metabolic & Rapid-Response Friday"
   }
 ]
