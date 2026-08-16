@@ -1,140 +1,146 @@
 [
   {
-    "word": "SBAR",
-    "clue": "Standardized handoff framework covering Situation, Background, Assessment, and Recommendation",
-    "rationale": "The nurse uses this framework to hand off a patient safely between shifts or when calling a provider with a concern.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "MANIA",
+    "clue": "Period of abnormally elevated mood, energy, and impulsivity seen in bipolar disorder",
+    "rationale": "The nurse recognizes this state to prioritize safety precautions and de-escalation for a client with bipolar disorder.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "SHARPS",
-    "clue": "Category of used needles and blades that must go into a dedicated puncture-resistant container",
-    "rationale": "The nurse never recaps a used needle and instead drops it straight into this labeled container to prevent an accidental stick.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "LITHIUM",
+    "clue": "Mood-stabilizing drug for bipolar disorder that requires monitoring of narrow therapeutic serum levels",
+    "rationale": "The nurse monitors serum trough levels and reminds the client to maintain steady fluid and sodium intake while taking this drug.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "LIPASE",
-    "clue": "Pancreatic enzyme whose blood level rises sharply with acute pancreatitis",
-    "rationale": "The nurse trends this enzyme level, more specific to the pancreas than amylase, when acute pancreatitis is suspected.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "DELIRIUM",
+    "clue": "Acute, fluctuating disturbance in attention and cognition, often reversible and tied to an underlying medical cause",
+    "rationale": "The nurse distinguishes this acute state from dementia and searches for a reversible cause such as infection or a new medication.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "FERRITIN",
-    "clue": "Protein that reflects how much iron is stored in the body",
-    "rationale": "The nurse checks this lab value, not just hemoglobin, to distinguish true iron-deficiency anemia from anemia of chronic disease.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "DEMENTIA",
+    "clue": "Progressive, chronic decline in cognitive function that impairs daily functioning",
+    "rationale": "The nurse tailors communication and safety planning for a client living with this chronic, progressive cognitive decline.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "AMYLASE",
-    "clue": "Digestive enzyme that rises in the blood during acute pancreatitis",
-    "rationale": "The nurse anticipates this enzyme, along with lipase, will be drawn when a patient presents with severe epigastric pain radiating to the back.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "ECHOLALIA",
+    "clue": "Meaningless repetition of another person's spoken words",
+    "rationale": "The nurse documents this speech pattern when assessing a client's mental status or communication style.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "ANION",
-    "clue": "___ gap: a calculated value that helps classify the underlying cause of metabolic acidosis",
-    "rationale": "The nurse calculates this gap from the electrolyte panel to help the team decide whether the acidosis is from an unmeasured acid or a bicarbonate loss.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "TACHYCARDIA",
+    "clue": "Adult heart rate above 100 beats per minute",
+    "rationale": "The nurse notifies the provider when a client's heart rate crosses this threshold, especially alongside hypotension or chest pain.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "BIOFILM",
-    "clue": "Protective matrix of microorganisms that forms on catheters and implants, resisting antibiotics",
-    "rationale": "The nurse knows this matrix is why a long-dwelling central line often needs to be removed rather than just treated with antibiotics.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "BRADYCARDIA",
+    "clue": "Adult heart rate below 60 beats per minute",
+    "rationale": "The nurse holds a beta-blocker and notifies the provider when the apical pulse falls below this threshold.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "LETHARGY",
-    "clue": "Abnormal drowsiness or sluggishness, often an early sign of a declining level of consciousness",
-    "rationale": "The nurse treats a new onset of this finding as a red flag warranting an immediate neuro check.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "MURMUR",
+    "clue": "Abnormal heart sound caused by turbulent blood flow across a valve",
+    "rationale": "The nurse auscultates the heart and documents this sound's grade, timing, and location when assessing valve function.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "ERYTHEMA",
-    "clue": "Redness of the skin caused by increased blood flow through the capillaries",
-    "rationale": "The nurse circles and dates the border of this finding around an IV site to track whether it's spreading.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "CYANOSIS",
+    "clue": "Bluish discoloration of skin and mucous membranes from inadequate oxygenation",
+    "rationale": "The nurse checks the lips and nail beds for this sign of poor oxygenation and applies supplemental oxygen as ordered.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "OBTUNDED",
-    "clue": "Descriptor for a patient who is dulled in alertness and slow to respond to stimuli",
-    "rationale": "The nurse uses this term, one step past lethargic on the LOC continuum, when documenting a patient who rouses only briefly to a loud voice.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "ORTHOPNEA",
+    "clue": "Shortness of breath that worsens when lying flat and eases when sitting upright",
+    "rationale": "The nurse elevates the head of the bed and asks how many pillows the client needs to sleep because of this symptom.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "ESCALATE",
-    "clue": "What the nurse does when a patient's condition worsens beyond what can be safely managed alone",
-    "rationale": "The nurse does this up the chain of command when a concern isn't addressed after using the standard chain of communication.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "STRIDOR",
+    "clue": "High-pitched, harsh sound signaling upper airway obstruction",
+    "rationale": "The nurse treats this sound as an emergency, since it signals a narrowing upper airway that can rapidly obstruct.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "PLATELET",
-    "clue": "Blood cell fragment essential for forming a clot",
-    "rationale": "The nurse holds a scheduled injection and watches for bruising when this count drops critically low.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "WHEEZING",
+    "clue": "Musical, high-pitched breath sound heard on expiration from narrowed airways",
+    "rationale": "The nurse auscultates the lungs and prepares a bronchodilator when this sound indicates narrowed airways.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "NEUTROPENIC",
-    "clue": "Type of precaution used to protect a patient whose white blood cell count is dangerously low",
-    "rationale": "The nurse restricts fresh flowers and raw produce for a patient on this type of precaution after chemotherapy.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "CREPITUS",
+    "clue": "Crackling, grating sensation felt under the skin, as with subcutaneous emphysema",
+    "rationale": "The nurse palpates the skin around a chest tube insertion site to detect this sign of air trapped in subcutaneous tissue.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "SURVEILLANCE",
-    "clue": "Ongoing, systematic tracking of infection rates used to catch an outbreak early",
-    "rationale": "The infection preventionist relies on this ongoing tracking to spot a cluster of hospital-acquired infections before it grows.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "CLONUS",
+    "clue": "Rhythmic, involuntary muscle contractions elicited on ankle dorsiflexion, assessed in severe preeclampsia",
+    "rationale": "The nurse tests ankle dorsiflexion to check for this finding when assessing a client with severe preeclampsia.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "PARESTHESIA",
-    "clue": "Abnormal tingling or 'pins and needles' sensation, sometimes signaling nerve compression",
-    "rationale": "The nurse checks for this sensation distal to a new cast as part of a neurovascular assessment.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "PREECLAMPSIA",
+    "clue": "New-onset hypertension with proteinuria or end-organ involvement after 20 weeks' gestation",
+    "rationale": "The nurse monitors blood pressure and urine protein to screen a pregnant client for this hypertensive complication.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "DECUBITUS",
-    "clue": "___ ulcer: a pressure injury that develops over a bony prominence",
-    "rationale": "The nurse repositions a bedbound patient at least every two hours to prevent this type of ulcer from developing over the sacrum or heels.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "ECLAMPSIA",
+    "clue": "Onset of new seizure activity in a woman with preeclampsia",
+    "rationale": "The nurse keeps magnesium sulfate and seizure precautions at the bedside to prepare for this obstetric emergency.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "BICARBONATE",
-    "clue": "Buffer ion the kidneys retain to compensate for respiratory acidosis",
-    "rationale": "The nurse expects this value to rise on an ABG as the kidneys slowly compensate for a patient's chronic CO2 retention.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "FUNDUS",
+    "clue": "Top portion of the uterus, palpated after birth to assess involution",
+    "rationale": "The nurse palpates this postpartum landmark to confirm the uterus is firm and descending as expected.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "PROTHROMBIN",
-    "clue": "___ time: a clotting test used to monitor a patient on warfarin therapy",
-    "rationale": "The nurse holds a dose of warfarin and notifies the provider when this test comes back critically prolonged.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "INVOLUTION",
+    "clue": "Postpartum return of the uterus to its pre-pregnancy size and position",
+    "rationale": "The nurse tracks fundal height each shift to monitor this expected postpartum process.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "HEMOGLOBIN",
-    "clue": "Oxygen-carrying protein in red blood cells that runs low when a patient is anemic",
-    "rationale": "The nurse trends this value after a GI bleed to decide whether a transfusion is needed.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "MECONIUM",
+    "clue": "Newborn's first stool, thick, sticky, and dark greenish-black",
+    "rationale": "The nurse notes the color and consistency of amniotic fluid to screen for this sign of possible fetal distress before delivery.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "STUPOR",
-    "clue": "A state of near-unconsciousness in which a patient can be roused only briefly by vigorous, repeated stimulation",
-    "rationale": "The nurse documents this deeper level of unresponsiveness when a patient no longer rouses easily to a loud voice or light touch.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "VERNIX",
+    "clue": "Waxy, cheese-like coating protecting fetal and newborn skin",
+    "rationale": "The nurse expects to see this coating on a newborn's skin and avoids scrubbing it off at the first bath.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "BRUIT",
-    "clue": "Abnormal whooshing sound heard over a narrowed artery",
-    "rationale": "The nurse auscultates the carotid arteries for this sound before assisting a patient with a history of stroke out of bed.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "BOLUS",
+    "clue": "Concentrated dose of medication or fluid given rapidly all at once",
+    "rationale": "The nurse gives this rapid, concentrated dose of IV fluid or medication when a client needs immediate volume or drug effect.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "MOTTLING",
-    "clue": "Patchy, blotchy discoloration of the skin caused by poor peripheral perfusion",
-    "rationale": "The nurse recognizes this skin change on the knees and feet as an ominous sign in a patient nearing circulatory collapse.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "WHEAL",
+    "clue": "Raised, itchy welt on the skin, such as at an intradermal injection or allergy test site",
+    "rationale": "The nurse measures this raised skin reaction in millimeters when reading a tuberculin skin test.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   },
   {
-    "word": "PATENT",
-    "clue": "Open and unobstructed, as when confirming an IV line flows freely",
-    "rationale": "The nurse flushes a line and checks for resistance to confirm it remains this before administering an IV medication.",
-    "topic": "Lab Values, Infection Control & Assessment Saturday"
+    "word": "ANAPHYLAXIS",
+    "clue": "Severe, rapid-onset, life-threatening systemic allergic reaction",
+    "rationale": "The nurse recognizes the rapid onset of airway swelling and hypotension as this life-threatening reaction and prepares to give epinephrine.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+  },
+  {
+    "word": "EPINEPHRINE",
+    "clue": "First-line drug for anaphylaxis and cardiac arrest that also relieves severe bronchospasm",
+    "rationale": "The nurse gives this first-line drug intramuscularly for anaphylaxis and prepares it for use during cardiac arrest.",
+    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
   }
 ]
