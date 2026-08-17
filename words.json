@@ -1,146 +1,122 @@
 [
   {
-    "word": "MANIA",
-    "clue": "Period of abnormally elevated mood, energy, and impulsivity seen in bipolar disorder",
-    "rationale": "The nurse recognizes this state to prioritize safety precautions and de-escalation for a client with bipolar disorder.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "CODE",
+    "clue": "Emergency response called overhead for a patient in cardiac or respiratory arrest",
+    "rationale": "The nurse recognizes this call as the cue to begin CPR and activate the resuscitation team immediately.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "LITHIUM",
-    "clue": "Mood-stabilizing drug for bipolar disorder that requires monitoring of narrow therapeutic serum levels",
-    "rationale": "The nurse monitors serum trough levels and reminds the client to maintain steady fluid and sodium intake while taking this drug.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "ANURIA",
+    "clue": "Absence or near-absence of urine output",
+    "rationale": "The nurse reports this finding immediately, as it can signal acute kidney injury or a blocked urinary catheter.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "DELIRIUM",
-    "clue": "Acute, fluctuating disturbance in attention and cognition, often reversible and tied to an underlying medical cause",
-    "rationale": "The nurse distinguishes this acute state from dementia and searches for a reversible cause such as infection or a new medication.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "EMBOLUS",
+    "clue": "A clot or foreign matter that travels through the bloodstream and lodges elsewhere",
+    "rationale": "The nurse watches for sudden dyspnea and chest pain, which can indicate this has traveled to the lungs.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "DEMENTIA",
-    "clue": "Progressive, chronic decline in cognitive function that impairs daily functioning",
-    "rationale": "The nurse tailors communication and safety planning for a client living with this chronic, progressive cognitive decline.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "ISCHEMIA",
+    "clue": "Reduced blood flow to a tissue, depriving it of oxygen",
+    "rationale": "The nurse recognizes chest pain from this cause as a priority requiring immediate ECG and troponin evaluation.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "ECHOLALIA",
-    "clue": "Meaningless repetition of another person's spoken words",
-    "rationale": "The nurse documents this speech pattern when assessing a client's mental status or communication style.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "THROMBUS",
+    "clue": "A blood clot that forms and remains at its site of origin within a vessel",
+    "rationale": "The nurse encourages early ambulation after surgery to reduce the risk of this forming in the leg veins.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "TACHYCARDIA",
-    "clue": "Adult heart rate above 100 beats per minute",
-    "rationale": "The nurse notifies the provider when a client's heart rate crosses this threshold, especially alongside hypotension or chest pain.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "OLIGURIA",
+    "clue": "Abnormally low urine output",
+    "rationale": "The nurse tracks hourly intake and output closely when this trend appears, since it can reflect poor kidney perfusion.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "BRADYCARDIA",
-    "clue": "Adult heart rate below 60 beats per minute",
-    "rationale": "The nurse holds a beta-blocker and notifies the provider when the apical pulse falls below this threshold.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "ASYSTOLE",
+    "clue": "Cardiac standstill with no electrical or mechanical heart activity",
+    "rationale": "The nurse confirms this rhythm is not shockable and continues CPR while epinephrine is administered per protocol.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "MURMUR",
-    "clue": "Abnormal heart sound caused by turbulent blood flow across a valve",
-    "rationale": "The nurse auscultates the heart and documents this sound's grade, timing, and location when assessing valve function.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "DIURETIC",
+    "clue": "A medication class that increases urine output to reduce fluid volume",
+    "rationale": "The nurse monitors serum potassium closely for a client taking a loop drug from this class.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "CYANOSIS",
-    "clue": "Bluish discoloration of skin and mucous membranes from inadequate oxygenation",
-    "rationale": "The nurse checks the lips and nail beds for this sign of poor oxygenation and applies supplemental oxygen as ordered.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "INOTROPE",
+    "clue": "A medication that alters the force of heart muscle contraction",
+    "rationale": "The nurse titrates this drip carefully in the ICU to support a failing heart's pumping strength.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "ORTHOPNEA",
-    "clue": "Shortness of breath that worsens when lying flat and eases when sitting upright",
-    "rationale": "The nurse elevates the head of the bed and asks how many pillows the client needs to sleep because of this symptom.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "TROPONIN",
+    "clue": "A cardiac biomarker released into the blood during myocardial injury",
+    "rationale": "The nurse trends this lab value serially to help confirm or rule out an evolving heart attack.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "STRIDOR",
-    "clue": "High-pitched, harsh sound signaling upper airway obstruction",
-    "rationale": "The nurse treats this sound as an emergency, since it signals a narrowing upper airway that can rapidly obstruct.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "HEMATURIA",
+    "clue": "Presence of blood in the urine",
+    "rationale": "The nurse documents this finding and sends a urine sample for further workup of the underlying cause.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "WHEEZING",
-    "clue": "Musical, high-pitched breath sound heard on expiration from narrowed airways",
-    "rationale": "The nurse auscultates the lungs and prepares a bronchodilator when this sound indicates narrowed airways.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "TAMPONADE",
+    "clue": "Compression of the heart caused by fluid accumulating in the pericardial sac",
+    "rationale": "The nurse watches for muffled heart sounds, jugular vein distention, and falling blood pressure as classic signs of this emergency.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "CREPITUS",
-    "clue": "Crackling, grating sensation felt under the skin, as with subcutaneous emphysema",
-    "rationale": "The nurse palpates the skin around a chest tube insertion site to detect this sign of air trapped in subcutaneous tissue.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "PERFUSION",
+    "clue": "The passage of blood through tissue to deliver oxygen and nutrients",
+    "rationale": "The nurse checks capillary refill and skin color to evaluate how well this process is occurring at the periphery.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "CLONUS",
-    "clue": "Rhythmic, involuntary muscle contractions elicited on ankle dorsiflexion, assessed in severe preeclampsia",
-    "rationale": "The nurse tests ankle dorsiflexion to check for this finding when assessing a client with severe preeclampsia.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "CREATININE",
+    "clue": "A muscle metabolism waste product measured in blood to assess kidney function",
+    "rationale": "The nurse notes a rising trend in this lab value as an early warning of declining renal function.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "PREECLAMPSIA",
-    "clue": "New-onset hypertension with proteinuria or end-organ involvement after 20 weeks' gestation",
-    "rationale": "The nurse monitors blood pressure and urine protein to screen a pregnant client for this hypertensive complication.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "ARRHYTHMIA",
+    "clue": "An irregular or abnormal heart rhythm",
+    "rationale": "The nurse places a client on continuous cardiac monitoring to detect this promptly after cardiac surgery.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "ECLAMPSIA",
-    "clue": "Onset of new seizure activity in a woman with preeclampsia",
-    "rationale": "The nurse keeps magnesium sulfate and seizure precautions at the bedside to prepare for this obstetric emergency.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "INFARCTION",
+    "clue": "Tissue death resulting from an interrupted blood supply",
+    "rationale": "The nurse recognizes crushing chest pain radiating to the jaw or arm as a hallmark of this event affecting the heart.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "FUNDUS",
-    "clue": "Top portion of the uterus, palpated after birth to assess involution",
-    "rationale": "The nurse palpates this postpartum landmark to confirm the uterus is firm and descending as expected.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "HYPOKALEMIA",
+    "clue": "Abnormally low blood potassium level",
+    "rationale": "The nurse watches the cardiac monitor closely for dangerous arrhythmias when this electrolyte imbalance is present.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "INVOLUTION",
-    "clue": "Postpartum return of the uterus to its pre-pregnancy size and position",
-    "rationale": "The nurse tracks fundal height each shift to monitor this expected postpartum process.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "VASOPRESSOR",
+    "clue": "A medication that constricts blood vessels to raise blood pressure",
+    "rationale": "The nurse infuses this drug through a central line whenever possible to protect peripheral tissue from injury.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "MECONIUM",
-    "clue": "Newborn's first stool, thick, sticky, and dark greenish-black",
-    "rationale": "The nurse notes the color and consistency of amniotic fluid to screen for this sign of possible fetal distress before delivery.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "HYPONATREMIA",
+    "clue": "Abnormally low blood sodium level",
+    "rationale": "The nurse assesses for confusion and seizure risk, which can accompany a severe drop in this electrolyte.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   },
   {
-    "word": "VERNIX",
-    "clue": "Waxy, cheese-like coating protecting fetal and newborn skin",
-    "rationale": "The nurse expects to see this coating on a newborn's skin and avoids scrubbing it off at the first bath.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
-  },
-  {
-    "word": "BOLUS",
-    "clue": "Concentrated dose of medication or fluid given rapidly all at once",
-    "rationale": "The nurse gives this rapid, concentrated dose of IV fluid or medication when a client needs immediate volume or drug effect.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
-  },
-  {
-    "word": "WHEAL",
-    "clue": "Raised, itchy welt on the skin, such as at an intradermal injection or allergy test site",
-    "rationale": "The nurse measures this raised skin reaction in millimeters when reading a tuberculin skin test.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
-  },
-  {
-    "word": "ANAPHYLAXIS",
-    "clue": "Severe, rapid-onset, life-threatening systemic allergic reaction",
-    "rationale": "The nurse recognizes the rapid onset of airway swelling and hypotension as this life-threatening reaction and prepares to give epinephrine.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
-  },
-  {
-    "word": "EPINEPHRINE",
-    "clue": "First-line drug for anaphylaxis and cardiac arrest that also relieves severe bronchospasm",
-    "rationale": "The nurse gives this first-line drug intramuscularly for anaphylaxis and prepares it for use during cardiac arrest.",
-    "topic": "Psychiatric, Cardiac-Respiratory & Maternal-Newborn Sunday"
+    "word": "PERICARDITIS",
+    "clue": "Inflammation of the sac surrounding the heart",
+    "rationale": "The nurse notes sharp chest pain that eases when the client leans forward as a classic presentation of this condition.",
+    "topic": "Cardiac, Renal & Critical Care Monday"
   }
 ]
