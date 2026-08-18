@@ -1,122 +1,122 @@
 [
   {
-    "word": "CODE",
-    "clue": "Emergency response called overhead for a patient in cardiac or respiratory arrest",
-    "rationale": "The nurse recognizes this call as the cue to begin CPR and activate the resuscitation team immediately.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "CAST",
+    "clue": "Rigid device applied to immobilize a fractured limb during healing",
+    "rationale": "The nurse checks circulation, movement, and sensation distal to this device to catch compartment syndrome early.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "ANURIA",
-    "clue": "Absence or near-absence of urine output",
-    "rationale": "The nurse reports this finding immediately, as it can signal acute kidney injury or a blocked urinary catheter.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "NPO",
+    "clue": "Preoperative order meaning the patient may have nothing by mouth",
+    "rationale": "The nurse verifies this status before surgery to reduce the risk of aspiration during anesthesia.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "EMBOLUS",
-    "clue": "A clot or foreign matter that travels through the bloodstream and lodges elsewhere",
-    "rationale": "The nurse watches for sudden dyspnea and chest pain, which can indicate this has traveled to the lungs.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "SPRAIN",
+    "clue": "Ligament injury caused by a sudden twist or wrench of a joint",
+    "rationale": "The nurse teaches RICE therapy (rest, ice, compression, elevation) for this common soft-tissue injury.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "ISCHEMIA",
-    "clue": "Reduced blood flow to a tissue, depriving it of oxygen",
-    "rationale": "The nurse recognizes chest pain from this cause as a priority requiring immediate ECG and troponin evaluation.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "STRAIN",
+    "clue": "Muscle or tendon injury caused by overstretching or overuse",
+    "rationale": "The nurse distinguishes this from a ligament injury when teaching a patient about musculoskeletal pain.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "THROMBUS",
-    "clue": "A blood clot that forms and remains at its site of origin within a vessel",
-    "rationale": "The nurse encourages early ambulation after surgery to reduce the risk of this forming in the leg veins.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "SPLINT",
+    "clue": "Rigid or flexible device used to immobilize and support an injured body part",
+    "rationale": "The nurse applies this before transport to prevent further tissue damage from an unstable fracture.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "OLIGURIA",
-    "clue": "Abnormally low urine output",
-    "rationale": "The nurse tracks hourly intake and output closely when this trend appears, since it can reflect poor kidney perfusion.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "OPIOID",
+    "clue": "Class of analgesic whose major adverse effect is respiratory depression",
+    "rationale": "The nurse keeps naloxone available and monitors respiratory rate closely whenever this class of drug is given.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "ASYSTOLE",
-    "clue": "Cardiac standstill with no electrical or mechanical heart activity",
-    "rationale": "The nurse confirms this rhythm is not shockable and continues CPR while epinephrine is administered per protocol.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "SEDATION",
+    "clue": "Medically induced state of reduced consciousness used to ease anxiety before a procedure",
+    "rationale": "The nurse monitors airway patency and oxygen saturation continuously while a patient is in this state.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "DIURETIC",
-    "clue": "A medication class that increases urine output to reduce fluid volume",
-    "rationale": "The nurse monitors serum potassium closely for a client taking a loop drug from this class.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "CACHEXIA",
+    "clue": "Profound involuntary weight loss and muscle wasting seen in advanced cancer or chronic illness",
+    "rationale": "The nurse assesses nutritional intake and albumin levels when this wasting syndrome is suspected.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "INOTROPE",
-    "clue": "A medication that alters the force of heart muscle contraction",
-    "rationale": "The nurse titrates this drip carefully in the ICU to support a failing heart's pumping strength.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "ASEPSIS",
+    "clue": "Absence of disease-causing microorganisms maintained through sterile technique",
+    "rationale": "The nurse maintains this principle throughout a sterile dressing change to prevent surgical site infection.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "TROPONIN",
-    "clue": "A cardiac biomarker released into the blood during myocardial injury",
-    "rationale": "The nurse trends this lab value serially to help confirm or rule out an evolving heart attack.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "TRACTION",
+    "clue": "Steady pulling force applied to a limb to align or immobilize a fracture",
+    "rationale": "The nurse ensures weights hang freely and are never removed without a provider's order during this therapy.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "HEMATURIA",
-    "clue": "Presence of blood in the urine",
-    "rationale": "The nurse documents this finding and sends a urine sample for further workup of the underlying cause.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "FRACTURE",
+    "clue": "A break in the continuity of a bone",
+    "rationale": "The nurse assesses for the five P's (pain, pallor, pulselessness, paresthesia, paralysis) distal to this injury.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "TAMPONADE",
-    "clue": "Compression of the heart caused by fluid accumulating in the pericardial sac",
-    "rationale": "The nurse watches for muffled heart sounds, jugular vein distention, and falling blood pressure as classic signs of this emergency.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "INCISION",
+    "clue": "Surgical cut made to access underlying tissue",
+    "rationale": "The nurse inspects this site for redness, warmth, or drainage as signs of postoperative infection.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "PERFUSION",
-    "clue": "The passage of blood through tissue to deliver oxygen and nutrients",
-    "rationale": "The nurse checks capillary refill and skin color to evaluate how well this process is occurring at the periphery.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "ANALGESIA",
+    "clue": "Relief from pain, typically achieved with medication",
+    "rationale": "The nurse reassesses pain level after administering this to confirm the intervention was effective.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "CREATININE",
-    "clue": "A muscle metabolism waste product measured in blood to assess kidney function",
-    "rationale": "The nurse notes a rising trend in this lab value as an early warning of declining renal function.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "HEMOSTASIS",
+    "clue": "The body's process of stopping bleeding through vasoconstriction and clot formation",
+    "rationale": "The nurse applies direct pressure to support this process when a patient has active external bleeding.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "ARRHYTHMIA",
-    "clue": "An irregular or abnormal heart rhythm",
-    "rationale": "The nurse places a client on continuous cardiac monitoring to detect this promptly after cardiac surgery.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "INTUBATION",
+    "clue": "Placement of a tube into the trachea to secure and maintain an airway",
+    "rationale": "The nurse gathers suction and confirms tube placement with capnography immediately after this procedure.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "INFARCTION",
-    "clue": "Tissue death resulting from an interrupted blood supply",
-    "rationale": "The nurse recognizes crushing chest pain radiating to the jaw or arm as a hallmark of this event affecting the heart.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "EXTUBATION",
+    "clue": "Removal of an artificial airway once a patient can breathe independently",
+    "rationale": "The nurse assesses gag reflex and oxygen saturation closely in the minutes following this procedure.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "HYPOKALEMIA",
-    "clue": "Abnormally low blood potassium level",
-    "rationale": "The nurse watches the cardiac monitor closely for dangerous arrhythmias when this electrolyte imbalance is present.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "HYPOTHERMIA",
+    "clue": "Core body temperature drop below normal range, a common perioperative risk",
+    "rationale": "The nurse applies warmed blankets and monitors temperature closely to prevent this in the recovery room.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "VASOPRESSOR",
-    "clue": "A medication that constricts blood vessels to raise blood pressure",
-    "rationale": "The nurse infuses this drug through a central line whenever possible to protect peripheral tissue from injury.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "MUCOSITIS",
+    "clue": "Painful inflammation and ulceration of mucous membranes, often from chemotherapy",
+    "rationale": "The nurse recommends frequent gentle oral care to help manage discomfort from this condition.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "HYPONATREMIA",
-    "clue": "Abnormally low blood sodium level",
-    "rationale": "The nurse assesses for confusion and seizure risk, which can accompany a severe drop in this electrolyte.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "ANGIOEDEMA",
+    "clue": "Rapid swelling of the deeper layers of skin, often affecting the face or airway",
+    "rationale": "The nurse treats swelling near the lips or tongue from this reaction as a potential airway emergency.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   },
   {
-    "word": "PERICARDITIS",
-    "clue": "Inflammation of the sac surrounding the heart",
-    "rationale": "The nurse notes sharp chest pain that eases when the client leans forward as a classic presentation of this condition.",
-    "topic": "Cardiac, Renal & Critical Care Monday"
+    "word": "URTICARIA",
+    "clue": "Allergic skin reaction producing raised, itchy welts",
+    "rationale": "The nurse assesses for this skin finding as an early sign of an allergic or anaphylactic reaction.",
+    "topic": "Perioperative & Musculoskeletal Tuesday"
   }
 ]
