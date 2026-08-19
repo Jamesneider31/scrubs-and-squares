@@ -1,122 +1,146 @@
 [
   {
-    "word": "CAST",
-    "clue": "Rigid device applied to immobilize a fractured limb during healing",
-    "rationale": "The nurse checks circulation, movement, and sensation distal to this device to catch compartment syndrome early.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "AURA",
+    "clue": "Sensory or visual warning sensation that may precede a seizure or migraine",
+    "rationale": "The nurse asks about this prodromal symptom when taking a seizure or headache history.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "NPO",
-    "clue": "Preoperative order meaning the patient may have nothing by mouth",
-    "rationale": "The nurse verifies this status before surgery to reduce the risk of aspiration during anesthesia.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "PTOSIS",
+    "clue": "Drooping of the upper eyelid, seen in oculomotor nerve palsy or myasthenia gravis",
+    "rationale": "The nurse notes this cranial nerve finding when performing a focused neurological exam.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "SPRAIN",
-    "clue": "Ligament injury caused by a sudden twist or wrench of a joint",
-    "rationale": "The nurse teaches RICE therapy (rest, ice, compression, elevation) for this common soft-tissue injury.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "ATAXIA",
+    "clue": "Loss of coordinated, voluntary muscle movement, often from cerebellar dysfunction",
+    "rationale": "The nurse assesses gait and finger-to-nose testing to detect this sign of cerebellar involvement.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "STRAIN",
-    "clue": "Muscle or tendon injury caused by overstretching or overuse",
-    "rationale": "The nurse distinguishes this from a ligament injury when teaching a patient about musculoskeletal pain.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "TREMOR",
+    "clue": "Involuntary, rhythmic shaking movement of a body part",
+    "rationale": "The nurse documents the type and timing of this movement, since it can point toward Parkinson's disease or withdrawal.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "SPLINT",
-    "clue": "Rigid or flexible device used to immobilize and support an injured body part",
-    "rationale": "The nurse applies this before transport to prevent further tissue damage from an unstable fracture.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "MIOSIS",
+    "clue": "Abnormal constriction of the pupil",
+    "rationale": "The nurse checks pupil size along with reactivity when monitoring for opioid toxicity or brainstem injury.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "OPIOID",
-    "clue": "Class of analgesic whose major adverse effect is respiratory depression",
-    "rationale": "The nurse keeps naloxone available and monitors respiratory rate closely whenever this class of drug is given.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "VERTIGO",
+    "clue": "False sensation of spinning or movement, often from vestibular dysfunction",
+    "rationale": "The nurse differentiates this from lightheadedness when a patient reports dizziness.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "SEDATION",
-    "clue": "Medically induced state of reduced consciousness used to ease anxiety before a procedure",
-    "rationale": "The nurse monitors airway patency and oxygen saturation continuously while a patient is in this state.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "APHASIA",
+    "clue": "Impaired ability to produce or understand language, commonly seen after a stroke",
+    "rationale": "The nurse screens for this deficit early, since it affects how a patient can report pain or distress.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "CACHEXIA",
-    "clue": "Profound involuntary weight loss and muscle wasting seen in advanced cancer or chronic illness",
-    "rationale": "The nurse assesses nutritional intake and albumin levels when this wasting syndrome is suspected.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "SEIZURE",
+    "clue": "Sudden, uncontrolled electrical disturbance in the brain causing altered movement or awareness",
+    "rationale": "The nurse times and describes this event carefully, since the pattern guides the medical workup.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "ASEPSIS",
-    "clue": "Absence of disease-causing microorganisms maintained through sterile technique",
-    "rationale": "The nurse maintains this principle throughout a sterile dressing change to prevent surgical site infection.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "APRAXIA",
+    "clue": "Inability to perform a learned, purposeful motor task despite intact strength and sensation",
+    "rationale": "The nurse distinguishes this from weakness when a stroke patient struggles to use a utensil correctly.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "TRACTION",
-    "clue": "Steady pulling force applied to a limb to align or immobilize a fracture",
-    "rationale": "The nurse ensures weights hang freely and are never removed without a provider's order during this therapy.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "COMATOSE",
+    "clue": "In a state of deep, prolonged unconsciousness with no purposeful response to stimuli",
+    "rationale": "The nurse uses the Glasgow Coma Scale to track a patient in this state and detect any change in level of consciousness.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "FRACTURE",
-    "clue": "A break in the continuity of a bone",
-    "rationale": "The nurse assesses for the five P's (pain, pallor, pulselessness, paresthesia, paralysis) distal to this injury.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "HEMATOMA",
+    "clue": "Localized collection of clotted blood outside a blood vessel",
+    "rationale": "The nurse monitors a head injury for an expanding one of these, a sign of ongoing intracranial bleeding.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "INCISION",
-    "clue": "Surgical cut made to access underlying tissue",
-    "rationale": "The nurse inspects this site for redness, warmth, or drainage as signs of postoperative infection.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "RIGIDITY",
+    "clue": "Increased resistance to passive movement of a limb throughout its range of motion",
+    "rationale": "The nurse tests for this finding when assessing a patient for Parkinson's disease or meningeal irritation.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "ANALGESIA",
-    "clue": "Relief from pain, typically achieved with medication",
-    "rationale": "The nurse reassesses pain level after administering this to confirm the intervention was effective.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "AVULSION",
+    "clue": "Forcible tearing away of tissue from its normal attachment",
+    "rationale": "The nurse manages this traumatic wound by controlling bleeding and preserving any separated tissue.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "HEMOSTASIS",
-    "clue": "The body's process of stopping bleeding through vasoconstriction and clot formation",
-    "rationale": "The nurse applies direct pressure to support this process when a patient has active external bleeding.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "DIPLOPIA",
+    "clue": "Double vision",
+    "rationale": "The nurse asks about this visual symptom when screening for cranial nerve or increased intracranial pressure changes.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "INTUBATION",
-    "clue": "Placement of a tube into the trachea to secure and maintain an airway",
-    "rationale": "The nurse gathers suction and confirms tube placement with capnography immediately after this procedure.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "MYDRIASIS",
+    "clue": "Abnormal dilation of the pupil",
+    "rationale": "The nurse notes this pupil change as a possible sign of increased intracranial pressure or certain drug effects.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "EXTUBATION",
-    "clue": "Removal of an artificial airway once a patient can breathe independently",
-    "rationale": "The nurse assesses gag reflex and oxygen saturation closely in the minutes following this procedure.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "NYSTAGMUS",
+    "clue": "Involuntary, rhythmic oscillation of the eyes",
+    "rationale": "The nurse observes for this eye movement during a cranial nerve exam, since it can signal vestibular or cerebellar issues.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "HYPOTHERMIA",
-    "clue": "Core body temperature drop below normal range, a common perioperative risk",
-    "rationale": "The nurse applies warmed blankets and monitors temperature closely to prevent this in the recovery room.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "PARALYSIS",
+    "clue": "Complete loss of voluntary muscle function in a body part",
+    "rationale": "The nurse documents the exact distribution of this deficit, since it helps localize a spinal or neurological injury.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "MUCOSITIS",
-    "clue": "Painful inflammation and ulceration of mucous membranes, often from chemotherapy",
-    "rationale": "The nurse recommends frequent gentle oral care to help manage discomfort from this condition.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "ANISOCORIA",
+    "clue": "Unequal pupil size between the two eyes, a possible sign of rising intracranial pressure",
+    "rationale": "The nurse reports this pupil finding immediately, since it can signal a neurological emergency.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "ANGIOEDEMA",
-    "clue": "Rapid swelling of the deeper layers of skin, often affecting the face or airway",
-    "rationale": "The nurse treats swelling near the lips or tongue from this reaction as a potential airway emergency.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "DYSARTHRIA",
+    "clue": "Slurred or unclear speech caused by impaired control of the muscles used for speaking",
+    "rationale": "The nurse distinguishes this from aphasia, since language comprehension stays intact even though speech is hard to understand.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   },
   {
-    "word": "URTICARIA",
-    "clue": "Allergic skin reaction producing raised, itchy welts",
-    "rationale": "The nurse assesses for this skin finding as an early sign of an allergic or anaphylactic reaction.",
-    "topic": "Perioperative & Musculoskeletal Tuesday"
+    "word": "HERNIATION",
+    "clue": "Life-threatening displacement of brain tissue caused by rising intracranial pressure",
+    "rationale": "The nurse watches for late signs of this complication, including a fixed and dilated pupil, after a severe head injury.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
+  },
+  {
+    "word": "CONCUSSION",
+    "clue": "Mild traumatic brain injury caused by a blow or jolt to the head",
+    "rationale": "The nurse educates patients on watching for worsening symptoms after this common head injury.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
+  },
+  {
+    "word": "HEMIPARESIS",
+    "clue": "Weakness affecting one side of the body",
+    "rationale": "The nurse tests grip strength on both sides to detect this asymmetric finding after a stroke.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
+  },
+  {
+    "word": "DECORTICATE",
+    "clue": "Abnormal posturing with flexed arms and extended legs, indicating a brain lesion above the brainstem",
+    "rationale": "The nurse scores this posturing on the Glasgow Coma Scale motor response when assessing a severe brain injury.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
+  },
+  {
+    "word": "DECEREBRATE",
+    "clue": "Abnormal posturing with extended, rigid limbs, indicating brainstem injury and a worse prognosis than the flexed form",
+    "rationale": "The nurse recognizes this posturing as a more ominous neurological sign than decorticate posturing.",
+    "topic": "Neurological & Trauma Assessment Wednesday"
   }
 ]
