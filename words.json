@@ -1,146 +1,26 @@
 [
-  {
-    "word": "AURA",
-    "clue": "Sensory or visual warning sensation that may precede a seizure or migraine",
-    "rationale": "The nurse asks about this prodromal symptom when taking a seizure or headache history.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "PTOSIS",
-    "clue": "Drooping of the upper eyelid, seen in oculomotor nerve palsy or myasthenia gravis",
-    "rationale": "The nurse notes this cranial nerve finding when performing a focused neurological exam.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "ATAXIA",
-    "clue": "Loss of coordinated, voluntary muscle movement, often from cerebellar dysfunction",
-    "rationale": "The nurse assesses gait and finger-to-nose testing to detect this sign of cerebellar involvement.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "TREMOR",
-    "clue": "Involuntary, rhythmic shaking movement of a body part",
-    "rationale": "The nurse documents the type and timing of this movement, since it can point toward Parkinson's disease or withdrawal.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "MIOSIS",
-    "clue": "Abnormal constriction of the pupil",
-    "rationale": "The nurse checks pupil size along with reactivity when monitoring for opioid toxicity or brainstem injury.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "VERTIGO",
-    "clue": "False sensation of spinning or movement, often from vestibular dysfunction",
-    "rationale": "The nurse differentiates this from lightheadedness when a patient reports dizziness.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "APHASIA",
-    "clue": "Impaired ability to produce or understand language, commonly seen after a stroke",
-    "rationale": "The nurse screens for this deficit early, since it affects how a patient can report pain or distress.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "SEIZURE",
-    "clue": "Sudden, uncontrolled electrical disturbance in the brain causing altered movement or awareness",
-    "rationale": "The nurse times and describes this event carefully, since the pattern guides the medical workup.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "APRAXIA",
-    "clue": "Inability to perform a learned, purposeful motor task despite intact strength and sensation",
-    "rationale": "The nurse distinguishes this from weakness when a stroke patient struggles to use a utensil correctly.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "COMATOSE",
-    "clue": "In a state of deep, prolonged unconsciousness with no purposeful response to stimuli",
-    "rationale": "The nurse uses the Glasgow Coma Scale to track a patient in this state and detect any change in level of consciousness.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "HEMATOMA",
-    "clue": "Localized collection of clotted blood outside a blood vessel",
-    "rationale": "The nurse monitors a head injury for an expanding one of these, a sign of ongoing intracranial bleeding.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "RIGIDITY",
-    "clue": "Increased resistance to passive movement of a limb throughout its range of motion",
-    "rationale": "The nurse tests for this finding when assessing a patient for Parkinson's disease or meningeal irritation.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "AVULSION",
-    "clue": "Forcible tearing away of tissue from its normal attachment",
-    "rationale": "The nurse manages this traumatic wound by controlling bleeding and preserving any separated tissue.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "DIPLOPIA",
-    "clue": "Double vision",
-    "rationale": "The nurse asks about this visual symptom when screening for cranial nerve or increased intracranial pressure changes.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "MYDRIASIS",
-    "clue": "Abnormal dilation of the pupil",
-    "rationale": "The nurse notes this pupil change as a possible sign of increased intracranial pressure or certain drug effects.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "NYSTAGMUS",
-    "clue": "Involuntary, rhythmic oscillation of the eyes",
-    "rationale": "The nurse observes for this eye movement during a cranial nerve exam, since it can signal vestibular or cerebellar issues.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "PARALYSIS",
-    "clue": "Complete loss of voluntary muscle function in a body part",
-    "rationale": "The nurse documents the exact distribution of this deficit, since it helps localize a spinal or neurological injury.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "ANISOCORIA",
-    "clue": "Unequal pupil size between the two eyes, a possible sign of rising intracranial pressure",
-    "rationale": "The nurse reports this pupil finding immediately, since it can signal a neurological emergency.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "DYSARTHRIA",
-    "clue": "Slurred or unclear speech caused by impaired control of the muscles used for speaking",
-    "rationale": "The nurse distinguishes this from aphasia, since language comprehension stays intact even though speech is hard to understand.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "HERNIATION",
-    "clue": "Life-threatening displacement of brain tissue caused by rising intracranial pressure",
-    "rationale": "The nurse watches for late signs of this complication, including a fixed and dilated pupil, after a severe head injury.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "CONCUSSION",
-    "clue": "Mild traumatic brain injury caused by a blow or jolt to the head",
-    "rationale": "The nurse educates patients on watching for worsening symptoms after this common head injury.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "HEMIPARESIS",
-    "clue": "Weakness affecting one side of the body",
-    "rationale": "The nurse tests grip strength on both sides to detect this asymmetric finding after a stroke.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "DECORTICATE",
-    "clue": "Abnormal posturing with flexed arms and extended legs, indicating a brain lesion above the brainstem",
-    "rationale": "The nurse scores this posturing on the Glasgow Coma Scale motor response when assessing a severe brain injury.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  },
-  {
-    "word": "DECEREBRATE",
-    "clue": "Abnormal posturing with extended, rigid limbs, indicating brainstem injury and a worse prognosis than the flexed form",
-    "rationale": "The nurse recognizes this posturing as a more ominous neurological sign than decorticate posturing.",
-    "topic": "Neurological & Trauma Assessment Wednesday"
-  }
+  {"word": "DOSE", "clue": "Amount of medication given at one time; nurses verify this against the six rights before administering a drug"},
+  {"word": "PUMP", "clue": "Device that delivers continuous subcutaneous insulin therapy"},
+  {"word": "VIAL", "clue": "Small glass container that typically holds injectable medication for a single or multiple doses"},
+  {"word": "PATCH", "clue": "Common transdermal delivery form, such as a fentanyl or nicotine ___"},
+  {"word": "METER", "clue": "Bedside device used to measure a patient's capillary blood glucose"},
+  {"word": "BUCCAL", "clue": "Route of administration in which a drug is absorbed through tissue between the cheek and gum"},
+  {"word": "TITRATE", "clue": "To gradually adjust a medication dose up or down based on the patient's response"},
+  {"word": "TOPICAL", "clue": "Route of administration where a drug is applied directly to skin or mucosa for a local effect"},
+  {"word": "ENTERAL", "clue": "Route of administration that delivers nutrition or medication directly into the GI tract"},
+  {"word": "INSULIN", "clue": "Pancreatic hormone that lowers blood glucose by promoting cellular glucose uptake"},
+  {"word": "GLUCOSE", "clue": "Primary sugar circulating in the blood, tightly regulated by insulin and glucagon"},
+  {"word": "ALLERGY", "clue": "Hypersensitivity reaction to a substance such as a medication, food, or latex"},
+  {"word": "KETONES", "clue": "Byproducts of fat breakdown that accumulate in diabetic ketoacidosis, often detected in urine or blood"},
+  {"word": "ANTIDOTE", "clue": "Substance given to counteract the toxic effects of a specific drug or poison"},
+  {"word": "OTOTOXIC", "clue": "Describes a medication capable of damaging hearing or vestibular function"},
+  {"word": "GLUCAGON", "clue": "Pancreatic hormone that raises blood glucose by triggering hepatic glycogen breakdown"},
+  {"word": "POLYURIA", "clue": "Excessive urine output, a classic early sign of hyperglycemia"},
+  {"word": "METFORMIN", "clue": "First-line oral biguanide used to lower blood glucose in type 2 diabetes"},
+  {"word": "POLYDIPSIA", "clue": "Excessive thirst, a classic early sign of hyperglycemia"},
+  {"word": "NEUROPATHY", "clue": "Nerve damage that is a common chronic complication of long-standing diabetes"},
+  {"word": "SUBLINGUAL", "clue": "Route of administration where a drug dissolves under the tongue for rapid absorption"},
+  {"word": "NEPHROTOXIC", "clue": "Describes a medication capable of causing kidney damage"},
+  {"word": "KETOACIDOSIS", "clue": "Life-threatening diabetic complication marked by hyperglycemia, ketosis, and metabolic acidosis"},
+  {"word": "HYPOGLYCEMIA", "clue": "Abnormally low blood glucose that can cause diaphoresis, shakiness, and confusion"}
 ]
