@@ -1,23 +1,98 @@
 [
-  {"word": "MOOD", "clue": "Sustained, pervasive emotional state a client reports experiencing over time"},
-  {"word": "AFFECT", "clue": "Outward, observable expression of emotion noted during a mental status exam"},
-  {"word": "DENIAL", "clue": "Defense mechanism involving refusal to acknowledge a painful reality"},
-  {"word": "LABILE", "clue": "Describes an affect that shifts rapidly and unpredictably"},
-  {"word": "PHOBIA", "clue": "Intense, irrational fear of a specific object or situation"},
-  {"word": "ACUITY", "clue": "Level of severity used to rank clients by urgency of care needs"},
-  {"word": "COPING", "clue": "Cognitive and behavioral efforts used to manage stress"},
-  {"word": "INSIGHT", "clue": "A client's awareness that their symptoms are part of an illness"},
-  {"word": "RAPPORT", "clue": "Trusting connection a nurse builds as the foundation of therapeutic communication"},
-  {"word": "PARANOIA", "clue": "Persistent, irrational suspicion or distrust of others"},
-  {"word": "IDEATION", "clue": "Suicidal ___: thoughts of ending one's own life"},
-  {"word": "EUPHORIA", "clue": "Exaggerated feeling of well-being or elation, often seen in mania"},
-  {"word": "AUTONOMY", "clue": "Ethical principle respecting a client's right to self-determination"},
-  {"word": "DYSPHORIA", "clue": "A profound state of unease or dissatisfaction"},
-  {"word": "CATHARSIS", "clue": "Emotional release achieved through expressing previously repressed feelings"},
-  {"word": "REGRESSION", "clue": "Defense mechanism involving reverting to an earlier developmental behavior under stress"},
-  {"word": "PROJECTION", "clue": "Defense mechanism of attributing one's own unacceptable feelings to someone else"},
-  {"word": "AMBIVALENCE", "clue": "Holding simultaneous, conflicting feelings toward a person or situation"},
-  {"word": "THERAPEUTIC", "clue": "Describes communication techniques a nurse uses to promote healing dialogue"},
-  {"word": "DISPLACEMENT", "clue": "Defense mechanism of redirecting emotion from its true source to a safer target"},
-  {"word": "SUBLIMATION", "clue": "Defense mechanism that channels unacceptable impulses into socially acceptable activities"}
+  {
+    "word": "CORD",
+    "clue": "Umbilical structure connecting fetus to placenta, clamped and cut shortly after delivery"
+  },
+  {
+    "word": "APGAR",
+    "clue": "Newborn scoring system assessing heart rate, respiratory effort, tone, reflexes, and color at 1 and 5 minutes after birth"
+  },
+  {
+    "word": "CAPUT",
+    "clue": "Caput succedaneum: diffuse scalp edema from birth pressure that crosses suture lines"
+  },
+  {
+    "word": "LOCHIA",
+    "clue": "Postpartum vaginal discharge that progresses from rubra to serosa to alba"
+  },
+  {
+    "word": "STRIAE",
+    "clue": "Stretch marks that commonly appear on the abdomen during pregnancy"
+  },
+  {
+    "word": "PARITY",
+    "clue": "Number of pregnancies a woman has carried to viable gestational age"
+  },
+  {
+    "word": "LANUGO",
+    "clue": "Fine, soft hair covering a newborn's body, more prominent in preterm infants"
+  },
+  {
+    "word": "GRAVIDA",
+    "clue": "Term denoting the number of times a woman has been pregnant, regardless of outcome"
+  },
+  {
+    "word": "MOLDING",
+    "clue": "Overlapping of fetal skull bones as the head passes through the birth canal"
+  },
+  {
+    "word": "JAUNDICE",
+    "clue": "Yellowing of skin and sclera from elevated bilirubin, common in newborns"
+  },
+  {
+    "word": "DYSTOCIA",
+    "clue": "Difficult or prolonged labor due to mechanical or functional problems"
+  },
+  {
+    "word": "MASTITIS",
+    "clue": "Infection and inflammation of breast tissue, often occurring during lactation"
+  },
+  {
+    "word": "FONTANEL",
+    "clue": "Soft membranous gap between an infant's unfused skull bones"
+  },
+  {
+    "word": "GRUNTING",
+    "clue": "Expiratory sound from partial glottal closure, a sign of newborn respiratory distress"
+  },
+  {
+    "word": "PLACENTA",
+    "clue": "Organ supplying the fetus with oxygen and nutrients; may implant abnormally low or separate early"
+  },
+  {
+    "word": "ABRUPTION",
+    "clue": "Premature separation of the placenta from the uterine wall before delivery"
+  },
+  {
+    "word": "TERATOGEN",
+    "clue": "Substance capable of causing fetal malformation when exposure occurs during pregnancy"
+  },
+  {
+    "word": "COLOSTRUM",
+    "clue": "Antibody-rich first breast milk produced before mature milk comes in"
+  },
+  {
+    "word": "BILIRUBIN",
+    "clue": "Yellow pigment from red blood cell breakdown; elevated levels cause newborn jaundice"
+  },
+  {
+    "word": "SURFACTANT",
+    "clue": "Substance that reduces alveolar surface tension; deficiency in preterm infants causes respiratory distress syndrome"
+  },
+  {
+    "word": "HYDRAMNIOS",
+    "clue": "Excess accumulation of amniotic fluid surrounding the fetus"
+  },
+  {
+    "word": "EFFACEMENT",
+    "clue": "Thinning and shortening of the cervix during labor, expressed as a percentage"
+  },
+  {
+    "word": "ENGORGEMENT",
+    "clue": "Breast swelling and tenderness from milk accumulation, common postpartum"
+  },
+  {
+    "word": "RETRACTIONS",
+    "clue": "Visible inward pulling of the chest wall during labored breathing"
+  }
 ]
