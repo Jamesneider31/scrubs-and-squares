@@ -1,98 +1,90 @@
 [
   {
-    "word": "CORD",
-    "clue": "Umbilical structure connecting fetus to placenta, clamped and cut shortly after delivery"
+    "word": "GOWN",
+    "clue": "Protective PPE item donned before entering an isolation room"
   },
   {
-    "word": "APGAR",
-    "clue": "Newborn scoring system assessing heart rate, respiratory effort, tone, reflexes, and color at 1 and 5 minutes after birth"
+    "word": "MASK",
+    "clue": "PPE item covering the nose and mouth to block droplet spread"
   },
   {
-    "word": "CAPUT",
-    "clue": "Caput succedaneum: diffuse scalp edema from birth pressure that crosses suture lines"
+    "word": "SWAB",
+    "clue": "Tool used to collect a specimen, such as a wound or nasal culture"
   },
   {
-    "word": "LOCHIA",
-    "clue": "Postpartum vaginal discharge that progresses from rubra to serosa to alba"
+    "word": "MRSA",
+    "clue": "Abbreviation for an antibiotic-resistant staph organism requiring contact precautions"
   },
   {
-    "word": "STRIAE",
-    "clue": "Stretch marks that commonly appear on the abdomen during pregnancy"
+    "word": "SCRUB",
+    "clue": "Vigorous hand hygiene performed immediately before an aseptic procedure"
   },
   {
-    "word": "PARITY",
-    "clue": "Number of pregnancies a woman has carried to viable gestational age"
+    "word": "SPORE",
+    "clue": "Dormant, hardy bacterial form, such as C. difficile, resistant to alcohol-based hand sanitizer"
   },
   {
-    "word": "LANUGO",
-    "clue": "Fine, soft hair covering a newborn's body, more prominent in preterm infants"
+    "word": "VIRAL",
+    "clue": "Term describing an infection caused by a virus rather than bacteria"
   },
   {
-    "word": "GRAVIDA",
-    "clue": "Term denoting the number of times a woman has been pregnant, regardless of outcome"
+    "word": "VECTOR",
+    "clue": "Living organism, such as a mosquito or tick, that transmits an infectious agent"
   },
   {
-    "word": "MOLDING",
-    "clue": "Overlapping of fetal skull bones as the head passes through the birth canal"
+    "word": "FOMITE",
+    "clue": "Inanimate object, like a stethoscope or doorknob, capable of transmitting pathogens"
   },
   {
-    "word": "JAUNDICE",
-    "clue": "Yellowing of skin and sclera from elevated bilirubin, common in newborns"
+    "word": "DROPLET",
+    "clue": "Precaution category for pathogens spread via large respiratory particles at close range"
   },
   {
-    "word": "DYSTOCIA",
-    "clue": "Difficult or prolonged labor due to mechanical or functional problems"
+    "word": "ABSCESS",
+    "clue": "Localized collection of pus walled off within tissue"
   },
   {
-    "word": "MASTITIS",
-    "clue": "Infection and inflammation of breast tissue, often occurring during lactation"
+    "word": "CULTURE",
+    "clue": "Lab test that grows a specimen to identify the causative organism"
   },
   {
-    "word": "FONTANEL",
-    "clue": "Soft membranous gap between an infant's unfused skull bones"
+    "word": "STERILE",
+    "clue": "Completely free of all living microorganisms and spores"
   },
   {
-    "word": "GRUNTING",
-    "clue": "Expiratory sound from partial glottal closure, a sign of newborn respiratory distress"
+    "word": "FEBRILE",
+    "clue": "Term describing a patient with an elevated body temperature"
   },
   {
-    "word": "PLACENTA",
-    "clue": "Organ supplying the fetus with oxygen and nutrients; may implant abnormally low or separate early"
+    "word": "AIRBORNE",
+    "clue": "Precaution category requiring an N95 respirator and a negative-pressure room"
   },
   {
-    "word": "ABRUPTION",
-    "clue": "Premature separation of the placenta from the uterine wall before delivery"
+    "word": "GANGRENE",
+    "clue": "Death of tissue resulting from loss of blood supply or severe bacterial infection"
   },
   {
-    "word": "TERATOGEN",
-    "clue": "Substance capable of causing fetal malformation when exposure occurs during pregnancy"
+    "word": "PATHOGEN",
+    "clue": "A microorganism capable of causing disease"
   },
   {
-    "word": "COLOSTRUM",
-    "clue": "Antibody-rich first breast milk produced before mature milk comes in"
+    "word": "PURULENT",
+    "clue": "Term describing wound drainage that is thick and contains pus"
   },
   {
-    "word": "BILIRUBIN",
-    "clue": "Yellow pigment from red blood cell breakdown; elevated levels cause newborn jaundice"
+    "word": "EPIDEMIC",
+    "clue": "Term for a disease outbreak spreading rapidly through a community"
   },
   {
-    "word": "SURFACTANT",
-    "clue": "Substance that reduces alveolar surface tension; deficiency in preterm infants causes respiratory distress syndrome"
+    "word": "VIRULENCE",
+    "clue": "The degree to which a pathogen is capable of causing disease"
   },
   {
-    "word": "HYDRAMNIOS",
-    "clue": "Excess accumulation of amniotic fluid surrounding the fetus"
+    "word": "NOSOCOMIAL",
+    "clue": "Term for an infection acquired within a healthcare facility"
   },
   {
-    "word": "EFFACEMENT",
-    "clue": "Thinning and shortening of the cervix during labor, expressed as a percentage"
-  },
-  {
-    "word": "ENGORGEMENT",
-    "clue": "Breast swelling and tenderness from milk accumulation, common postpartum"
-  },
-  {
-    "word": "RETRACTIONS",
-    "clue": "Visible inward pulling of the chest wall during labored breathing"
+    "word": "QUARANTINE",
+    "clue": "Separation of exposed but asymptomatic individuals to prevent disease spread"
   }
 ]
