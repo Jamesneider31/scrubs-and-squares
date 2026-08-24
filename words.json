@@ -1,90 +1,94 @@
 [
   {
-    "word": "GOWN",
-    "clue": "Protective PPE item donned before entering an isolation room"
+    "word": "STOMA",
+    "clue": "Surgically created opening on the abdomen for waste elimination"
   },
   {
-    "word": "MASK",
-    "clue": "PPE item covering the nose and mouth to block droplet spread"
+    "word": "ILEUS",
+    "clue": "Temporary loss of intestinal peristalsis, often after abdominal surgery"
   },
   {
-    "word": "SWAB",
-    "clue": "Tool used to collect a specimen, such as a wound or nasal culture"
+    "word": "ENEMA",
+    "clue": "Instillation of fluid into the rectum to stimulate bowel evacuation"
   },
   {
-    "word": "MRSA",
-    "clue": "Abbreviation for an antibiotic-resistant staph organism requiring contact precautions"
+    "word": "COLIC",
+    "clue": "Sudden, severe abdominal pain caused by spasm of smooth muscle"
   },
   {
-    "word": "SCRUB",
-    "clue": "Vigorous hand hygiene performed immediately before an aseptic procedure"
+    "word": "MELENA",
+    "clue": "Black, tarry stool indicating upper gastrointestinal bleeding"
   },
   {
-    "word": "SPORE",
-    "clue": "Dormant, hardy bacterial form, such as C. difficile, resistant to alcohol-based hand sanitizer"
+    "word": "BIOPSY",
+    "clue": "Removal of tissue for pathological examination"
   },
   {
-    "word": "VIRAL",
-    "clue": "Term describing an infection caused by a virus rather than bacteria"
+    "word": "BENIGN",
+    "clue": "Non-cancerous; not prone to invading or spreading"
   },
   {
-    "word": "VECTOR",
-    "clue": "Living organism, such as a mosquito or tick, that transmits an infectious agent"
+    "word": "UREMIA",
+    "clue": "Buildup of urea and other nitrogenous wastes in the blood"
   },
   {
-    "word": "FOMITE",
-    "clue": "Inanimate object, like a stethoscope or doorknob, capable of transmitting pathogens"
+    "word": "DYSURIA",
+    "clue": "Painful or difficult urination"
   },
   {
-    "word": "DROPLET",
-    "clue": "Precaution category for pathogens spread via large respiratory particles at close range"
+    "word": "VARICES",
+    "clue": "Dilated, fragile veins prone to rupture, such as esophageal ones"
   },
   {
-    "word": "ABSCESS",
-    "clue": "Localized collection of pus walled off within tissue"
+    "word": "ASCITES",
+    "clue": "Abnormal accumulation of fluid in the peritoneal cavity"
   },
   {
-    "word": "CULTURE",
-    "clue": "Lab test that grows a specimen to identify the causative organism"
+    "word": "NOCTURIA",
+    "clue": "Excessive urination during the night"
   },
   {
-    "word": "STERILE",
-    "clue": "Completely free of all living microorganisms and spores"
+    "word": "ANOREXIA",
+    "clue": "Loss of appetite"
   },
   {
-    "word": "FEBRILE",
-    "clue": "Term describing a patient with an elevated body temperature"
+    "word": "ALOPECIA",
+    "clue": "Hair loss; a common side effect of chemotherapy"
   },
   {
-    "word": "AIRBORNE",
-    "clue": "Precaution category requiring an N95 respirator and a negative-pressure room"
+    "word": "GASTRITIS",
+    "clue": "Inflammation of the lining of the stomach"
   },
   {
-    "word": "GANGRENE",
-    "clue": "Death of tissue resulting from loss of blood supply or severe bacterial infection"
+    "word": "CIRRHOSIS",
+    "clue": "Chronic, irreversible scarring of liver tissue"
   },
   {
-    "word": "PATHOGEN",
-    "clue": "A microorganism capable of causing disease"
+    "word": "DYSPHAGIA",
+    "clue": "Difficulty swallowing"
   },
   {
-    "word": "PURULENT",
-    "clue": "Term describing wound drainage that is thick and contains pus"
+    "word": "MALIGNANT",
+    "clue": "Cancerous; capable of invading tissue and spreading"
   },
   {
-    "word": "EPIDEMIC",
-    "clue": "Term for a disease outbreak spreading rapidly through a community"
+    "word": "METASTASIS",
+    "clue": "Spread of cancer cells from the original site to a distant one"
   },
   {
-    "word": "VIRULENCE",
-    "clue": "The degree to which a pathogen is capable of causing disease"
+    "word": "NEPHROSTOMY",
+    "clue": "Tube surgically placed to drain urine directly from the kidney"
   },
   {
-    "word": "NOSOCOMIAL",
-    "clue": "Term for an infection acquired within a healthcare facility"
+    "word": "HEMATEMESIS",
+    "clue": "Vomiting of blood"
   },
   {
-    "word": "QUARANTINE",
-    "clue": "Separation of exposed but asymptomatic individuals to prevent disease spread"
+    "word": "STEATORRHEA",
+    "clue": "Fatty, foul-smelling stool caused by fat malabsorption"
+  },
+  {
+    "word": "EXTRAVASATION",
+    "clue": "Leakage of a vesicant IV medication into surrounding tissue"
   }
 ]
