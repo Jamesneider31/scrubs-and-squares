@@ -1,94 +1,90 @@
 [
   {
-    "word": "STOMA",
-    "clue": "Surgically created opening on the abdomen for waste elimination"
+    "word": "STAT",
+    "clue": "Immediately, without delay — as in a ___ order"
   },
   {
-    "word": "ILEUS",
-    "clue": "Temporary loss of intestinal peristalsis, often after abdominal surgery"
+    "word": "SHOCK",
+    "clue": "Life-threatening state of inadequate tissue perfusion and oxygenation"
   },
   {
-    "word": "ENEMA",
-    "clue": "Instillation of fluid into the rectum to stimulate bowel evacuation"
+    "word": "APNEA",
+    "clue": "Temporary cessation of breathing"
   },
   {
-    "word": "COLIC",
-    "clue": "Sudden, severe abdominal pain caused by spasm of smooth muscle"
+    "word": "TOXIN",
+    "clue": "Poisonous substance produced by a living organism"
   },
   {
-    "word": "MELENA",
-    "clue": "Black, tarry stool indicating upper gastrointestinal bleeding"
+    "word": "FLAIL",
+    "clue": "___ chest: a rib segment that moves paradoxically after multiple adjacent fractures"
   },
   {
-    "word": "BIOPSY",
-    "clue": "Removal of tissue for pathological examination"
+    "word": "GURNEY",
+    "clue": "Wheeled stretcher used to transport patients"
   },
   {
-    "word": "BENIGN",
-    "clue": "Non-cancerous; not prone to invading or spreading"
+    "word": "ESCHAR",
+    "clue": "Dry, leathery dead tissue that forms over a burn or pressure wound"
   },
   {
-    "word": "UREMIA",
-    "clue": "Buildup of urea and other nitrogenous wastes in the blood"
+    "word": "LAVAGE",
+    "clue": "Irrigation and washing out of a body cavity, e.g. gastric ___"
   },
   {
-    "word": "DYSURIA",
-    "clue": "Painful or difficult urination"
+    "word": "TRIAGE",
+    "clue": "Sorting patients by acuity to prioritize care during mass casualty or ED intake"
   },
   {
-    "word": "VARICES",
-    "clue": "Dilated, fragile veins prone to rupture, such as esophageal ones"
+    "word": "SYNCOPE",
+    "clue": "Sudden, transient loss of consciousness from reduced cerebral blood flow"
   },
   {
-    "word": "ASCITES",
-    "clue": "Abnormal accumulation of fluid in the peritoneal cavity"
+    "word": "ABRASION",
+    "clue": "Superficial wound where the skin surface is scraped away"
   },
   {
-    "word": "NOCTURIA",
-    "clue": "Excessive urination during the night"
+    "word": "ASPHYXIA",
+    "clue": "Severe deficiency of oxygen causing unconsciousness or death"
   },
   {
-    "word": "ANOREXIA",
-    "clue": "Loss of appetite"
+    "word": "HYPOXEMIA",
+    "clue": "Below-normal level of oxygen in the arterial blood"
   },
   {
-    "word": "ALOPECIA",
-    "clue": "Hair loss; a common side effect of chemotherapy"
+    "word": "EPISTAXIS",
+    "clue": "Clinical term for a nosebleed"
   },
   {
-    "word": "GASTRITIS",
-    "clue": "Inflammation of the lining of the stomach"
+    "word": "ANTIVENOM",
+    "clue": "Treatment administered for envenomation, e.g. a snake or spider bite"
   },
   {
-    "word": "CIRRHOSIS",
-    "clue": "Chronic, irreversible scarring of liver tissue"
+    "word": "CONTUSION",
+    "clue": "Bruise; bleeding into surrounding tissue without a break in the skin"
   },
   {
-    "word": "DYSPHAGIA",
-    "clue": "Difficulty swallowing"
+    "word": "HEMOPTYSIS",
+    "clue": "Coughing up blood originating from the lungs or airway"
   },
   {
-    "word": "MALIGNANT",
-    "clue": "Cancerous; capable of invading tissue and spreading"
+    "word": "TOURNIQUET",
+    "clue": "Tight constricting band applied proximal to a wound to control severe hemorrhage"
   },
   {
-    "word": "METASTASIS",
-    "clue": "Spread of cancer cells from the original site to a distant one"
+    "word": "LACERATION",
+    "clue": "A wound caused by tearing or jagged cutting of soft tissue"
   },
   {
-    "word": "NEPHROSTOMY",
-    "clue": "Tube surgically placed to drain urine directly from the kidney"
+    "word": "HEMOTHORAX",
+    "clue": "Accumulation of blood in the pleural space"
   },
   {
-    "word": "HEMATEMESIS",
-    "clue": "Vomiting of blood"
+    "word": "HYPOVOLEMIA",
+    "clue": "Decreased circulating blood volume; a common cause of shock"
   },
   {
-    "word": "STEATORRHEA",
-    "clue": "Fatty, foul-smelling stool caused by fat malabsorption"
-  },
-  {
-    "word": "EXTRAVASATION",
-    "clue": "Leakage of a vesicant IV medication into surrounding tissue"
+    "word": "DEBRIDEMENT",
+    "clue": "Removal of dead or damaged tissue from a wound"
   }
 ]
