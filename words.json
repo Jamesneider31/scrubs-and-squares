@@ -1,90 +1,82 @@
 [
   {
-    "word": "STAT",
-    "clue": "Immediately, without delay — as in a ___ order"
+    "word": "EDEMA",
+    "clue": "Swelling caused by excess fluid trapped in body tissue"
   },
   {
-    "word": "SHOCK",
-    "clue": "Life-threatening state of inadequate tissue perfusion and oxygenation"
+    "word": "PALLOR",
+    "clue": "Unusual paleness of the skin or mucous membranes, often signaling poor perfusion or anemia"
   },
   {
-    "word": "APNEA",
-    "clue": "Temporary cessation of breathing"
+    "word": "ANEMIA",
+    "clue": "Condition marked by a deficiency of red blood cells or hemoglobin"
   },
   {
-    "word": "TOXIN",
-    "clue": "Poisonous substance produced by a living organism"
+    "word": "SEPSIS",
+    "clue": "Life-threatening organ dysfunction caused by a dysregulated host response to infection"
   },
   {
-    "word": "FLAIL",
-    "clue": "___ chest: a rib segment that moves paradoxically after multiple adjacent fractures"
+    "word": "TURGOR",
+    "clue": "Skin's elasticity, assessed by pinching to gauge hydration status"
   },
   {
-    "word": "GURNEY",
-    "clue": "Wheeled stretcher used to transport patients"
+    "word": "BRUIT",
+    "clue": "Abnormal whooshing sound heard over a blood vessel on auscultation"
   },
   {
-    "word": "ESCHAR",
-    "clue": "Dry, leathery dead tissue that forms over a burn or pressure wound"
+    "word": "GUARDING",
+    "clue": "Involuntary tensing of abdominal muscles to protect a tender area"
   },
   {
-    "word": "LAVAGE",
-    "clue": "Irrigation and washing out of a body cavity, e.g. gastric ___"
+    "word": "REBOUND",
+    "clue": "Sharp increase in pain when pressure over the abdomen is suddenly released"
   },
   {
-    "word": "TRIAGE",
-    "clue": "Sorting patients by acuity to prioritize care during mass casualty or ED intake"
+    "word": "CLUBBING",
+    "clue": "Bulbous enlargement of the fingertips and nails, associated with chronic hypoxia"
   },
   {
-    "word": "SYNCOPE",
-    "clue": "Sudden, transient loss of consciousness from reduced cerebral blood flow"
+    "word": "MOTTLING",
+    "clue": "Patchy, lace-like skin discoloration that can signal poor peripheral perfusion"
   },
   {
-    "word": "ABRASION",
-    "clue": "Superficial wound where the skin surface is scraped away"
+    "word": "BOUNDING",
+    "clue": "Describes a pulse that feels unusually strong and forceful"
   },
   {
-    "word": "ASPHYXIA",
-    "clue": "Severe deficiency of oxygen causing unconsciousness or death"
+    "word": "THREADY",
+    "clue": "Describes a pulse that is weak, thin, and difficult to palpate"
   },
   {
-    "word": "HYPOXEMIA",
-    "clue": "Below-normal level of oxygen in the arterial blood"
+    "word": "DYSPNEA",
+    "clue": "Subjective sensation of difficult or labored breathing"
   },
   {
-    "word": "EPISTAXIS",
-    "clue": "Clinical term for a nosebleed"
+    "word": "TACHYPNEA",
+    "clue": "Abnormally rapid respiratory rate"
   },
   {
-    "word": "ANTIVENOM",
-    "clue": "Treatment administered for envenomation, e.g. a snake or spider bite"
+    "word": "BRADYPNEA",
+    "clue": "Abnormally slow respiratory rate"
   },
   {
-    "word": "CONTUSION",
-    "clue": "Bruise; bleeding into surrounding tissue without a break in the skin"
+    "word": "HEMOGLOBIN",
+    "clue": "Iron-containing protein in red blood cells that carries oxygen"
   },
   {
-    "word": "HEMOPTYSIS",
-    "clue": "Coughing up blood originating from the lungs or airway"
+    "word": "HEMATOCRIT",
+    "clue": "Percentage of blood volume made up of red blood cells"
   },
   {
-    "word": "TOURNIQUET",
-    "clue": "Tight constricting band applied proximal to a wound to control severe hemorrhage"
+    "word": "HYPOTENSION",
+    "clue": "Abnormally low blood pressure"
   },
   {
-    "word": "LACERATION",
-    "clue": "A wound caused by tearing or jagged cutting of soft tissue"
+    "word": "PALPATION",
+    "clue": "Physical assessment technique using the hands to feel for texture, tenderness, or masses"
   },
   {
-    "word": "HEMOTHORAX",
-    "clue": "Accumulation of blood in the pleural space"
-  },
-  {
-    "word": "HYPOVOLEMIA",
-    "clue": "Decreased circulating blood volume; a common cause of shock"
-  },
-  {
-    "word": "DEBRIDEMENT",
-    "clue": "Removal of dead or damaged tissue from a wound"
+    "word": "AUSCULTATE",
+    "clue": "To listen to internal body sounds, typically with a stethoscope"
   }
 ]
