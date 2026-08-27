@@ -1,82 +1,82 @@
 [
   {
-    "word": "EDEMA",
-    "clue": "Swelling caused by excess fluid trapped in body tissue"
+    "word": "NADIR",
+    "clue": "The point of lowest blood cell counts after chemotherapy, when infection risk peaks"
   },
   {
-    "word": "PALLOR",
-    "clue": "Unusual paleness of the skin or mucous membranes, often signaling poor perfusion or anemia"
+    "word": "LESION",
+    "clue": "General term for any area of damaged or abnormal tissue, such as a pressure wound"
   },
   {
-    "word": "ANEMIA",
-    "clue": "Condition marked by a deficiency of red blood cells or hemoglobin"
+    "word": "SUTURE",
+    "clue": "Surgical stitch used to close the edges of an incision or wound"
   },
   {
-    "word": "SEPSIS",
-    "clue": "Life-threatening organ dysfunction caused by a dysregulated host response to infection"
+    "word": "SEROMA",
+    "clue": "Postoperative pocket of clear serous fluid collecting beneath the skin"
   },
   {
-    "word": "TURGOR",
-    "clue": "Skin's elasticity, assessed by pinching to gauge hydration status"
+    "word": "SLOUGH",
+    "clue": "Yellow, stringy dead tissue in a wound bed that must be removed before healing"
   },
   {
-    "word": "BRUIT",
-    "clue": "Abnormal whooshing sound heard over a blood vessel on auscultation"
+    "word": "EXUDATE",
+    "clue": "Fluid, pus, or serum that seeps from a wound and is assessed for color and odor"
   },
   {
-    "word": "GUARDING",
-    "clue": "Involuntary tensing of abdominal muscles to protect a tender area"
+    "word": "NECROSIS",
+    "clue": "Death of tissue caused by inadequate blood supply or infection"
   },
   {
-    "word": "REBOUND",
-    "clue": "Sharp increase in pain when pressure over the abdomen is suddenly released"
+    "word": "RELAPSE",
+    "clue": "Return of disease signs and symptoms after a period of improvement"
   },
   {
-    "word": "CLUBBING",
-    "clue": "Bulbous enlargement of the fingertips and nails, associated with chronic hypoxia"
+    "word": "REMISSION",
+    "clue": "Period during which signs and symptoms of cancer are reduced or absent"
   },
   {
-    "word": "MOTTLING",
-    "clue": "Patchy, lace-like skin discoloration that can signal poor peripheral perfusion"
+    "word": "PROGNOSIS",
+    "clue": "The predicted course and outcome of a disease"
   },
   {
-    "word": "BOUNDING",
-    "clue": "Describes a pulse that feels unusually strong and forceful"
+    "word": "INFUSION",
+    "clue": "IV administration of chemotherapy or fluids delivered over a set period"
   },
   {
-    "word": "THREADY",
-    "clue": "Describes a pulse that is weak, thin, and difficult to palpate"
+    "word": "CATHETER",
+    "clue": "Long-term tunneled central line, such as a Hickman, used for repeated IV chemo access"
   },
   {
-    "word": "DYSPNEA",
-    "clue": "Subjective sensation of difficult or labored breathing"
+    "word": "ANTIGEN",
+    "clue": "A substance that triggers an immune response and antibody production"
   },
   {
-    "word": "TACHYPNEA",
-    "clue": "Abnormally rapid respiratory rate"
+    "word": "ANTIBODY",
+    "clue": "Protein produced by the immune system to target a specific antigen"
   },
   {
-    "word": "BRADYPNEA",
-    "clue": "Abnormally slow respiratory rate"
+    "word": "AUTOIMMUNE",
+    "clue": "Describes a disorder in which the body's immune system attacks its own tissue"
   },
   {
-    "word": "HEMOGLOBIN",
-    "clue": "Iron-containing protein in red blood cells that carries oxygen"
+    "word": "DEHISCENCE",
+    "clue": "Postoperative separation of a wound along its suture line"
   },
   {
-    "word": "HEMATOCRIT",
-    "clue": "Percentage of blood volume made up of red blood cells"
+    "word": "LEUKOPENIA",
+    "clue": "Abnormally low white blood cell count that raises infection risk"
   },
   {
-    "word": "HYPOTENSION",
-    "clue": "Abnormally low blood pressure"
+    "word": "LYMPHEDEMA",
+    "clue": "Chronic limb swelling from impaired lymph drainage, seen after axillary node removal"
   },
   {
-    "word": "PALPATION",
-    "clue": "Physical assessment technique using the hands to feel for texture, tenderness, or masses"
+    "word": "ANASTOMOSIS",
+    "clue": "Surgical connection created between two sections of bowel or blood vessel"
   },
   {
-    "word": "AUSCULTATE",
-    "clue": "To listen to internal body sounds, typically with a stethoscope"
+    "word": "PANCYTOPENIA",
+    "clue": "Simultaneous deficiency of red cells, white cells, and platelets"
   }
 ]
