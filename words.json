@@ -1,82 +1,90 @@
 [
   {
-    "word": "NADIR",
-    "clue": "The point of lowest blood cell counts after chemotherapy, when infection risk peaks"
+    "word": "RALES",
+    "clue": "Fine, crackling lung sounds heard on inspiration, often from fluid in the alveoli"
   },
   {
-    "word": "LESION",
-    "clue": "General term for any area of damaged or abnormal tissue, such as a pressure wound"
+    "word": "RHONCHI",
+    "clue": "Coarse, low-pitched lung sounds from secretions in the larger airways that may clear with a cough"
   },
   {
-    "word": "SUTURE",
-    "clue": "Surgical stitch used to close the edges of an incision or wound"
+    "word": "SPUTUM",
+    "clue": "Mucus coughed up from the lower airways, often collected and sent for culture"
   },
   {
-    "word": "SEROMA",
-    "clue": "Postoperative pocket of clear serous fluid collecting beneath the skin"
+    "word": "COUGH",
+    "clue": "Forceful expulsion of air that helps clear the airway of secretions or irritants"
   },
   {
-    "word": "SLOUGH",
-    "clue": "Yellow, stringy dead tissue in a wound bed that must be removed before healing"
+    "word": "APICAL",
+    "clue": "Type of pulse auscultated at the heart's apex, typically the fifth intercostal space"
   },
   {
-    "word": "EXUDATE",
-    "clue": "Fluid, pus, or serum that seeps from a wound and is assessed for color and odor"
+    "word": "TIDAL",
+    "clue": "___ volume: the amount of air moved in one normal, relaxed breath"
   },
   {
-    "word": "NECROSIS",
-    "clue": "Death of tissue caused by inadequate blood supply or infection"
+    "word": "SCOPE",
+    "clue": "Short for the legal boundaries of what a nurse is permitted to do (___ of practice)"
   },
   {
-    "word": "RELAPSE",
-    "clue": "Return of disease signs and symptoms after a period of improvement"
+    "word": "HANDOFF",
+    "clue": "Structured transfer of patient care information between providers at shift change"
   },
   {
-    "word": "REMISSION",
-    "clue": "Period during which signs and symptoms of cancer are reduced or absent"
+    "word": "PRIORITY",
+    "clue": "In triage, the level assigned to the client whose needs must be addressed first"
   },
   {
-    "word": "PROGNOSIS",
-    "clue": "The predicted course and outcome of a disease"
+    "word": "DELEGATE",
+    "clue": "To assign a task to another team member while still retaining accountability for the outcome"
   },
   {
-    "word": "INFUSION",
-    "clue": "IV administration of chemotherapy or fluids delivered over a set period"
+    "word": "ADVOCATE",
+    "clue": "Role a nurse takes when speaking up for a client's rights and wishes"
   },
   {
-    "word": "CATHETER",
-    "clue": "Long-term tunneled central line, such as a Hickman, used for repeated IV chemo access"
+    "word": "NEBULIZER",
+    "clue": "Device that converts liquid medication into a fine mist for inhalation"
   },
   {
-    "word": "ANTIGEN",
-    "clue": "A substance that triggers an immune response and antibody production"
+    "word": "SUCTIONING",
+    "clue": "Airway clearance technique that uses negative pressure to remove secretions"
   },
   {
-    "word": "ANTIBODY",
-    "clue": "Protein produced by the immune system to target a specific antigen"
+    "word": "SATURATION",
+    "clue": "Percentage of hemoglobin binding sites carrying oxygen, measured by pulse oximetry"
   },
   {
-    "word": "AUTOIMMUNE",
-    "clue": "Describes a disorder in which the body's immune system attacks its own tissue"
+    "word": "SPIROMETRY",
+    "clue": "Pulmonary function test measuring the volume and flow of air during breathing"
   },
   {
-    "word": "DEHISCENCE",
-    "clue": "Postoperative separation of a wound along its suture line"
+    "word": "EFFUSION",
+    "clue": "Abnormal buildup of fluid in the pleural space that can compress the lung"
   },
   {
-    "word": "LEUKOPENIA",
-    "clue": "Abnormally low white blood cell count that raises infection risk"
+    "word": "HYPERCAPNIA",
+    "clue": "Elevated level of carbon dioxide in the blood"
   },
   {
-    "word": "LYMPHEDEMA",
-    "clue": "Chronic limb swelling from impaired lymph drainage, seen after axillary node removal"
+    "word": "ATELECTASIS",
+    "clue": "Collapse of alveoli that prevents normal gas exchange in part of the lung"
   },
   {
-    "word": "ANASTOMOSIS",
-    "clue": "Surgical connection created between two sections of bowel or blood vessel"
+    "word": "PNEUMOTHORAX",
+    "clue": "Collapsed lung caused by air entering the pleural space"
   },
   {
-    "word": "PANCYTOPENIA",
-    "clue": "Simultaneous deficiency of red cells, white cells, and platelets"
+    "word": "BRONCHOSPASM",
+    "clue": "Sudden constriction of airway smooth muscle, as seen in an asthma attack"
+  },
+  {
+    "word": "CAPNOGRAPHY",
+    "clue": "Continuous monitoring of exhaled carbon dioxide, often used to confirm ET tube placement"
+  },
+  {
+    "word": "HYPOXIA",
+    "clue": "Inadequate oxygen supply reaching the body's tissues"
   }
 ]
