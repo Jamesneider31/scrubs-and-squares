@@ -1,90 +1,90 @@
 [
   {
-    "word": "RALES",
-    "clue": "Fine, crackling lung sounds heard on inspiration, often from fluid in the alveoli"
+    "word": "PEAK",
+    "clue": "The highest blood concentration a medication reaches after administration"
   },
   {
-    "word": "RHONCHI",
-    "clue": "Coarse, low-pitched lung sounds from secretions in the larger airways that may clear with a cough"
+    "word": "CATION",
+    "clue": "A positively charged ion, such as potassium, sodium, or calcium"
   },
   {
-    "word": "SPUTUM",
-    "clue": "Mucus coughed up from the lower airways, often collected and sent for culture"
+    "word": "BUFFER",
+    "clue": "A substance that resists changes in blood pH by absorbing excess acid or base"
   },
   {
-    "word": "COUGH",
-    "clue": "Forceful expulsion of air that helps clear the airway of secretions or irritants"
+    "word": "TROUGH",
+    "clue": "The lowest blood level of a drug, drawn just before the next scheduled dose"
   },
   {
-    "word": "APICAL",
-    "clue": "Type of pulse auscultated at the heart's apex, typically the fifth intercostal space"
+    "word": "STATIN",
+    "clue": "Drug class ending in \"-statin\" that lowers LDL cholesterol by inhibiting HMG-CoA reductase"
   },
   {
-    "word": "TIDAL",
-    "clue": "___ volume: the amount of air moved in one normal, relaxed breath"
+    "word": "AGONIST",
+    "clue": "A drug that binds to a receptor and triggers the same response as the body's natural substance"
   },
   {
-    "word": "SCOPE",
-    "clue": "Short for the legal boundaries of what a nurse is permitted to do (___ of practice)"
+    "word": "HEPARIN",
+    "clue": "Anticoagulant whose therapeutic effect is monitored with aPTT"
   },
   {
-    "word": "HANDOFF",
-    "clue": "Structured transfer of patient care information between providers at shift change"
+    "word": "TOXICITY",
+    "clue": "A harmful, dose-related effect that occurs when a drug level exceeds the therapeutic range"
   },
   {
-    "word": "PRIORITY",
-    "clue": "In triage, the level assigned to the client whose needs must be addressed first"
+    "word": "WARFARIN",
+    "clue": "Oral anticoagulant that requires routine INR monitoring"
   },
   {
-    "word": "DELEGATE",
-    "clue": "To assign a task to another team member while still retaining accountability for the outcome"
+    "word": "NALOXONE",
+    "clue": "Opioid antagonist given to reverse respiratory depression from an overdose"
   },
   {
-    "word": "ADVOCATE",
-    "clue": "Role a nurse takes when speaking up for a client's rights and wishes"
+    "word": "ISOTONIC",
+    "clue": "Describes an IV fluid with the same osmolality as plasma, used to expand ECF volume"
   },
   {
-    "word": "NEBULIZER",
-    "clue": "Device that converts liquid medication into a fine mist for inhalation"
+    "word": "HALF-LIFE",
+    "clue": "The time required for a drug's blood concentration to fall by fifty percent"
   },
   {
-    "word": "SUCTIONING",
-    "clue": "Airway clearance technique that uses negative pressure to remove secretions"
+    "word": "SEDATIVE",
+    "clue": "A medication that produces a calming effect and reduces anxiety without necessarily inducing sleep"
   },
   {
-    "word": "SATURATION",
-    "clue": "Percentage of hemoglobin binding sites carrying oxygen, measured by pulse oximetry"
+    "word": "ANALGESIC",
+    "clue": "A medication given specifically to relieve pain"
   },
   {
-    "word": "SPIROMETRY",
-    "clue": "Pulmonary function test measuring the volume and flow of air during breathing"
+    "word": "VANCOMYCIN",
+    "clue": "Antibiotic whose trough level is monitored to prevent nephrotoxicity and ototoxicity"
   },
   {
-    "word": "EFFUSION",
-    "clue": "Abnormal buildup of fluid in the pleural space that can compress the lung"
+    "word": "ANTAGONIST",
+    "clue": "A drug that binds to a receptor and blocks the response of the body's natural substance"
   },
   {
-    "word": "HYPERCAPNIA",
-    "clue": "Elevated level of carbon dioxide in the blood"
+    "word": "SYNERGISTIC",
+    "clue": "Describes a drug interaction in which the combined effect is greater than the sum of each drug alone"
   },
   {
-    "word": "ATELECTASIS",
-    "clue": "Collapse of alveoli that prevents normal gas exchange in part of the lung"
+    "word": "CRYSTALLOID",
+    "clue": "IV fluid containing electrolytes that move freely between fluid compartments, such as normal saline"
   },
   {
-    "word": "PNEUMOTHORAX",
-    "clue": "Collapsed lung caused by air entering the pleural space"
+    "word": "POLYPHARMACY",
+    "clue": "The use of multiple medications by one client, which raises the risk of drug interactions"
   },
   {
-    "word": "BRONCHOSPASM",
-    "clue": "Sudden constriction of airway smooth muscle, as seen in an asthma attack"
+    "word": "HYPERKALEMIA",
+    "clue": "An elevated potassium level in the blood that can cause life-threatening cardiac dysrhythmias"
   },
   {
-    "word": "CAPNOGRAPHY",
-    "clue": "Continuous monitoring of exhaled carbon dioxide, often used to confirm ET tube placement"
+    "word": "HYPOCALCEMIA",
+    "clue": "A low calcium level in the blood that can cause tetany and a positive Trousseau's sign"
   },
   {
-    "word": "HYPOXIA",
-    "clue": "Inadequate oxygen supply reaching the body's tissues"
+    "word": "ANTICOAGULANT",
+    "clue": "A medication that reduces the blood's ability to clot, such as heparin or warfarin"
   }
 ]
