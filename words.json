@@ -1,90 +1,98 @@
 [
   {
-    "word": "PEAK",
-    "clue": "The highest blood concentration a medication reaches after administration"
+    "word": "ELOPE",
+    "clue": "What an inpatient psychiatric client does when they leave the unit without authorization"
   },
   {
-    "word": "CATION",
-    "clue": "A positively charged ion, such as potassium, sodium, or calcium"
+    "word": "BINGE",
+    "clue": "Eating an unusually large amount of food with a sense of loss of control, as in bulimia nervosa"
   },
   {
-    "word": "BUFFER",
-    "clue": "A substance that resists changes in blood pH by absorbing excess acid or base"
+    "word": "PURGE",
+    "clue": "Self-induced vomiting or laxative misuse used to compensate for overeating"
   },
   {
-    "word": "TROUGH",
-    "clue": "The lowest blood level of a drug, drawn just before the next scheduled dose"
+    "word": "MUTISM",
+    "clue": "Selective ___: a child speaks normally at home but goes silent in certain social settings"
   },
   {
-    "word": "STATIN",
-    "clue": "Drug class ending in \"-statin\" that lowers LDL cholesterol by inhibiting HMG-CoA reductase"
+    "word": "MILIEU",
+    "clue": "Therapeutic ___: a structured, safe unit environment intended to support a client's recovery"
   },
   {
-    "word": "AGONIST",
-    "clue": "A drug that binds to a receptor and triggers the same response as the body's natural substance"
+    "word": "STIGMA",
+    "clue": "Negative social attitude toward a mental illness that often keeps clients from seeking treatment"
   },
   {
-    "word": "HEPARIN",
-    "clue": "Anticoagulant whose therapeutic effect is monitored with aPTT"
+    "word": "FLIGHT",
+    "clue": "\"___ of ideas\": rapid, loosely connected shifts between topics of speech seen in mania"
   },
   {
-    "word": "TOXICITY",
-    "clue": "A harmful, dose-related effect that occurs when a drug level exceeds the therapeutic range"
+    "word": "CRAVING",
+    "clue": "An intense urge to use a substance, a hallmark symptom of dependence"
   },
   {
-    "word": "WARFARIN",
-    "clue": "Oral anticoagulant that requires routine INR monitoring"
+    "word": "TARDIVE",
+    "clue": "\"___ dyskinesia\": irreversible involuntary movements from long-term antipsychotic use"
   },
   {
-    "word": "NALOXONE",
-    "clue": "Opioid antagonist given to reverse respiratory depression from an overdose"
+    "word": "DYSTONIA",
+    "clue": "Sudden, sustained muscle contraction of the neck or face; an acute extrapyramidal side effect"
   },
   {
-    "word": "ISOTONIC",
-    "clue": "Describes an IV fluid with the same osmolality as plasma, used to expand ECF volume"
+    "word": "AVERSION",
+    "clue": "___ therapy: pairing an unwanted behavior with an unpleasant stimulus to discourage it"
   },
   {
-    "word": "HALF-LIFE",
-    "clue": "The time required for a drug's blood concentration to fall by fifty percent"
+    "word": "DELUSION",
+    "clue": "A fixed false belief that persists despite clear evidence to the contrary"
   },
   {
-    "word": "SEDATIVE",
-    "clue": "A medication that produces a calming effect and reduces anxiety without necessarily inducing sleep"
+    "word": "HOARDING",
+    "clue": "Persistent difficulty discarding possessions, leading to cluttered living spaces"
   },
   {
-    "word": "ANALGESIC",
-    "clue": "A medication given specifically to relieve pain"
+    "word": "CLOZAPINE",
+    "clue": "Antipsychotic requiring weekly blood draws to monitor for agranulocytosis"
   },
   {
-    "word": "VANCOMYCIN",
-    "clue": "Antibiotic whose trough level is monitored to prevent nephrotoxicity and ototoxicity"
+    "word": "LORAZEPAM",
+    "clue": "Benzodiazepine of choice for status epilepticus and severe alcohol withdrawal"
   },
   {
-    "word": "ANTAGONIST",
-    "clue": "A drug that binds to a receptor and blocks the response of the body's natural substance"
+    "word": "BUSPIRONE",
+    "clue": "Anxiolytic with low abuse potential that is not a benzodiazepine"
   },
   {
-    "word": "SYNERGISTIC",
-    "clue": "Describes a drug interaction in which the combined effect is greater than the sum of each drug alone"
+    "word": "TRAZODONE",
+    "clue": "Sedating antidepressant often prescribed off-label for insomnia"
   },
   {
-    "word": "CRYSTALLOID",
-    "clue": "IV fluid containing electrolytes that move freely between fluid compartments, such as normal saline"
+    "word": "BUPROPION",
+    "clue": "Antidepressant that lowers the seizure threshold and is avoided in clients with eating disorders"
   },
   {
-    "word": "POLYPHARMACY",
-    "clue": "The use of multiple medications by one client, which raises the risk of drug interactions"
+    "word": "AKATHISIA",
+    "clue": "Antipsychotic side effect causing inner restlessness and an inability to sit still"
   },
   {
-    "word": "HYPERKALEMIA",
-    "clue": "An elevated potassium level in the blood that can cause life-threatening cardiac dysrhythmias"
+    "word": "CATATONIA",
+    "clue": "Psychomotor disturbance marked by stupor, rigid posturing, or waxy flexibility"
   },
   {
-    "word": "HYPOCALCEMIA",
-    "clue": "A low calcium level in the blood that can cause tetany and a positive Trousseau's sign"
+    "word": "SECLUSION",
+    "clue": "Involuntary confinement alone in a locked room, used only as a last-resort intervention"
   },
   {
-    "word": "ANTICOAGULANT",
-    "clue": "A medication that reduces the blood's ability to clot, such as heparin or warfarin"
+    "word": "RESTRAINT",
+    "clue": "A physical or chemical device that limits a client's movement and requires frequent documented checks"
+  },
+  {
+    "word": "SERTRALINE",
+    "clue": "SSRI antidepressant considered first-line for depression and PTSD"
+  },
+  {
+    "word": "HALOPERIDOL",
+    "clue": "Conventional antipsychotic given IM for acute agitation and also used for Tourette's tics"
   }
 ]
