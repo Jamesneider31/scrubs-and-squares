@@ -1,98 +1,98 @@
 [
   {
-    "word": "ELOPE",
-    "clue": "What an inpatient psychiatric client does when they leave the unit without authorization"
+    "word": "SHUNT",
+    "clue": "An abnormal connection that lets blood bypass its normal pathway, as with a congenital cardiac ___"
   },
   {
-    "word": "BINGE",
-    "clue": "Eating an unusually large amount of food with a sense of loss of control, as in bulimia nervosa"
+    "word": "STENT",
+    "clue": "Mesh tube placed to keep a coronary artery open after angioplasty"
   },
   {
-    "word": "PURGE",
-    "clue": "Self-induced vomiting or laxative misuse used to compensate for overeating"
+    "word": "ANGINA",
+    "clue": "Chest pain caused by reduced blood flow to the heart muscle"
   },
   {
-    "word": "MUTISM",
-    "clue": "Selective ___: a child speaks normally at home but goes silent in certain social settings"
+    "word": "MURMUR",
+    "clue": "Abnormal heart sound caused by turbulent blood flow across a valve"
   },
   {
-    "word": "MILIEU",
-    "clue": "Therapeutic ___: a structured, safe unit environment intended to support a client's recovery"
+    "word": "GALLOP",
+    "clue": "Extra heart sound (S3 or S4) often signaling heart failure"
   },
   {
-    "word": "STIGMA",
-    "clue": "Negative social attitude toward a mental illness that often keeps clients from seeking treatment"
+    "word": "ANURIA",
+    "clue": "Urine output under 100 mL in 24 hours, a sign of severe renal failure"
   },
   {
-    "word": "FLIGHT",
-    "clue": "\"___ of ideas\": rapid, loosely connected shifts between topics of speech seen in mania"
+    "word": "FISTULA",
+    "clue": "Arteriovenous ___: a surgically created vascular access site for hemodialysis"
   },
   {
-    "word": "CRAVING",
-    "clue": "An intense urge to use a substance, a hallmark symptom of dependence"
+    "word": "FLUTTER",
+    "clue": "Atrial ___: rapid, regular atrial rhythm with a \"sawtooth\" pattern on ECG"
   },
   {
-    "word": "TARDIVE",
-    "clue": "\"___ dyskinesia\": irreversible involuntary movements from long-term antipsychotic use"
+    "word": "INFARCT",
+    "clue": "An area of tissue death caused by a sudden loss of blood supply"
   },
   {
-    "word": "DYSTONIA",
-    "clue": "Sudden, sustained muscle contraction of the neck or face; an acute extrapyramidal side effect"
+    "word": "PRELOAD",
+    "clue": "Volume of blood stretching the ventricle at the end of diastole"
   },
   {
-    "word": "AVERSION",
-    "clue": "___ therapy: pairing an unwanted behavior with an unpleasant stimulus to discourage it"
+    "word": "ISCHEMIA",
+    "clue": "Reduced blood flow to tissue; the underlying cause of anginal chest pain"
   },
   {
-    "word": "DELUSION",
-    "clue": "A fixed false belief that persists despite clear evidence to the contrary"
+    "word": "DIURESIS",
+    "clue": "Increased urine output, often the goal of loop diuretic therapy"
   },
   {
-    "word": "HOARDING",
-    "clue": "Persistent difficulty discarding possessions, leading to cluttered living spaces"
+    "word": "OLIGURIA",
+    "clue": "Urine output below 400 mL in 24 hours, a warning sign of impaired renal perfusion"
   },
   {
-    "word": "CLOZAPINE",
-    "clue": "Antipsychotic requiring weekly blood draws to monitor for agranulocytosis"
+    "word": "AZOTEMIA",
+    "clue": "Elevated nitrogenous waste (BUN/creatinine) in the blood from reduced kidney function"
   },
   {
-    "word": "LORAZEPAM",
-    "clue": "Benzodiazepine of choice for status epilepticus and severe alcohol withdrawal"
+    "word": "DIALYSIS",
+    "clue": "Treatment that filters waste and excess fluid from the blood when the kidneys fail"
   },
   {
-    "word": "BUSPIRONE",
-    "clue": "Anxiolytic with low abuse potential that is not a benzodiazepine"
+    "word": "PERFUSION",
+    "clue": "Adequate blood flow delivering oxygen to tissue; the goal of hemodynamic monitoring"
   },
   {
-    "word": "TRAZODONE",
-    "clue": "Sedating antidepressant often prescribed off-label for insomnia"
+    "word": "TAMPONADE",
+    "clue": "Cardiac ___: fluid accumulation in the pericardial sac that compresses the heart"
   },
   {
-    "word": "BUPROPION",
-    "clue": "Antidepressant that lowers the seizure threshold and is avoided in clients with eating disorders"
+    "word": "AFTERLOAD",
+    "clue": "Resistance the heart must pump against to eject blood"
   },
   {
-    "word": "AKATHISIA",
-    "clue": "Antipsychotic side effect causing inner restlessness and an inability to sit still"
+    "word": "ORTHOPNEA",
+    "clue": "Difficulty breathing that improves when the client sits upright, common in heart failure"
   },
   {
-    "word": "CATATONIA",
-    "clue": "Psychomotor disturbance marked by stupor, rigid posturing, or waxy flexibility"
+    "word": "ARRHYTHMIA",
+    "clue": "Any abnormal heart rhythm, from benign to life-threatening"
   },
   {
-    "word": "SECLUSION",
-    "clue": "Involuntary confinement alone in a locked room, used only as a last-resort intervention"
+    "word": "CREATININE",
+    "clue": "Lab value used as the primary marker of glomerular filtration rate"
   },
   {
-    "word": "RESTRAINT",
-    "clue": "A physical or chemical device that limits a client's movement and requires frequent documented checks"
+    "word": "VASOPRESSOR",
+    "clue": "Medication given to raise blood pressure by constricting blood vessels in shock"
   },
   {
-    "word": "SERTRALINE",
-    "clue": "SSRI antidepressant considered first-line for depression and PTSD"
+    "word": "CLAUDICATION",
+    "clue": "Intermittent ___: cramping leg pain with walking, caused by peripheral arterial disease"
   },
   {
-    "word": "HALOPERIDOL",
-    "clue": "Conventional antipsychotic given IM for acute agitation and also used for Tourette's tics"
+    "word": "FIBRILLATION",
+    "clue": "Atrial ___: chaotic, disorganized atrial electrical activity that increases stroke risk"
   }
 ]
