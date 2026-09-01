@@ -1,98 +1,90 @@
 [
   {
-    "word": "SHUNT",
-    "clue": "An abnormal connection that lets blood bypass its normal pathway, as with a congenital cardiac ___"
+    "word": "SODIUM",
+    "clue": "Electrolyte with a normal serum range of 135-145 mEq/L, essential for fluid balance and nerve conduction"
   },
   {
-    "word": "STENT",
-    "clue": "Mesh tube placed to keep a coronary artery open after angioplasty"
+    "word": "POTASSIUM",
+    "clue": "Electrolyte with a normal serum range of 3.5-5.0 mEq/L, critical for cardiac and muscle function"
   },
   {
-    "word": "ANGINA",
-    "clue": "Chest pain caused by reduced blood flow to the heart muscle"
+    "word": "CALCIUM",
+    "clue": "Electrolyte essential for muscle contraction, blood clotting, and bone strength"
   },
   {
-    "word": "MURMUR",
-    "clue": "Abnormal heart sound caused by turbulent blood flow across a valve"
+    "word": "CHLORIDE",
+    "clue": "Major extracellular anion that typically shifts in tandem with sodium"
   },
   {
-    "word": "GALLOP",
-    "clue": "Extra heart sound (S3 or S4) often signaling heart failure"
+    "word": "MAGNESIUM",
+    "clue": "Electrolyte critical for cardiac rhythm and neuromuscular function, often low in alcohol use disorder"
   },
   {
-    "word": "ANURIA",
-    "clue": "Urine output under 100 mL in 24 hours, a sign of severe renal failure"
+    "word": "TETANY",
+    "clue": "Involuntary muscle spasms and hyperreflexia caused by hypocalcemia"
   },
   {
-    "word": "FISTULA",
-    "clue": "Arteriovenous ___: a surgically created vascular access site for hemodialysis"
+    "word": "CRAMPING",
+    "clue": "Painful, involuntary muscle contractions commonly caused by low potassium or calcium levels"
   },
   {
-    "word": "FLUTTER",
-    "clue": "Atrial ___: rapid, regular atrial rhythm with a \"sawtooth\" pattern on ECG"
+    "word": "LETHARGY",
+    "clue": "Abnormal drowsiness and sluggishness, an early neurologic sign of significant electrolyte imbalance"
   },
   {
-    "word": "INFARCT",
-    "clue": "An area of tissue death caused by a sudden loss of blood supply"
+    "word": "FLACCID",
+    "clue": "___ paralysis: profound muscle weakness that can accompany severe hypokalemia"
   },
   {
-    "word": "PRELOAD",
-    "clue": "Volume of blood stretching the ventricle at the end of diastole"
+    "word": "ACIDOSIS",
+    "clue": "Blood pH below 7.35, confirmed by arterial blood gas analysis"
   },
   {
-    "word": "ISCHEMIA",
-    "clue": "Reduced blood flow to tissue; the underlying cause of anginal chest pain"
+    "word": "ALKALOSIS",
+    "clue": "Blood pH above 7.45, which can result from prolonged vomiting or hyperventilation"
   },
   {
-    "word": "DIURESIS",
-    "clue": "Increased urine output, often the goal of loop diuretic therapy"
+    "word": "ANASARCA",
+    "clue": "Severe, generalized body edema seen in conditions like heart failure or nephrotic syndrome"
   },
   {
-    "word": "OLIGURIA",
-    "clue": "Urine output below 400 mL in 24 hours, a warning sign of impaired renal perfusion"
+    "word": "ANION",
+    "clue": "___ gap: calculated difference between measured cations and anions, widened in diabetic ketoacidosis"
   },
   {
-    "word": "AZOTEMIA",
-    "clue": "Elevated nitrogenous waste (BUN/creatinine) in the blood from reduced kidney function"
+    "word": "DIURETIC",
+    "clue": "Medication class that increases urine output to reduce excess fluid volume"
   },
   {
-    "word": "DIALYSIS",
-    "clue": "Treatment that filters waste and excess fluid from the blood when the kidneys fail"
+    "word": "CHVOSTEK",
+    "clue": "___'s sign: facial muscle twitching elicited by tapping near the ear, indicating hypocalcemia"
   },
   {
-    "word": "PERFUSION",
-    "clue": "Adequate blood flow delivering oxygen to tissue; the goal of hemodynamic monitoring"
+    "word": "TROUSSEAU",
+    "clue": "___'s sign: carpal spasm elicited by inflating a blood pressure cuff, indicating hypocalcemia"
   },
   {
-    "word": "TAMPONADE",
-    "clue": "Cardiac ___: fluid accumulation in the pericardial sac that compresses the heart"
+    "word": "HYPOKALEMIA",
+    "clue": "Serum potassium below 3.5 mEq/L, a common cause of dangerous cardiac dysrhythmias"
   },
   {
-    "word": "AFTERLOAD",
-    "clue": "Resistance the heart must pump against to eject blood"
+    "word": "HYPONATREMIA",
+    "clue": "Serum sodium below 135 mEq/L, which can cause confusion and seizures"
   },
   {
-    "word": "ORTHOPNEA",
-    "clue": "Difficulty breathing that improves when the client sits upright, common in heart failure"
+    "word": "DEHYDRATION",
+    "clue": "Deficient body fluid volume that can be assessed through skin turgor and mucous membranes"
   },
   {
-    "word": "ARRHYTHMIA",
-    "clue": "Any abnormal heart rhythm, from benign to life-threatening"
+    "word": "OSMOLALITY",
+    "clue": "Lab value measuring the concentration of dissolved particles in blood or urine"
   },
   {
-    "word": "CREATININE",
-    "clue": "Lab value used as the primary marker of glomerular filtration rate"
+    "word": "RETENTION",
+    "clue": "Fluid ___: abnormal accumulation of fluid in body tissues or cavities"
   },
   {
-    "word": "VASOPRESSOR",
-    "clue": "Medication given to raise blood pressure by constricting blood vessels in shock"
-  },
-  {
-    "word": "CLAUDICATION",
-    "clue": "Intermittent ___: cramping leg pain with walking, caused by peripheral arterial disease"
-  },
-  {
-    "word": "FIBRILLATION",
-    "clue": "Atrial ___: chaotic, disorganized atrial electrical activity that increases stroke risk"
+    "word": "VOMITING",
+    "clue": "Forceful reflex expulsion of stomach contents that can lead to metabolic alkalosis and hypokalemia"
   }
 ]
