@@ -1,98 +1,146 @@
 [
   {
-    "word": "NPO",
-    "clue": "Abbreviation for a physician's order meaning nothing by mouth, common before surgery or certain tests"
+    "word": "HYPONATREMIA",
+    "clue": "Serum sodium level less than 135 mEq/L",
+    "rationale": "Chapter mnemonic for its manifestations: SALT LOSS.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "GOUT",
-    "clue": "Form of inflammatory arthritis caused by monosodium urate crystal deposition in a joint"
+    "word": "HYPOKALEMIA",
+    "clue": "Below-normal serum potassium, less than 3.5 mEq/L",
+    "rationale": "Chapter mnemonic: \"7 Ls \u2014 low and slow.\"",
+    "topic": "Med-Surg"
   },
   {
-    "word": "GERD",
-    "clue": "Abbreviation for chronic reflux of stomach acid into the esophagus"
+    "word": "HYPOCALCEMIA",
+    "clue": "Serum calcium level less than 8.6 mg/dL",
+    "rationale": "Chapter mnemonic: CRAMPS; watch for tetany and positive Trousseau/Chvostek signs.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "PICC",
-    "clue": "Abbreviation for a long catheter inserted through an arm vein and threaded into the central venous system"
+    "word": "HYPOMAGNESEMIA",
+    "clue": "Serum magnesium level less than 1.8 mg/dL",
+    "rationale": "Chapter mnemonic: TWITCH; associated with hypokalemia and hypocalcemia.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "GOITER",
-    "clue": "Visible, palpable enlargement of the thyroid gland, seen in both hyper- and hypothyroidism"
+    "word": "HYPERMAGNESEMIA",
+    "clue": "Serum magnesium level greater than 2.6 mg/dL",
+    "rationale": "Chapter mnemonic: LETHARGIC; rare because the kidneys efficiently excrete magnesium.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "INSULIN",
-    "clue": "Pancreatic beta-cell hormone that lowers blood glucose by promoting cellular uptake"
+    "word": "TROUSSEAU",
+    "clue": "___ sign: paired with Chvostek sign in the chapter's hypocalcemia and hypomagnesemia findings",
+    "rationale": "Named under both imbalances' clinical manifestations lists.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "CACHEXIA",
-    "clue": "Severe body wasting with profound muscle loss, seen in advanced cancer and chronic illness"
+    "word": "OSMOSIS",
+    "clue": "Movement of water from an area of low solute concentration to an area of high solute concentration",
+    "rationale": "One of four fluid-regulation mechanisms in the chapter's \"Regulation of Fluid\" section.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "CYANOSIS",
-    "clue": "Bluish discoloration of skin and mucous membranes from inadequate tissue oxygenation"
+    "word": "DIFFUSION",
+    "clue": "Movement of solutes from an area of higher concentration to one of lower concentration",
+    "rationale": "Also listed under \"Regulation of Fluid.\"",
+    "topic": "Med-Surg"
   },
   {
-    "word": "ERYTHEMA",
-    "clue": "Redness of the skin caused by capillary dilation, often an early sign of inflammation"
+    "word": "FILTRATION",
+    "clue": "Movement of water and solutes from an area of high hydrostatic pressure to an area of low hydrostatic pressure",
+    "rationale": "Third of the chapter's four fluid-regulation mechanisms.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "PRURITUS",
-    "clue": "Clinical term for itching, a common side effect of opioids and cholestasis"
+    "word": "DEHYDRATION",
+    "clue": "Loss of water alone with increased serum sodium levels \u2014 explicitly not the same as fluid volume deficit",
+    "rationale": "The chapter draws this distinction directly: FVD loses electrolytes in the same proportion as water.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "STENOSIS",
-    "clue": "Abnormal narrowing of a valve, vessel, or passage that obstructs normal flow"
+    "word": "BICARBONATE",
+    "clue": "Ion regulated by the kidneys as part of the ECF's major buffer system",
+    "rationale": "Named in the bicarbonate\u2013carbonic acid buffer system; normal ABG range given as 22\u201326 mEq/L.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "THROMBUS",
-    "clue": "A blood clot that forms and remains attached within a vessel wall"
+    "word": "HYPOVOLEMIA",
+    "clue": "The chapter's alternate name for fluid volume deficit",
+    "rationale": "Occurs when loss of extracellular fluid exceeds intake.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "EMBOLISM",
-    "clue": "Sudden vessel obstruction by a clot or other material that traveled from elsewhere in the body"
+    "word": "HYPERVOLEMIA",
+    "clue": "The chapter's alternate name for fluid volume excess",
+    "rationale": "Abnormal retention of water and sodium in roughly normal ECF proportions.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "ANEURYSM",
-    "clue": "Localized, abnormal dilation of an arterial wall that carries a risk of rupture"
+    "word": "ALDOSTERONE",
+    "clue": "Hormone named in the chapter's Renin\u2013Angiotensin\u2013___ System",
+    "rationale": "Listed among the body's homeostatic mechanisms for fluid balance.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "GLUCAGON",
-    "clue": "Pancreatic alpha-cell hormone that raises blood glucose by triggering glycogen breakdown"
+    "word": "INTERSTITIAL",
+    "clue": "ECF subtype that surrounds the cell, e.g. lymph",
+    "rationale": "One of three ECF subtypes listed, with intravascular and transcellular.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "POLYURIA",
-    "clue": "Excessive urine output, a classic early sign of uncontrolled diabetes"
+    "word": "INTRAVASCULAR",
+    "clue": "ECF subtype within blood vessels: plasma, erythrocytes, leukocytes, thrombocytes",
+    "rationale": "One of three ECF subtypes the chapter lists.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "MUCOSITIS",
-    "clue": "Painful inflammation and ulceration of mucous membranes, a common chemotherapy side effect"
+    "word": "EDEMA",
+    "clue": "Clinical manifestation of fluid volume excess, along with distended neck veins and crackles",
+    "rationale": "Listed first among FVE's clinical manifestations.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "POLYDIPSIA",
-    "clue": "Excessive thirst, one of the cardinal signs of hyperglycemia"
+    "word": "ACIDOSIS",
+    "clue": "Metabolic ___: low pH under 7.35 with plasma bicarbonate under 22 mEq/L",
+    "rationale": "With this condition, hyperkalemia may occur as potassium shifts out of the cell.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "TACHYCARDIA",
-    "clue": "Heart rate greater than 100 beats per minute in an adult at rest"
+    "word": "ALKALOSIS",
+    "clue": "Metabolic ___: high pH over 7.45 with high bicarbonate over 26 mEq/L",
+    "rationale": "Hypokalemia will produce this condition, per the chapter.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "BRADYCARDIA",
-    "clue": "Heart rate below 60 beats per minute in an adult at rest"
+    "word": "PARESTHESIA",
+    "clue": "Abnormal tingling/numbness sensation listed as a manifestation of hypokalemia and hypocalcemia",
+    "rationale": "Appears in the clinical manifestations lists for multiple electrolyte imbalances.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "DIAPHORESIS",
-    "clue": "Profuse sweating that can signal pain, hypoglycemia, or myocardial infarction"
+    "word": "POTASSIUM",
+    "clue": "Major cation whose imbalance causes ECG changes and dysrhythmias",
+    "rationale": "Listed among the chapter's major cations, along with sodium, calcium, and magnesium.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "NEUTROPENIA",
-    "clue": "Abnormally low neutrophil count that places a patient at high risk for infection"
+    "word": "SODIUM",
+    "clue": "Major cation regulated via the renin-angiotensin-aldosterone system",
+    "rationale": "Listed among the chapter's major cations.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "PALPITATIONS",
-    "clue": "Subjective sensation of a rapid, fluttering, or pounding heartbeat"
+    "word": "MAGNESIUM",
+    "clue": "Major cation whose deficiency is associated with hypokalemia and hypocalcemia",
+    "rationale": "Listed among the chapter's major cations.",
+    "topic": "Med-Surg"
   },
   {
-    "word": "KETOACIDOSIS",
-    "clue": "Diabetic ___: life-threatening complication from ketone buildup causing severe metabolic acidosis"
+    "word": "CHLORIDE",
+    "clue": "Major anion listed alongside bicarbonate, phosphate, and sulfate",
+    "rationale": "One of the chapter's major anions.",
+    "topic": "Med-Surg"
   }
 ]
