@@ -1,90 +1,98 @@
 [
   {
-    "word": "SODIUM",
-    "clue": "Electrolyte with a normal serum range of 135-145 mEq/L, essential for fluid balance and nerve conduction"
+    "word": "NPO",
+    "clue": "Abbreviation for a physician's order meaning nothing by mouth, common before surgery or certain tests"
   },
   {
-    "word": "POTASSIUM",
-    "clue": "Electrolyte with a normal serum range of 3.5-5.0 mEq/L, critical for cardiac and muscle function"
+    "word": "GOUT",
+    "clue": "Form of inflammatory arthritis caused by monosodium urate crystal deposition in a joint"
   },
   {
-    "word": "CALCIUM",
-    "clue": "Electrolyte essential for muscle contraction, blood clotting, and bone strength"
+    "word": "GERD",
+    "clue": "Abbreviation for chronic reflux of stomach acid into the esophagus"
   },
   {
-    "word": "CHLORIDE",
-    "clue": "Major extracellular anion that typically shifts in tandem with sodium"
+    "word": "PICC",
+    "clue": "Abbreviation for a long catheter inserted through an arm vein and threaded into the central venous system"
   },
   {
-    "word": "MAGNESIUM",
-    "clue": "Electrolyte critical for cardiac rhythm and neuromuscular function, often low in alcohol use disorder"
+    "word": "GOITER",
+    "clue": "Visible, palpable enlargement of the thyroid gland, seen in both hyper- and hypothyroidism"
   },
   {
-    "word": "TETANY",
-    "clue": "Involuntary muscle spasms and hyperreflexia caused by hypocalcemia"
+    "word": "INSULIN",
+    "clue": "Pancreatic beta-cell hormone that lowers blood glucose by promoting cellular uptake"
   },
   {
-    "word": "CRAMPING",
-    "clue": "Painful, involuntary muscle contractions commonly caused by low potassium or calcium levels"
+    "word": "CACHEXIA",
+    "clue": "Severe body wasting with profound muscle loss, seen in advanced cancer and chronic illness"
   },
   {
-    "word": "LETHARGY",
-    "clue": "Abnormal drowsiness and sluggishness, an early neurologic sign of significant electrolyte imbalance"
+    "word": "CYANOSIS",
+    "clue": "Bluish discoloration of skin and mucous membranes from inadequate tissue oxygenation"
   },
   {
-    "word": "FLACCID",
-    "clue": "___ paralysis: profound muscle weakness that can accompany severe hypokalemia"
+    "word": "ERYTHEMA",
+    "clue": "Redness of the skin caused by capillary dilation, often an early sign of inflammation"
   },
   {
-    "word": "ACIDOSIS",
-    "clue": "Blood pH below 7.35, confirmed by arterial blood gas analysis"
+    "word": "PRURITUS",
+    "clue": "Clinical term for itching, a common side effect of opioids and cholestasis"
   },
   {
-    "word": "ALKALOSIS",
-    "clue": "Blood pH above 7.45, which can result from prolonged vomiting or hyperventilation"
+    "word": "STENOSIS",
+    "clue": "Abnormal narrowing of a valve, vessel, or passage that obstructs normal flow"
   },
   {
-    "word": "ANASARCA",
-    "clue": "Severe, generalized body edema seen in conditions like heart failure or nephrotic syndrome"
+    "word": "THROMBUS",
+    "clue": "A blood clot that forms and remains attached within a vessel wall"
   },
   {
-    "word": "ANION",
-    "clue": "___ gap: calculated difference between measured cations and anions, widened in diabetic ketoacidosis"
+    "word": "EMBOLISM",
+    "clue": "Sudden vessel obstruction by a clot or other material that traveled from elsewhere in the body"
   },
   {
-    "word": "DIURETIC",
-    "clue": "Medication class that increases urine output to reduce excess fluid volume"
+    "word": "ANEURYSM",
+    "clue": "Localized, abnormal dilation of an arterial wall that carries a risk of rupture"
   },
   {
-    "word": "CHVOSTEK",
-    "clue": "___'s sign: facial muscle twitching elicited by tapping near the ear, indicating hypocalcemia"
+    "word": "GLUCAGON",
+    "clue": "Pancreatic alpha-cell hormone that raises blood glucose by triggering glycogen breakdown"
   },
   {
-    "word": "TROUSSEAU",
-    "clue": "___'s sign: carpal spasm elicited by inflating a blood pressure cuff, indicating hypocalcemia"
+    "word": "POLYURIA",
+    "clue": "Excessive urine output, a classic early sign of uncontrolled diabetes"
   },
   {
-    "word": "HYPOKALEMIA",
-    "clue": "Serum potassium below 3.5 mEq/L, a common cause of dangerous cardiac dysrhythmias"
+    "word": "MUCOSITIS",
+    "clue": "Painful inflammation and ulceration of mucous membranes, a common chemotherapy side effect"
   },
   {
-    "word": "HYPONATREMIA",
-    "clue": "Serum sodium below 135 mEq/L, which can cause confusion and seizures"
+    "word": "POLYDIPSIA",
+    "clue": "Excessive thirst, one of the cardinal signs of hyperglycemia"
   },
   {
-    "word": "DEHYDRATION",
-    "clue": "Deficient body fluid volume that can be assessed through skin turgor and mucous membranes"
+    "word": "TACHYCARDIA",
+    "clue": "Heart rate greater than 100 beats per minute in an adult at rest"
   },
   {
-    "word": "OSMOLALITY",
-    "clue": "Lab value measuring the concentration of dissolved particles in blood or urine"
+    "word": "BRADYCARDIA",
+    "clue": "Heart rate below 60 beats per minute in an adult at rest"
   },
   {
-    "word": "RETENTION",
-    "clue": "Fluid ___: abnormal accumulation of fluid in body tissues or cavities"
+    "word": "DIAPHORESIS",
+    "clue": "Profuse sweating that can signal pain, hypoglycemia, or myocardial infarction"
   },
   {
-    "word": "VOMITING",
-    "clue": "Forceful reflex expulsion of stomach contents that can lead to metabolic alkalosis and hypokalemia"
+    "word": "NEUTROPENIA",
+    "clue": "Abnormally low neutrophil count that places a patient at high risk for infection"
+  },
+  {
+    "word": "PALPITATIONS",
+    "clue": "Subjective sensation of a rapid, fluttering, or pounding heartbeat"
+  },
+  {
+    "word": "KETOACIDOSIS",
+    "clue": "Diabetic ___: life-threatening complication from ketone buildup causing severe metabolic acidosis"
   }
 ]
