@@ -1,38 +1,38 @@
 [
   {
-    "word": "HYPONATREMIA",
-    "clue": "Serum sodium level less than 135 mEq/L",
-    "rationale": "Chapter mnemonic for its manifestations: SALT LOSS.",
+    "word": "HYPERNATREMIA",
+    "clue": "Serum sodium level greater than 145 mEq/L",
+    "rationale": "Chapter mnemonic for its manifestations: FRIED.",
     "topic": "Med-Surg"
   },
   {
-    "word": "HYPOKALEMIA",
-    "clue": "Below-normal serum potassium, less than 3.5 mEq/L",
-    "rationale": "Chapter mnemonic: \"7 Ls \u2014 low and slow.\"",
+    "word": "HYPERKALEMIA",
+    "clue": "Serum potassium greater than 5.0 mEq/L, frequently associated with cardiac arrest",
+    "rationale": "Chapter mnemonic for its manifestations: MURDER.",
     "topic": "Med-Surg"
   },
   {
-    "word": "HYPOCALCEMIA",
-    "clue": "Serum calcium level less than 8.6 mg/dL",
-    "rationale": "Chapter mnemonic: CRAMPS; watch for tetany and positive Trousseau/Chvostek signs.",
+    "word": "HYPERCALCEMIA",
+    "clue": "Serum calcium level greater than 10.4 mg/dL",
+    "rationale": "Chapter mnemonic: WEAK; hypercalcemic crisis carries a high mortality rate.",
     "topic": "Med-Surg"
   },
   {
-    "word": "HYPOMAGNESEMIA",
-    "clue": "Serum magnesium level less than 1.8 mg/dL",
-    "rationale": "Chapter mnemonic: TWITCH; associated with hypokalemia and hypocalcemia.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "HYPERMAGNESEMIA",
-    "clue": "Serum magnesium level greater than 2.6 mg/dL",
-    "rationale": "Chapter mnemonic: LETHARGIC; rare because the kidneys efficiently excrete magnesium.",
+    "word": "TETANY",
+    "clue": "Involuntary muscle contraction listed as a clinical manifestation of hypocalcemia",
+    "rationale": "Listed in the chapter alongside circumoral numbness and Trousseau/Chvostek signs.",
     "topic": "Med-Surg"
   },
   {
     "word": "TROUSSEAU",
     "clue": "___ sign: paired with Chvostek sign in the chapter's hypocalcemia and hypomagnesemia findings",
     "rationale": "Named under both imbalances' clinical manifestations lists.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "CHVOSTEK",
+    "clue": "___ sign: the other sign paired with Trousseau in the chapter's findings",
+    "rationale": "Also named under both hypocalcemia and hypomagnesemia manifestations.",
     "topic": "Med-Surg"
   },
   {
@@ -48,81 +48,9 @@
     "topic": "Med-Surg"
   },
   {
-    "word": "FILTRATION",
-    "clue": "Movement of water and solutes from an area of high hydrostatic pressure to an area of low hydrostatic pressure",
-    "rationale": "Third of the chapter's four fluid-regulation mechanisms.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "DEHYDRATION",
-    "clue": "Loss of water alone with increased serum sodium levels \u2014 explicitly not the same as fluid volume deficit",
-    "rationale": "The chapter draws this distinction directly: FVD loses electrolytes in the same proportion as water.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "BICARBONATE",
-    "clue": "Ion regulated by the kidneys as part of the ECF's major buffer system",
-    "rationale": "Named in the bicarbonate\u2013carbonic acid buffer system; normal ABG range given as 22\u201326 mEq/L.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "HYPOVOLEMIA",
-    "clue": "The chapter's alternate name for fluid volume deficit",
-    "rationale": "Occurs when loss of extracellular fluid exceeds intake.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "HYPERVOLEMIA",
-    "clue": "The chapter's alternate name for fluid volume excess",
-    "rationale": "Abnormal retention of water and sodium in roughly normal ECF proportions.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "ALDOSTERONE",
-    "clue": "Hormone named in the chapter's Renin\u2013Angiotensin\u2013___ System",
-    "rationale": "Listed among the body's homeostatic mechanisms for fluid balance.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "INTERSTITIAL",
-    "clue": "ECF subtype that surrounds the cell, e.g. lymph",
-    "rationale": "One of three ECF subtypes listed, with intravascular and transcellular.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "INTRAVASCULAR",
-    "clue": "ECF subtype within blood vessels: plasma, erythrocytes, leukocytes, thrombocytes",
-    "rationale": "One of three ECF subtypes the chapter lists.",
-    "topic": "Med-Surg"
-  },
-  {
     "word": "EDEMA",
     "clue": "Clinical manifestation of fluid volume excess, along with distended neck veins and crackles",
     "rationale": "Listed first among FVE's clinical manifestations.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "ACIDOSIS",
-    "clue": "Metabolic ___: low pH under 7.35 with plasma bicarbonate under 22 mEq/L",
-    "rationale": "With this condition, hyperkalemia may occur as potassium shifts out of the cell.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "ALKALOSIS",
-    "clue": "Metabolic ___: high pH over 7.45 with high bicarbonate over 26 mEq/L",
-    "rationale": "Hypokalemia will produce this condition, per the chapter.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "PARESTHESIA",
-    "clue": "Abnormal tingling/numbness sensation listed as a manifestation of hypokalemia and hypocalcemia",
-    "rationale": "Appears in the clinical manifestations lists for multiple electrolyte imbalances.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "POTASSIUM",
-    "clue": "Major cation whose imbalance causes ECG changes and dysrhythmias",
-    "rationale": "Listed among the chapter's major cations, along with sodium, calcium, and magnesium.",
     "topic": "Med-Surg"
   },
   {
@@ -132,15 +60,87 @@
     "topic": "Med-Surg"
   },
   {
+    "word": "CHLORIDE",
+    "clue": "Major anion listed alongside bicarbonate, phosphate, and sulfate",
+    "rationale": "One of the chapter's major anions.",
+    "topic": "Med-Surg"
+  },
+  {
     "word": "MAGNESIUM",
     "clue": "Major cation whose deficiency is associated with hypokalemia and hypocalcemia",
     "rationale": "Listed among the chapter's major cations.",
     "topic": "Med-Surg"
   },
   {
-    "word": "CHLORIDE",
-    "clue": "Major anion listed alongside bicarbonate, phosphate, and sulfate",
-    "rationale": "One of the chapter's major anions.",
+    "word": "OSMOLALITY",
+    "clue": "Serum ___ greater than 300 mOsm/kg is a diagnostic finding in hypernatremia",
+    "rationale": "Given as a specific lab threshold in the chapter's hypernatremia findings.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "CALCITONIN",
+    "clue": "Hormone that, with parathyroid hormone, controls serum calcium level",
+    "rationale": "Named directly in the chapter's hypocalcemia section.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "ALBUMIN",
+    "clue": "Serum protein that calcium levels must be considered alongside",
+    "rationale": "Chapter states hypocalcemia \"must be considered in conjunction with serum albumin level.\"",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "CIRRHOSIS",
+    "clue": "Liver ___: a disease state listed as a cause of fluid volume excess",
+    "rationale": "Named in the chapter's FVE pathophysiology list alongside heart failure and kidney disease.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "DELIRIUM",
+    "clue": "Condition fluid deficit may cause in older adults, per the chapter's gerontologic considerations",
+    "rationale": "Directly stated: \"Fluid deficit may cause delirium.\"",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "KETOACIDOSIS",
+    "clue": "Diabetic ___: listed as a cause of metabolic acidosis",
+    "rationale": "Named in the chapter's metabolic acidosis pathophysiology list.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "ATELECTASIS",
+    "clue": "Lung collapse listed as a cause of respiratory acidosis",
+    "rationale": "Named alongside pulmonary edema and pneumothorax in the chapter's respiratory acidosis pathophysiology.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "PNEUMOTHORAX",
+    "clue": "Collapsed lung condition listed as a cause of respiratory acidosis",
+    "rationale": "Named in the same pathophysiology list as atelectasis.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "HYPERVENTILATION",
+    "clue": "The single cause the chapter gives for respiratory alkalosis",
+    "rationale": "Chapter states respiratory alkalosis is \"always due to hyperventilation.\"",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "SALICYLATE",
+    "clue": "___ poisoning/intoxication: named as a cause of both metabolic acidosis and respiratory alkalosis",
+    "rationale": "Appears in both the metabolic acidosis and respiratory alkalosis pathophysiology lists.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "BARORECEPTORS",
+    "clue": "Pressure-sensing homeostatic mechanism listed alongside the kidney, heart, and lungs",
+    "rationale": "One of the body's fluid-homeostasis mechanisms named in the chapter.",
+    "topic": "Med-Surg"
+  },
+  {
+    "word": "ANTIDIURETIC",
+    "clue": "___ Hormone: one of the chapter's homeostatic mechanisms maintaining fluid balance",
+    "rationale": "Listed alongside osmoreceptors and natriuretic peptides.",
     "topic": "Med-Surg"
   }
 ]
