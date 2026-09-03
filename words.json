@@ -1,146 +1,146 @@
 [
   {
-    "word": "HYPONATREMIA",
-    "clue": "Serum sodium level less than 135 mEq/L",
-    "rationale": "Chapter mnemonic for its manifestations: SALT LOSS.",
-    "topic": "Med-Surg"
+    "word": "PATHOGEN",
+    "clue": "A microorganism capable of causing disease",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "HYPOKALEMIA",
-    "clue": "Below-normal serum potassium, less than 3.5 mEq/L",
-    "rationale": "Chapter mnemonic: \"7 Ls \u2014 low and slow.\"",
-    "topic": "Med-Surg"
+    "word": "STERILE",
+    "clue": "Completely free of living microorganisms; the standard for surgical fields and instruments",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "HYPOCALCEMIA",
-    "clue": "Serum calcium level less than 8.6 mg/dL",
-    "rationale": "Chapter mnemonic: CRAMPS; watch for tetany and positive Trousseau/Chvostek signs.",
-    "topic": "Med-Surg"
+    "word": "FOMITE",
+    "clue": "An inanimate object, like a doorknob or stethoscope, capable of carrying and transmitting infectious organisms",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "HYPOMAGNESEMIA",
-    "clue": "Serum magnesium level less than 1.8 mg/dL",
-    "rationale": "Chapter mnemonic: TWITCH; associated with hypokalemia and hypocalcemia.",
-    "topic": "Med-Surg"
+    "word": "ASEPSIS",
+    "clue": "The absence of pathogenic microorganisms; the goal of sterile technique",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "HYPERMAGNESEMIA",
-    "clue": "Serum magnesium level greater than 2.6 mg/dL",
-    "rationale": "Chapter mnemonic: LETHARGIC; rare because the kidneys efficiently excrete magnesium.",
-    "topic": "Med-Surg"
+    "word": "ABSCESS",
+    "clue": "A localized collection of pus walled off within tissue",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "TROUSSEAU",
-    "clue": "___ sign: paired with Chvostek sign in the chapter's hypocalcemia and hypomagnesemia findings",
-    "rationale": "Named under both imbalances' clinical manifestations lists.",
-    "topic": "Med-Surg"
+    "word": "PURULENT",
+    "clue": "Containing or discharging pus, as in wound drainage",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "OSMOSIS",
-    "clue": "Movement of water from an area of low solute concentration to an area of high solute concentration",
-    "rationale": "One of four fluid-regulation mechanisms in the chapter's \"Regulation of Fluid\" section.",
-    "topic": "Med-Surg"
+    "word": "CELLULITIS",
+    "clue": "Acute bacterial infection of the skin and subcutaneous tissue, marked by redness, warmth, and swelling",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "DIFFUSION",
-    "clue": "Movement of solutes from an area of higher concentration to one of lower concentration",
-    "rationale": "Also listed under \"Regulation of Fluid.\"",
-    "topic": "Med-Surg"
+    "word": "BACTEREMIA",
+    "clue": "The presence of viable bacteria circulating in the bloodstream",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "FILTRATION",
-    "clue": "Movement of water and solutes from an area of high hydrostatic pressure to an area of low hydrostatic pressure",
-    "rationale": "Third of the chapter's four fluid-regulation mechanisms.",
-    "topic": "Med-Surg"
+    "word": "VIREMIA",
+    "clue": "The presence of virus particles circulating in the bloodstream",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "DEHYDRATION",
-    "clue": "Loss of water alone with increased serum sodium levels \u2014 explicitly not the same as fluid volume deficit",
-    "rationale": "The chapter draws this distinction directly: FVD loses electrolytes in the same proportion as water.",
-    "topic": "Med-Surg"
+    "word": "NOSOCOMIAL",
+    "clue": "Describing an infection acquired during a hospital stay, not present at admission",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "BICARBONATE",
-    "clue": "Ion regulated by the kidneys as part of the ECF's major buffer system",
-    "rationale": "Named in the bicarbonate\u2013carbonic acid buffer system; normal ABG range given as 22\u201326 mEq/L.",
-    "topic": "Med-Surg"
+    "word": "LEUKOCYTOSIS",
+    "clue": "An elevated white blood cell count, often an early sign of infection",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "HYPOVOLEMIA",
-    "clue": "The chapter's alternate name for fluid volume deficit",
-    "rationale": "Occurs when loss of extracellular fluid exceeds intake.",
-    "topic": "Med-Surg"
+    "word": "NEUTROPHIL",
+    "clue": "The most abundant type of white blood cell and the first responder to acute bacterial infection",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "HYPERVOLEMIA",
-    "clue": "The chapter's alternate name for fluid volume excess",
-    "rationale": "Abnormal retention of water and sodium in roughly normal ECF proportions.",
-    "topic": "Med-Surg"
+    "word": "PHAGOCYTOSIS",
+    "clue": "The process by which a cell engulfs and destroys a pathogen or debris",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "ALDOSTERONE",
-    "clue": "Hormone named in the chapter's Renin\u2013Angiotensin\u2013___ System",
-    "rationale": "Listed among the body's homeostatic mechanisms for fluid balance.",
-    "topic": "Med-Surg"
+    "word": "PYREXIA",
+    "clue": "The clinical term for an elevated body temperature; fever",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "INTERSTITIAL",
-    "clue": "ECF subtype that surrounds the cell, e.g. lymph",
-    "rationale": "One of three ECF subtypes listed, with intravascular and transcellular.",
-    "topic": "Med-Surg"
+    "word": "AFEBRILE",
+    "clue": "Without fever; having a normal body temperature",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "INTRAVASCULAR",
-    "clue": "ECF subtype within blood vessels: plasma, erythrocytes, leukocytes, thrombocytes",
-    "rationale": "One of three ECF subtypes the chapter lists.",
-    "topic": "Med-Surg"
+    "word": "BIOFILM",
+    "clue": "A matrix-enclosed community of microorganisms adhering to a surface, such as a catheter",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "EDEMA",
-    "clue": "Clinical manifestation of fluid volume excess, along with distended neck veins and crackles",
-    "rationale": "Listed first among FVE's clinical manifestations.",
-    "topic": "Med-Surg"
+    "word": "VIRULENCE",
+    "clue": "The degree or capacity of a microorganism to cause disease",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "ACIDOSIS",
-    "clue": "Metabolic ___: low pH under 7.35 with plasma bicarbonate under 22 mEq/L",
-    "rationale": "With this condition, hyperkalemia may occur as potassium shifts out of the cell.",
-    "topic": "Med-Surg"
+    "word": "ISOLATION",
+    "clue": "A transmission-based precaution category that separates an infected patient to prevent spread",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "ALKALOSIS",
-    "clue": "Metabolic ___: high pH over 7.45 with high bicarbonate over 26 mEq/L",
-    "rationale": "Hypokalemia will produce this condition, per the chapter.",
-    "topic": "Med-Surg"
+    "word": "DROPLET",
+    "clue": "___ precautions: used for pathogens spread via large respiratory particles over short distances, e.g. influenza",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "PARESTHESIA",
-    "clue": "Abnormal tingling/numbness sensation listed as a manifestation of hypokalemia and hypocalcemia",
-    "rationale": "Appears in the clinical manifestations lists for multiple electrolyte imbalances.",
-    "topic": "Med-Surg"
+    "word": "AIRBORNE",
+    "clue": "___ precautions: used for pathogens that remain suspended and travel on air currents, e.g. tuberculosis",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "POTASSIUM",
-    "clue": "Major cation whose imbalance causes ECG changes and dysrhythmias",
-    "rationale": "Listed among the chapter's major cations, along with sodium, calcium, and magnesium.",
-    "topic": "Med-Surg"
+    "word": "CONTACT",
+    "clue": "___ precautions: used for pathogens spread by direct or indirect physical touch, e.g. MRSA",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "SODIUM",
-    "clue": "Major cation regulated via the renin-angiotensin-aldosterone system",
-    "rationale": "Listed among the chapter's major cations.",
-    "topic": "Med-Surg"
+    "word": "QUARANTINE",
+    "clue": "Restricting movement of an exposed but asymptomatic person to prevent possible disease spread",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "MAGNESIUM",
-    "clue": "Major cation whose deficiency is associated with hypokalemia and hypocalcemia",
-    "rationale": "Listed among the chapter's major cations.",
-    "topic": "Med-Surg"
+    "word": "GANGRENE",
+    "clue": "Tissue necrosis resulting from an interrupted blood supply, often complicated by bacterial infection",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
-    "word": "CHLORIDE",
-    "clue": "Major anion listed alongside bicarbonate, phosphate, and sulfate",
-    "rationale": "One of the chapter's major anions.",
-    "topic": "Med-Surg"
+    "word": "MRSA",
+    "clue": "Abbreviation for a methicillin-resistant strain of Staphylococcus aureus, a classic multidrug-resistant organism",
+    "rationale": "",
+    "topic": "Infection Control"
   }
 ]
