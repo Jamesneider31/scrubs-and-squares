@@ -24,10 +24,10 @@
     "topic": "Med-Surg"
   },
   {
-    "word": "TROUSSEAU",
-    "clue": "___ sign: paired with Chvostek sign in the chapter's hypocalcemia and hypomagnesemia findings",
-    "rationale": "Named under both imbalances' clinical manifestations lists.",
-    "topic": "Med-Surg"
+    "word": "PURULENT",
+    "clue": "Containing or discharging pus, as in wound drainage",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
     "word": "CHVOSTEK",
@@ -42,10 +42,10 @@
     "topic": "Med-Surg"
   },
   {
-    "word": "DIFFUSION",
-    "clue": "Movement of solutes from an area of higher concentration to one of lower concentration",
-    "rationale": "Also listed under \"Regulation of Fluid.\"",
-    "topic": "Med-Surg"
+    "word": "BACTEREMIA",
+    "clue": "The presence of viable bacteria circulating in the bloodstream",
+    "rationale": "",
+    "topic": "Infection Control"
   },
   {
     "word": "EDEMA",
