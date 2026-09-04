@@ -1,146 +1,82 @@
 [
   {
-    "word": "HYPERNATREMIA",
-    "clue": "Serum sodium level greater than 145 mEq/L",
-    "rationale": "Chapter mnemonic for its manifestations: FRIED.",
-    "topic": "Med-Surg"
+    "word": "APGAR",
+    "clue": "Score assessing heart rate, respiratory effort, muscle tone, reflex irritability, and color at 1 and 5 minutes after birth"
   },
   {
-    "word": "HYPERKALEMIA",
-    "clue": "Serum potassium greater than 5.0 mEq/L, frequently associated with cardiac arrest",
-    "rationale": "Chapter mnemonic for its manifestations: MURDER.",
-    "topic": "Med-Surg"
+    "word": "LOCHIA",
+    "clue": "Vaginal discharge of blood, mucus, and uterine tissue following childbirth"
   },
   {
-    "word": "HYPERCALCEMIA",
-    "clue": "Serum calcium level greater than 10.4 mg/dL",
-    "rationale": "Chapter mnemonic: WEAK; hypercalcemic crisis carries a high mortality rate.",
-    "topic": "Med-Surg"
+    "word": "PARITY",
+    "clue": "Number of pregnancies a woman has carried past the point of fetal viability"
   },
   {
-    "word": "TETANY",
-    "clue": "Involuntary muscle contraction listed as a clinical manifestation of hypocalcemia",
-    "rationale": "Listed in the chapter alongside circumoral numbness and Trousseau/Chvostek signs.",
-    "topic": "Med-Surg"
+    "word": "GRAVIDA",
+    "clue": "Number of times a woman has been pregnant, regardless of outcome"
   },
   {
-    "word": "PURULENT",
-    "clue": "Containing or discharging pus, as in wound drainage",
-    "rationale": "",
-    "topic": "Infection Control"
+    "word": "DYSTOCIA",
+    "clue": "Difficult or abnormal labor"
   },
   {
-    "word": "CHVOSTEK",
-    "clue": "___ sign: the other sign paired with Trousseau in the chapter's findings",
-    "rationale": "Also named under both hypocalcemia and hypomagnesemia manifestations.",
-    "topic": "Med-Surg"
+    "word": "ECLAMPSIA",
+    "clue": "Onset of seizures in a woman with preeclampsia"
   },
   {
-    "word": "OSMOSIS",
-    "clue": "Movement of water from an area of low solute concentration to an area of high solute concentration",
-    "rationale": "One of four fluid-regulation mechanisms in the chapter's \"Regulation of Fluid\" section.",
-    "topic": "Med-Surg"
+    "word": "MECONIUM",
+    "clue": "Newborn's first stool, thick, sticky, and dark green to black"
   },
   {
-    "word": "BACTEREMIA",
-    "clue": "The presence of viable bacteria circulating in the bloodstream",
-    "rationale": "",
-    "topic": "Infection Control"
+    "word": "COLOSTRUM",
+    "clue": "Antibody-rich first breast milk produced in late pregnancy and early postpartum"
   },
   {
-    "word": "EDEMA",
-    "clue": "Clinical manifestation of fluid volume excess, along with distended neck veins and crackles",
-    "rationale": "Listed first among FVE's clinical manifestations.",
-    "topic": "Med-Surg"
+    "word": "FUNDUS",
+    "clue": "Top, rounded portion of the uterus, palpated to assess postpartum involution"
   },
   {
-    "word": "SODIUM",
-    "clue": "Major cation regulated via the renin-angiotensin-aldosterone system",
-    "rationale": "Listed among the chapter's major cations.",
-    "topic": "Med-Surg"
+    "word": "PLACENTA",
+    "clue": "Organ that exchanges oxygen, nutrients, and waste between mother and fetus"
   },
   {
-    "word": "CHLORIDE",
-    "clue": "Major anion listed alongside bicarbonate, phosphate, and sulfate",
-    "rationale": "One of the chapter's major anions.",
-    "topic": "Med-Surg"
+    "word": "AMNIOTIC",
+    "clue": "___ fluid: fluid surrounding and cushioning the fetus in the uterus"
   },
   {
-    "word": "MAGNESIUM",
-    "clue": "Major cation whose deficiency is associated with hypokalemia and hypocalcemia",
-    "rationale": "Listed among the chapter's major cations.",
-    "topic": "Med-Surg"
+    "word": "TERATOGEN",
+    "clue": "Agent capable of causing abnormal fetal development"
   },
   {
-    "word": "OSMOLALITY",
-    "clue": "Serum ___ greater than 300 mOsm/kg is a diagnostic finding in hypernatremia",
-    "rationale": "Given as a specific lab threshold in the chapter's hypernatremia findings.",
-    "topic": "Med-Surg"
+    "word": "OXYTOCIN",
+    "clue": "Hormone, also given as a medication, that triggers and strengthens labor contractions"
   },
   {
-    "word": "CALCITONIN",
-    "clue": "Hormone that, with parathyroid hormone, controls serum calcium level",
-    "rationale": "Named directly in the chapter's hypocalcemia section.",
-    "topic": "Med-Surg"
+    "word": "NULLIPARA",
+    "clue": "A woman who has never carried a pregnancy to viable gestational age"
   },
   {
-    "word": "ALBUMIN",
-    "clue": "Serum protein that calcium levels must be considered alongside",
-    "rationale": "Chapter states hypocalcemia \"must be considered in conjunction with serum albumin level.\"",
-    "topic": "Med-Surg"
+    "word": "VERNIX",
+    "clue": "White, waxy coating that protects fetal skin in utero"
   },
   {
-    "word": "CIRRHOSIS",
-    "clue": "Liver ___: a disease state listed as a cause of fluid volume excess",
-    "rationale": "Named in the chapter's FVE pathophysiology list alongside heart failure and kidney disease.",
-    "topic": "Med-Surg"
+    "word": "STAT",
+    "clue": "Order designation meaning a medication or intervention must be given immediately"
   },
   {
-    "word": "DELIRIUM",
-    "clue": "Condition fluid deficit may cause in older adults, per the chapter's gerontologic considerations",
-    "rationale": "Directly stated: \"Fluid deficit may cause delirium.\"",
-    "topic": "Med-Surg"
+    "word": "TRIAGE",
+    "clue": "Process of sorting patients by the urgency of their need for care"
   },
   {
-    "word": "KETOACIDOSIS",
-    "clue": "Diabetic ___: listed as a cause of metabolic acidosis",
-    "rationale": "Named in the chapter's metabolic acidosis pathophysiology list.",
-    "topic": "Med-Surg"
+    "word": "SEPSIS",
+    "clue": "Life-threatening organ dysfunction caused by a dysregulated host response to infection"
   },
   {
-    "word": "ATELECTASIS",
-    "clue": "Lung collapse listed as a cause of respiratory acidosis",
-    "rationale": "Named alongside pulmonary edema and pneumothorax in the chapter's respiratory acidosis pathophysiology.",
-    "topic": "Med-Surg"
+    "word": "PALLOR",
+    "clue": "Abnormal paleness of the skin, a sign of poor perfusion or anemia"
   },
   {
-    "word": "PNEUMOTHORAX",
-    "clue": "Collapsed lung condition listed as a cause of respiratory acidosis",
-    "rationale": "Named in the same pathophysiology list as atelectasis.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "HYPERVENTILATION",
-    "clue": "The single cause the chapter gives for respiratory alkalosis",
-    "rationale": "Chapter states respiratory alkalosis is \"always due to hyperventilation.\"",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "SALICYLATE",
-    "clue": "___ poisoning/intoxication: named as a cause of both metabolic acidosis and respiratory alkalosis",
-    "rationale": "Appears in both the metabolic acidosis and respiratory alkalosis pathophysiology lists.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "BARORECEPTORS",
-    "clue": "Pressure-sensing homeostatic mechanism listed alongside the kidney, heart, and lungs",
-    "rationale": "One of the body's fluid-homeostasis mechanisms named in the chapter.",
-    "topic": "Med-Surg"
-  },
-  {
-    "word": "ANTIDIURETIC",
-    "clue": "___ Hormone: one of the chapter's homeostatic mechanisms maintaining fluid balance",
-    "rationale": "Listed alongside osmoreceptors and natriuretic peptides.",
-    "topic": "Med-Surg"
+    "word": "EMESIS",
+    "clue": "The act of vomiting"
   }
 ]
