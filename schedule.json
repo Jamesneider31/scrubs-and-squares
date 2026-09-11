@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11T15:41:45.576281+00:00",
+  "updated_at": "2026-09-11T16:28:43.504286+00:00",
   "default_rotation": {
     "0": "Pharmacology Monday",
     "1": "Prioritization Tuesday",
@@ -10,5 +10,19 @@
     "5": "Pediatrics Saturday",
     "6": "Mixed Review Sunday"
   },
-  "overrides": []
+  "overrides": [
+    {
+      "id": "3d77f937-025c-49aa-98f1-977baec95008",
+      "topic": "Final Code Verify",
+      "topic_slug": "final-code-verify",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "duration_weeks": 0,
+      "created_at": "2026-09-11T16:28:42.961557+00:00",
+      "note_ids": [
+        "d18bbf60-58bb-44fe-b95a-220a6b059f12"
+      ],
+      "status": "active"
+    }
+  ]
 }
