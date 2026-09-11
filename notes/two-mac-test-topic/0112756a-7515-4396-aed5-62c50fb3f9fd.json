@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "note_id": "0112756a-7515-4396-aed5-62c50fb3f9fd",
+  "topic": "Two-Mac Test Topic",
+  "topic_slug": "two-mac-test-topic",
+  "override_id": "df7f0498-a3ee-4d5c-a1e1-733a3d968997",
+  "submitted_date": "2026-09-11",
+  "source_filename": "device_a_note.txt",
+  "source_file_type": "txt",
+  "extraction_method": "plain-text",
+  "extraction_confidence": null,
+  "page_count": null,
+  "char_count": 80,
+  "extracted_text": "Created on simulated Device A, should appear on Device B via pull_and_reconcile.",
+  "extraction_warnings": [],
+  "created_at": "2026-09-11T15:41:44.861261+00:00",
+  "app_version": "0.1.0"
+}
