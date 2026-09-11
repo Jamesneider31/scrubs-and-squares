@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11T03:48:56.131020+00:00",
+  "updated_at": "2026-09-11T15:41:45.576281+00:00",
   "default_rotation": {
     "0": "Pharmacology Monday",
     "1": "Prioritization Tuesday",
@@ -10,5 +10,19 @@
     "5": "Pediatrics Saturday",
     "6": "Mixed Review Sunday"
   },
-  "overrides": []
+  "overrides": [
+    {
+      "id": "df7f0498-a3ee-4d5c-a1e1-733a3d968997",
+      "topic": "Two-Mac Test Topic",
+      "topic_slug": "two-mac-test-topic",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "duration_weeks": 0,
+      "created_at": "2026-09-11T15:41:44.859333+00:00",
+      "note_ids": [
+        "0112756a-7515-4396-aed5-62c50fb3f9fd"
+      ],
+      "status": "active"
+    }
+  ]
 }
