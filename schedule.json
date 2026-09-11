@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11T03:06:55.407896+00:00",
+  "updated_at": "2026-09-11T03:48:56.131020+00:00",
   "default_rotation": {
     "0": "Pharmacology Monday",
     "1": "Prioritization Tuesday",
@@ -10,5 +10,19 @@
     "5": "Pediatrics Saturday",
     "6": "Mixed Review Sunday"
   },
-  "overrides": []
+  "overrides": [
+    {
+      "id": "e74359ed-8e48-469c-a137-dd221fcb5075",
+      "topic": "Live Sync Test 2",
+      "topic_slug": "live-sync-test-2",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-10",
+      "duration_weeks": 0,
+      "created_at": "2026-09-11T03:48:55.761866+00:00",
+      "note_ids": [
+        "8fb219cf-c39b-420c-a37e-6682dacfb4e2"
+      ],
+      "status": "active"
+    }
+  ]
 }
