@@ -1,146 +1,158 @@
 [
   {
-    "word": "HYPERNATREMIA",
-    "clue": "Serum sodium level greater than 145 mEq/L",
-    "rationale": "Chapter mnemonic for its manifestations: FRIED.",
-    "topic": "Med-Surg"
+    "word": "GRAVIDA",
+    "clue": "The number of times a woman has been pregnant, regardless of outcome",
+    "rationale": "Charted alongside para (e.g. \"G3P2\") to summarize a patient's obstetric history at a glance.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "HYPERKALEMIA",
-    "clue": "Serum potassium greater than 5.0 mEq/L, frequently associated with cardiac arrest",
-    "rationale": "Chapter mnemonic for its manifestations: MURDER.",
-    "topic": "Med-Surg"
+    "word": "MULTIGRAVIDA",
+    "clue": "Term for a woman who has been pregnant more than once",
+    "rationale": "Contrast with primigravida (first pregnancy) -- labor often progresses faster in multigravidas.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "HYPERCALCEMIA",
-    "clue": "Serum calcium level greater than 10.4 mg/dL",
-    "rationale": "Chapter mnemonic: WEAK; hypercalcemic crisis carries a high mortality rate.",
-    "topic": "Med-Surg"
+    "word": "NULLIPARA",
+    "clue": "Term for a woman who has not carried a pregnancy past 20 weeks",
+    "rationale": "Distinguishes obstetric history from gravida -- para counts births, not pregnancies.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "TETANY",
-    "clue": "Involuntary muscle contraction listed as a clinical manifestation of hypocalcemia",
-    "rationale": "Listed in the chapter alongside circumoral numbness and Trousseau/Chvostek signs.",
-    "topic": "Med-Surg"
+    "word": "APGAR",
+    "clue": "Newborn scoring system checked at 1 and 5 minutes after birth",
+    "rationale": "Scores Appearance, Pulse, Grimace, Activity, and Respiration on a 0-2 scale each.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "TROUSSEAU",
-    "clue": "___ sign: paired with Chvostek sign in the chapter's hypocalcemia and hypomagnesemia findings",
-    "rationale": "Named under both imbalances' clinical manifestations lists.",
-    "topic": "Med-Surg"
+    "word": "LOCHIA",
+    "clue": "Postpartum vaginal discharge, tracked as it changes color over weeks",
+    "rationale": "Progresses rubra (red) to serosa (pink-brown) to alba (yellowish-white); a return to rubra can signal a problem.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "CHVOSTEK",
-    "clue": "___ sign: the other sign paired with Trousseau in the chapter's findings",
-    "rationale": "Also named under both hypocalcemia and hypomagnesemia manifestations.",
-    "topic": "Med-Surg"
+    "word": "FUNDUS",
+    "clue": "The top of the uterus, palpated after birth to check involution",
+    "rationale": "Should be firm and midline; a boggy fundus is an early sign of postpartum hemorrhage.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "OSMOSIS",
-    "clue": "Movement of water from an area of low solute concentration to an area of high solute concentration",
-    "rationale": "One of four fluid-regulation mechanisms in the chapter's \"Regulation of Fluid\" section.",
-    "topic": "Med-Surg"
+    "word": "INVOLUTION",
+    "clue": "The process of the uterus shrinking back to its pre-pregnancy size",
+    "rationale": "Delayed involution (subinvolution) is often linked to retained placental fragments or infection.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "DIFFUSION",
-    "clue": "Movement of solutes from an area of higher concentration to one of lower concentration",
-    "rationale": "Also listed under \"Regulation of Fluid.\"",
-    "topic": "Med-Surg"
+    "word": "COLOSTRUM",
+    "clue": "The thick, antibody-rich first milk produced before mature breast milk",
+    "rationale": "Especially high in IgA, giving the newborn passive immunity in the first days of life.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "EDEMA",
-    "clue": "Clinical manifestation of fluid volume excess, along with distended neck veins and crackles",
-    "rationale": "Listed first among FVE's clinical manifestations.",
-    "topic": "Med-Surg"
+    "word": "PREECLAMPSIA",
+    "clue": "Pregnancy complication marked by new hypertension plus proteinuria",
+    "rationale": "Watch for the danger signs: severe headache, visual changes, and epigastric pain -- possible progression to eclampsia.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "SODIUM",
-    "clue": "Major cation regulated via the renin-angiotensin-aldosterone system",
-    "rationale": "Listed among the chapter's major cations.",
-    "topic": "Med-Surg"
+    "word": "ECLAMPSIA",
+    "clue": "The onset of seizures in a patient with preeclampsia",
+    "rationale": "Magnesium sulfate is the go-to prophylaxis and treatment; watch for signs of toxicity like absent deep tendon reflexes.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "CHLORIDE",
-    "clue": "Major anion listed alongside bicarbonate, phosphate, and sulfate",
-    "rationale": "One of the chapter's major anions.",
-    "topic": "Med-Surg"
+    "word": "MECONIUM",
+    "clue": "A newborn's first, dark and tarry stool",
+    "rationale": "Meconium-stained amniotic fluid before birth can signal fetal distress and raises aspiration risk.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "MAGNESIUM",
-    "clue": "Major cation whose deficiency is associated with hypokalemia and hypocalcemia",
-    "rationale": "Listed among the chapter's major cations.",
-    "topic": "Med-Surg"
+    "word": "VERNIX",
+    "clue": "The white, waxy coating protecting a newborn's skin in utero",
+    "rationale": "More abundant in preterm infants; not always fully wiped away since it has some antimicrobial benefit.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "OSMOLALITY",
-    "clue": "Serum ___ greater than 300 mOsm/kg is a diagnostic finding in hypernatremia",
-    "rationale": "Given as a specific lab threshold in the chapter's hypernatremia findings.",
-    "topic": "Med-Surg"
+    "word": "PLACENTA",
+    "clue": "The organ that exchanges nutrients and waste between mother and fetus",
+    "rationale": "Delivered after the baby in the \"third stage\" of labor; retained fragments raise hemorrhage risk.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "CALCITONIN",
-    "clue": "Hormone that, with parathyroid hormone, controls serum calcium level",
-    "rationale": "Named directly in the chapter's hypocalcemia section.",
-    "topic": "Med-Surg"
+    "word": "AMNIOTIC",
+    "clue": "Type of fluid-filled sac that cushions the fetus",
+    "rationale": "Its rupture (\"water breaking\") can happen before or during labor and is checked for color, odor, and amount.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "ALBUMIN",
-    "clue": "Serum protein that calcium levels must be considered alongside",
-    "rationale": "Chapter states hypocalcemia \"must be considered in conjunction with serum albumin level.\"",
-    "topic": "Med-Surg"
+    "word": "TERATOGEN",
+    "clue": "Any substance that can cause a birth defect in a developing fetus",
+    "rationale": "Alcohol, certain medications, and some infections are common examples counseled against in prenatal visits.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "CIRRHOSIS",
-    "clue": "Liver ___: a disease state listed as a cause of fluid volume excess",
-    "rationale": "Named in the chapter's FVE pathophysiology list alongside heart failure and kidney disease.",
-    "topic": "Med-Surg"
+    "word": "DYSTOCIA",
+    "clue": "Term for difficult or abnormally slow labor",
+    "rationale": "Shoulder dystocia specifically is an obstetric emergency requiring maneuvers like McRoberts positioning.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "DELIRIUM",
-    "clue": "Condition fluid deficit may cause in older adults, per the chapter's gerontologic considerations",
-    "rationale": "Directly stated: \"Fluid deficit may cause delirium.\"",
-    "topic": "Med-Surg"
+    "word": "HEMORRHAGE",
+    "clue": "The leading cause of maternal death in the postpartum period",
+    "rationale": "Uterine atony (a fundus that won't stay firm) is the most common cause -- fundal massage is first-line.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "KETOACIDOSIS",
-    "clue": "Diabetic ___: listed as a cause of metabolic acidosis",
-    "rationale": "Named in the chapter's metabolic acidosis pathophysiology list.",
-    "topic": "Med-Surg"
+    "word": "HYPOGLYCEMIA",
+    "clue": "Low blood sugar risk newborns of diabetic mothers are watched for",
+    "rationale": "The baby's own insulin production stays high right after birth even though the maternal glucose supply is gone.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "ATELECTASIS",
-    "clue": "Lung collapse listed as a cause of respiratory acidosis",
-    "rationale": "Named alongside pulmonary edema and pneumothorax in the chapter's respiratory acidosis pathophysiology.",
-    "topic": "Med-Surg"
+    "word": "KERNICTERUS",
+    "clue": "Type of brain damage that can result from severe, untreated newborn jaundice",
+    "rationale": "The reason bilirubin levels are tracked closely and phototherapy is started early when levels climb.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "PNEUMOTHORAX",
-    "clue": "Collapsed lung condition listed as a cause of respiratory acidosis",
-    "rationale": "Named in the same pathophysiology list as atelectasis.",
-    "topic": "Med-Surg"
+    "word": "SURFACTANT",
+    "clue": "Substance that keeps a newborn's tiny air sacs from collapsing",
+    "rationale": "Often deficient in premature infants, leading to respiratory distress syndrome.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "HYPERVENTILATION",
-    "clue": "The single cause the chapter gives for respiratory alkalosis",
-    "rationale": "Chapter states respiratory alkalosis is \"always due to hyperventilation.\"",
-    "topic": "Med-Surg"
+    "word": "QUICKENING",
+    "clue": "Term for the mother's first perceived fetal movements",
+    "rationale": "Typically felt around 16-20 weeks -- earlier in multigravidas than in a first pregnancy.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "SALICYLATE",
-    "clue": "___ poisoning/intoxication: named as a cause of both metabolic acidosis and respiratory alkalosis",
-    "rationale": "Appears in both the metabolic acidosis and respiratory alkalosis pathophysiology lists.",
-    "topic": "Med-Surg"
+    "word": "STRIAE",
+    "clue": "The clinical term for stretch marks that can appear during pregnancy",
+    "rationale": "Caused by rapid stretching of the skin's connective tissue as the abdomen grows.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "BARORECEPTORS",
-    "clue": "Pressure-sensing homeostatic mechanism listed alongside the kidney, heart, and lungs",
-    "rationale": "One of the body's fluid-homeostasis mechanisms named in the chapter.",
-    "topic": "Med-Surg"
+    "word": "EPISIOTOMY",
+    "clue": "A surgical incision sometimes made to enlarge the vaginal opening for delivery",
+    "rationale": "Postpartum care of the site follows the same principles as any perineal laceration: ice, peri care, and pain control.",
+    "topic": "Maternal/Newborn"
   },
   {
-    "word": "ANTIDIURETIC",
-    "clue": "___ Hormone: one of the chapter's homeostatic mechanisms maintaining fluid balance",
-    "rationale": "Listed alongside osmoreceptors and natriuretic peptides.",
-    "topic": "Med-Surg"
+    "word": "UMBILICAL",
+    "clue": "Type of cord that connects the fetus to the placenta",
+    "rationale": "Checked immediately after birth for three vessels -- two arteries and one vein; fewer can signal other anomalies.",
+    "topic": "Maternal/Newborn"
+  },
+  {
+    "word": "ENGORGEMENT",
+    "clue": "Painful breast swelling that can occur as milk supply comes in",
+    "rationale": "Frequent feeding or pumping is the main relief; distinguished from mastitis, which involves fever and redness.",
+    "topic": "Maternal/Newborn"
+  },
+  {
+    "word": "CERVIX",
+    "clue": "The part of the uterus that dilates and effaces during labor",
+    "rationale": "Labor progress is tracked by how many centimeters it's dilated and what percentage effaced.",
+    "topic": "Maternal/Newborn"
   }
 ]
